@@ -149,7 +149,7 @@
 							</li>
 							<li>
 								<a class="russian" id="russian" href="javascript:;" onclick="testch(this.id)">
-									<span class="flag-icon flag-icon-ru"></span> Russian
+									<span class="flag-icon flag-icon-ru"></span> Русский
 								</a>
 							</li>
 							<li>
@@ -165,6 +165,11 @@
 							<li>
 								<a class="turkish" id="turkish" href="javascript:;" onclick="testch(this.id)">
 									<span class="flag-icon flag-icon-tr"></span> Turkish
+								</a>
+							</li>
+							<li>
+								<a class="ukraine" id="ukraine" href="javascript:;" onclick="testch(this.id)">
+									<span class="flag-icon flag-icon-ua"></span> Українська
 								</a>
 							</li>
 						</ul>
@@ -668,6 +673,7 @@
 						<a class="list-group-item" href="//equi.xpool.ro" target="_blank">X Pool RO</a>
 						<a class="list-group-item" href="http://zcrypt.live" target="_blank">Zcrypt Mining Pool</a>
 						<a class="list-group-item" href="http://www.zpool.ca/site/gomining?algo=equihash" target="_blank">Zpool</a>
+						<a class="list-group-item" href="https://hush.lucky-mining.com.ua" target="_blank">Lucky-Mining - Ukraine</a>
 					</div>
 				</div>
 			</div>
