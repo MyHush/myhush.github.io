@@ -673,6 +673,7 @@
 						<a class="list-group-item" href="//equi.xpool.ro" target="_blank">X Pool RO</a>
 						<a class="list-group-item" href="http://zcrypt.live" target="_blank">Zcrypt Mining Pool</a>
 						<a class="list-group-item" href="http://www.zpool.ca/site/gomining?algo=equihash" target="_blank">Zpool</a>
+						<a class="list-group-item" href="https://hush.lucky-mining.com.ua" target="_blank">Lucky-Mining - Ukraine</a>
 					</div>
 				</div>
 			</div>
