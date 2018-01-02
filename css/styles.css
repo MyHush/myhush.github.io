@@ -734,6 +734,11 @@ html {
 	background-color: #fff;
 }
 
+.is-checked {
+	color: #2d2d2d;
+	background-color: #fff;
+}
+
 /******************************************************************************
 	Scroll Top
 *******************************************************************************/
@@ -868,3 +873,46 @@ html {
 
 /* Custom, iPhone Retina */
 @media only screen and (max-width : 320px) {}
+
+
+/******************************************************************************
+	Modal
+*******************************************************************************/
+
+.modalButton {
+
+}
+.modal-dialog {
+	padding: 3% 0 3% 0;
+	width: 70%;
+	height: 80%;
+}
+.modal-dialog .close-button {
+  overflow: hidden;
+}
+.modal-dialog .close-button button.close {
+  font-size: 50px;
+  line-height: 30px;
+  padding: 7px 4px 7px 13px;
+  text-shadow: none;
+  filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=70);
+  opacity: 0.7;
+  color: #fff;
+}
+.modal-dialog .close-button button.close span {
+  display: block;
+}
+.modal-dialog .close-button button.close:hover, .modal-dialog .close-button button.close:focus {
+  filter: progid:DXImageTransform.Microsoft.Alpha(enabled=false);
+  opacity: 1;
+  outline: none;
+}
+.modal-dialog .modal-content {
+  box-shadow: none;
+  background-color: transparent;
+  border: 0;
+}
+.modal-dialog .modal-content iframe {
+  display: block;
+  margin: 0 auto;
+}
