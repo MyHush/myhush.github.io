@@ -670,6 +670,7 @@ html {
 .contact-section {
 	padding-top: 70px;
 	padding-bottom: 30px;
+    text-align: center;
 }
 .contact-section .contact-text {
 	margin-bottom: 60px;
@@ -703,6 +704,19 @@ html {
 	font-size: 12px;
 	text-align: center;
 }
+
+.contact-section .title h3 {
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #2d2d2d;
+}
+.contact-section p {
+	font-size: 16px;
+	margin: 25px 0 35px 0;
+	color: #2d2d2d;
+}
+
 
 /******************************************************************************
 	Hush Buttons
@@ -915,4 +929,47 @@ html {
 .modal-dialog .modal-content iframe {
   display: block;
   margin: 0 auto;
+}
+
+/******************************************************************************
+	Dropdown
+*******************************************************************************/
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/******************************************************************************
+	Benefits
+*******************************************************************************/
+
+.benefits-box {
+	margin-bottom: 50px;
+	text-align: center;
+}
+
+.benefits-box i {
+	font-size: 70px;
+	line-height: 80px;
+	width: 80px;
+	height: 80px;
+}
+
+.benefits-box .desc {
+	min-height: 55px;
 }

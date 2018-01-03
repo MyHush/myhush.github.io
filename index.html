@@ -60,14 +60,119 @@
 			</div>
 
 			<div class="collapse navbar-collapse" id="menuicon">
-				<ul class="nav navbar-nav navbar-right">
-					<li class="active"><a href="#" data-value="home-section">Home</a></li>
-					<li><a href="#" data-value="about-section">About</a></li>
-					<li><a href="#" data-value="roadmap-section">Roadmap</a></li>
-					<li><a href="#" data-value="team-section">Team</a></li>
-					<li><a href="#" data-value="tools-section">Tools</a></li>
-					<li><a href="#" data-value="contact-section">Contact</a></li>
-				</ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#" data-value="home-section">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#" data-value="about-section">About</a>
+                        <ul class="dropdown-content">
+                            <li>
+                                <a href="#"  data-value="about-section" onclick="document.getElementById('features').click()">
+                                    Features
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-value="about-section" onclick="document.getElementById('specifications').click()">
+                                    Specifications
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-value="about-section" onclick="document.getElementById('benefits').click()">
+                                    Benefits
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-value="about-section" onclick="document.getElementById('exchanges').click()">
+                                    Exchanges
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-value="about-section" onclick="document.getElementById('pools').click()">
+                                    Pools
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-value="about-section" onclick="document.getElementById('documentation').click()">
+                                    Documentation
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#" data-value="roadmap-section">Roadmap</a></li>
+                    <li><a href="#" data-value="team-section">Team</a></li>
+                    <li><a href="#" data-value="tools-section">Tools</a></li>
+                    <li><a href="#" data-value="contact-section">Contact</a></li>
+                    <li class="dropdown">
+                        <a class="trlang" href="javascript:;">Language</a>
+                        <ul class="dropdown-content">
+                            <li>
+                                <a class="bulgarian" id="bulgarian" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-bg"></span> Bulgarian
+                                </a>
+                            </li>
+                            <li>
+                                <a class="chinese" id="chinese" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-cn"></span> Chinese
+                                </a>
+                            </li>
+                            <li>
+                                <a class="czech" id="czech" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-cz"></span> Czech
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dutch" id="dutch" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-nl"></span> Dutch
+                                </a>
+                            </li>
+                            <li>
+                                <a class="english" id="english" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-us"></span> English
+                                </a>
+                            </li>
+                            <li>
+                                <a class="french" id="french" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-fr"></span> French
+                                </a>
+                            </li>
+                            <li>
+                                <a class="german" id="german" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-de"></span> German
+                                </a>
+                            </li>
+                            <li>
+                                <a class="polish" id="polish" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-pl"></span> Polish
+                                </a>
+                            </li>
+                            <li>
+                                <a class="portuguese" id="portuguese" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-br"></span> Portuguese
+                                </a>
+                            </li>
+                            <li>
+                                <a class="russian" id="russian" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-ru"></span> Russian
+                                </a>
+                            </li>
+                            <li>
+                                <a class="spanish" id="spanish" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-es"></span> Spanish
+                                </a>
+                            </li>
+                            <li>
+                                <a class="swedish" id="swedish" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-se"></span> Swedish
+                                </a>
+                            </li>
+                            <li>
+                                <a class="turkish" id="turkish" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-tr"></span> Turkish
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                </ul>
 			</div>
 		</div>
 	</nav>
@@ -96,13 +201,18 @@
         <div class="container">
 
                 <div class="button-group filters-button-group">
-                    <button class="btn btn-hush button is-checked" data-filter=".features" id="features">Features</button>
-                    <button class="btn button btn-hush" data-filter=".specifications" id="specifications">Specifications</button>
+                    <button class="btn btn-hush button is-checked" data-filter=".features" id="features">Features</button>&nbsp&nbsp
+                    <button class="btn button btn-hush" data-filter=".specifications" id="specifications">Specifications</button>&nbsp&nbsp
+                    <button class="btn button btn-hush" data-filter=".benefits" id="benefits">Benefits</button>&nbsp&nbsp
+                    <button class="btn button btn-hush" data-filter=".exchanges" id="exchanges">Exchanges</button>&nbsp&nbsp
+                    <button class="btn button btn-hush" data-filter=".pools" id="pools">Pools</button>&nbsp&nbsp
+                    <button class="btn button btn-hush" data-filter=".documentation" id="documentation">Documentation</button>&nbsp&nbsp
                 </div>
-            <br>
+            <br><br />
 
 
             <div class="grid">
+                <!-- Features -->
                 <div class="row element-item features">
                     <div class="col-sm-4">
                         <div class="item">
@@ -123,7 +233,7 @@
                         </div>
                     </div>
                 </div>
-
+                <!-- Specifications -->
                 <div class="row element-item specifications">
                     <div class="col-sm-12">
                         <ul class="list-group">
@@ -142,7 +252,99 @@
                         </ul>
                     </div>
                 </div>
-            </div>
+                <!-- Benefits -->
+                        <div class="row element-item benefits">
+                            <div class="col-sm-4">
+                                <div class="benefits-box">
+                                    <i class="fa fa-code"></i>
+                                    <div class="title"><h3>Open Source</h3></div>
+                                    <p class="desc sfeaturesl1lang">You can review, comment and propose updates.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="benefits-box">
+                                    <i class="fa fa-user-secret"></i>
+                                    <div class="title"><h3>Anonymous</h3></div>
+                                    <p class="desc sfeaturesl2lang">Your payments &amp; transactions are private.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="benefits-box">
+                                    <i class="fa fa-users"></i>
+                                    <div class="title"><h3>Decentralized</h3></div>
+                                    <p class="desc sfeaturesl3lang">Uses a Peer to Peer network.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="benefits-box">
+                                    <i class="fa fa-lock"></i>
+                                    <div class="title"><h3>Safety</h3></div>
+                                    <p class="desc sfeaturesl4lang">Complete security, advanced encryption.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="benefits-box">
+                                    <i class="fa fa-globe"></i>
+                                    <div class="title"><h3>World Wide</h3></div>
+                                    <p class="desc sfeaturesl5lang">Send money to anyone in the world.</p>
+                                </div>
+                            </div>
+
+                            <div class="col-sm-4">
+                                <div class="benefits-box">
+                                    <i class="fa fa-fighter-jet"></i>
+                                    <div class="title"><h3>Fast</h3></div>
+                                    <p class="desc sfeaturesl6lang">Your payments/transactions processed instantly.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    <!-- Exchanges -->
+                <div class="row element-item exchanges">
+                    <div class="col-sm-12">
+                        <div class="list-group text-center">
+                            <a class="list-group-item" href="//github.com/KomodoPlatform/BarterDEX/releases" target="_blank">BarterDEX</a>
+                            <a class="list-group-item" href="//www.cryptopia.co.nz/Exchange/?market=HUSH_BTC" target="_blank">Cryptopia</a>
+                            <a class="list-group-item" href="//tradesatoshi.com/Exchange?market=HUSH_BTC" target="_blank">TradeSatoshi</a>
+                        </div>
+
+                        <div class="coinmarketcap-currency-widget" data-currency="hush" data-base="USD" data-secondary="BTC" data-ticker="true" data-rank="true" data-marketcap="true" data-volume="true" data-stats="USD" data-statsticker="true"></div>
+                    </div>
+               </div>
+                   <!-- Pools -->
+                <div class="row element-item pools">
+                    <div class="col-sm-12">
+                        <div class="list-group text-center">
+                            <a class="list-group-item" href="//miningpoollists.com/hush" target="_blank">Mining Pool Lists</a>
+                            <a class="list-group-item" href="//2miners.com" target="_blank">2 Miners</a>
+                            <a class="list-group-item" href="http://pool.7080top.com" target="_blank">7080 Top</a>
+                            <a class="list-group-item" href="//aikapool.com/hush" target="_blank">AikaPool</a>
+                            <a class="list-group-item" href="http://equihash.altcoinix.com" target="_blank">Altcoinix</a>
+                            <a class="list-group-item" href="http://hush.baikalmine.ru" target="_blank">Baikalmine</a>
+                            <a class="list-group-item" href="http://hushpool.cloud" target="_blank">Cloud Mining Pools</a>
+                            <a class="list-group-item" href="//equihashing.com" target="_blank">EQUIHashing</a>
+                            <a class="list-group-item" href="http://hashgate.eu" target="_blank">Hashgate</a>
+                            <a class="list-group-item" href="//hushmine.pro" target="_blank">HUSH Mining Pro</a>
+                            <a class="list-group-item" href="http://luckpool.org" target="_blank">LuckPool</a>
+                            <a class="list-group-item" href="//minez.zone" target="_blank">MineZ Zone</a>
+                            <a class="list-group-item" href="http://pool.miningspeed.com" target="_blank">Mining Speed</a>
+                            <a class="list-group-item" href="http://pcmining.xyz" target="_blank">PCMiNing.XYZ</a>
+                            <a class="list-group-item" href="http://hush.pool.sexy/" target="_blank">Pool Sexy</a>
+                            <a class="list-group-item" href="//hush.poolto.be" target="_blank">PooLTo.Be</a>
+                            <a class="list-group-item" href="//hush.suprnova.cc" target="_blank">Suprnova</a>
+                            <a class="list-group-item" href="http://thaizcash.com" target="_blank">Thai Zcash</a>
+                            <a class="list-group-item" href="http://zcrypt.live" target="_blank">Zcrypt Mining Pool</a>
+                            <a class="list-group-item" href="//zhash.pro" target="_blank">ZHash Pro</a>
+                            <a class="list-group-item" href="http://www.zpool.ca/site/gomining?algo=equihash" target="_blank">Zpool</a>
+                        </div>
+                    </div>
+                </div>
+                    <!-- Documentation -->
+                </div>
         </div>
         </section>
 
@@ -176,13 +378,13 @@
                         <div class="item">
                             <div class="title"><h3>For Miners</h3></div>
                             <p><strong>Hush</strong> is consistently among the <strong>Top 10</strong> equihash coins to mine. You can mine simply with your Zcash miner.</p>
-                            <a class="btn btn-hush" href="#">Get Started</a>
+                            <a class="btn btn-hush modalButton" href="#modal" data-toggle="modal" data-src="./sites/forminers.html" data-width="640" data-height="360" data-target="#myModal" data-video-fullscreen="">Get Started</a>
                         </div>
                     </div>
                     <div class="col-sm-4">
                         <div class="item">
                             <div class="title"><h3>For Developers</h3></div>
-                            <p>Our community of developers bring their skills to an open source project. Check out our current <a href="#" target="_blank">projects</a>, or visit <strong>Discord</strong>.</p>
+                            <p>Our community of developers bring their skills to an open source project. Check out our current <a class="modalButton" href="#modal" data-toggle="modal" data-src="./sites/projects.html" data-width="640" data-height="360" data-target="#myModal" data-video-fullscreen="">projects</a>, or visit <strong>Discord</strong>.</p>
                             <a class="btn btn-hush" href="http://discord.io/hush" target="_blank">Discord</a>
                         </div>
                     </div>
@@ -190,7 +392,7 @@
                         <div class="item">
                             <div class="title"><h3>For Investors</h3></div>
                             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-                            <a class="btn btn-hush" href="#" target="_blank">Get Started</a>
+                            <a class="btn btn-hush modalButton" href="#modal" data-toggle="modal" data-src="./sites/forinvestors.html" data-width="640" data-height="360" data-target="#myModal" data-video-fullscreen="">Get Started</a>
                         </div>
                     </div>
                 </div>
@@ -205,7 +407,7 @@
                         <div class="item">
                             <div class="title"><h3>BarterDEX</h3></div>
                             <p><strong>BarterDEX</strong> is a cryptocurrency exchange(<a href="//www.komodoplatform.com/en/technology/whitepapers/BarterDEX-Whitepaper-v0.4.pdf" target="_blank">1</a>) developed by <a href="//www.komodoplatform.com" target="_blank">Komodo</a>, which supports HUSH and many other currencies. It allows you to exchange one cryptocurrency for another, just as you would exchange paper money in a currency exchange in an airport. It does this using a technology called Atomic Swaps. Atomic Swaps allow buyers and sellers to perform exchanges peer to peer (P2P) rather than through a centralized exchange. In the most simple terms, it acts as a sort of escrow.</p>
-                            <a class="btn btn-hush-out" href="#">Get Started</a>
+                            <a class="btn btn-hush-out modalButton" href="#modal" data-toggle="modal" data-src="./sites/barterdex.html" data-width="640" data-height="360" data-target="#myModal" data-video-fullscreen="">Get Started</a>
                         </div>
                     </div>
                     <div class="col-sm-7">
@@ -234,17 +436,21 @@
         </section>
 
         <!-- Decentralized Section -->
-        <section class="decentralized-section bg-gray25" id="decentralized-section">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <i class="fa fa-arrows-alt"></i>
-                        <div class="title"><h3>Decentralized by Design</h3></div>
-                        <p><strong>Hush</strong> is an open source project to its strength, and is motivated solely by the interests and activities of the community at large. It is one of the first coins to be traded on <strong>BarterDex</strong> and strongly supports decentralized exchanges.</p>
-                    </div>
+    <section class="decentralized-section bg-gray25" id="decentralized-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <i class="fa fa-arrows-alt"></i>
+                    <div class="title"><h3>Decentralized by Design</h3></div>
+                    <p><strong>Hush</strong> is an open source project to its strength, and is motivated solely by the interests and activities of the community at large. It is one of the first coins to be traded on <strong>BarterDex</strong> and strongly supports decentralized exchanges.</p>
+                    <br /><br /><i class="fa fa-ravelry"></i>
+                    <div class="title"><h3>Newest full stack Technology</h3></div>
+                    <p><strong>Hush</strong> is the first cryptocurrency offering zkSNARK (upstream Zcash 1.0.13 build), TLS (secure nodes), TOR nodes and bitcore making it the most secure and advanced privacy coin ever created!</p>
+
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
         <!-- Team Section -->
         <section class="team-section" id="team-section">
@@ -420,7 +626,7 @@
                                     <a href="#"><img src="images/team/thetrunk.jpg" alt="TheTrunk"></a>
                                     <div class="member-content">
                                         <div class="member-info">
-                                            <p>Originally a particle physicist from Czech Republic, TheTrunk has years of experience creating successful web applications. His focus is on Hush services and community engagement</p>
+                                            <p>Originally a particle physicist from Czech Republic, TheTrunk has years of experience creating successful web applications and is a member of The Corporation. His focus is on Hush services and community engagement.</p>
                                             <div class="member-social">
                                                 <ul>
                                                     <li><a href="//twitter.com/TJ_Trunk" target="_blank"><i class="fa fa-twitter"></i></a></li>
@@ -560,11 +766,12 @@
         <section class="contact-section" id="contact-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">
+                    <div class="col-sm-8 col-sm-offset-2">                  
+                        <div class="title"><h3>Join us!</h3></div>
+                            <p><strong>Hush</strong> is a community project. Everyone is welcomed with open hands!</p>
                         <div class="contact-text">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi venenatis consectetur ex, ac consectetur turpis fringilla id  Phasellus condimentum pharetra feugiat  Praesent venenatis scelerisque sapien eu tempus. Nulla facilisi. Donec at pulvinar ligula. Ut auctor dolor ut ex tincidunt malesuada Quisque varius scelerisque ornare.</p>
                             <ul>
-                                <li><a class="discord" href="http://discord.io/hush" target="_blank" data-toggle="tooltip" title="Discord"><i class="fa fa-comments-o"></i></a></li>
+                                <li><a class="discord" href="//discord.io/hush" target="_blank" data-toggle="tooltip" title="Discord"><i class="fa fa-comments-o"></i></a></li>
                                 <li><a class="twitter" href="//twitter.com/MyHushTeam" target="_blank" data-toggle="tooltip" title="Twitter"><i class="fa fa-twitter"></i></a></li>
                                 <li><a class="facebook" href="//fb.me/MyHushTeam" target="_blank" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a></li>
                                 <li><a class="reddit" href="//reddit.com/r/Myhush" target="_blank" data-toggle="tooltip" title="Reddit"><i class="fa fa-reddit-alien"></i></a></li>
@@ -595,6 +802,7 @@
         <script>window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js"><\/script>')</script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/scripts.js"></script>
+    <script src="//files.coinmarketcap.com/static/widget/currency.js"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
     <script>
 // external js: isotope.pkgd.js
@@ -690,5 +898,38 @@ function iframeModalOpen(){
 
   } ) ( jQuery );
     </script>
+    <script>
+		$(document).ready(function() {
+			if(localStorage.getItem('language') != null) {
+				language = localStorage.getItem('language');
+				$.ajax({
+					url: language + '.xml',
+					success: function(xml) {
+						$(xml).find('translation').each(function(){
+							var id = $(this).attr('id');
+							var text = $(this).text();
+							$("." + id).html(text);
+						});
+					}
+				});
+			}
+		});
+
+		function testch (id) {
+				localStorage.setItem('language', id);
+				language = id
+				$.ajax({
+					url: language + '.xml',
+					success: function(xml) {
+						$(xml).find('translation').each(function(){
+							var id = $(this).attr('id');
+							var text = $(this).text();
+							$("." + id).html(text);
+						});
+					}
+				});
+			};
+    </script>
+
 </body>
 </html>
