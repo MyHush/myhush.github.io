@@ -415,9 +415,21 @@ html {
 	text-transform: uppercase;
 	color: #2d2d2d;
 }
+
 .about-section p {
 	font-size: 16px;
 	margin: 25px 0 0;
+   min-height: 90px;
+}
+
+.about-section .btn {
+	font-size: 16px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+.centered {
+    text-align: center;
 }
 
 /******************************************************************************
@@ -439,6 +451,14 @@ html {
 	font-size: 16px;
 	margin: 25px 0 0;
 	color: #fff;
+    text-align: justify;
+}
+.hushng-section .centered p,
+.barterdex-section .centered p {
+	font-size: 16px;
+	margin: 25px 0 0;
+	color: #fff;
+    text-align: center;
 }
 .hushng-section a,
 .barterdex-section a {
@@ -450,6 +470,20 @@ html {
 	font-size: 16px;
 	margin-top: 25px;
 	text-transform: uppercase;
+}
+
+.hushng-section i,
+.barterdex-section i {
+	font-size: 36px;
+	margin-bottom: 25px;
+	color: #fff;
+}
+.hushng-section .title .strongtext,
+.barterdex-section .title .strongtext {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
 }
 
 /******************************************************************************
@@ -972,4 +1006,69 @@ html {
 
 .benefits-box .desc {
 	min-height: 55px;
+}
+
+.grid {
+  margin: 0 auto;
+}
+
+ul {
+  text-align: center;
+  padding: 0;
+}
+li {
+  display: inline-block;
+}
+
+/******************************************************************************
+	HushList
+*******************************************************************************/
+
+
+.hushlist-section{
+	padding: 70px 0;
+}
+
+.hushlist-section .title h3 {
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #2d2d2d;
+}
+
+.hushlist-section p {
+	font-size: 16px;
+	margin: 25px 0 0;
+	color: #2d2d2d;
+    text-align: justify;
+}
+
+.hushlist-section .centered p {
+	font-size: 16px;
+	margin: 25px 0 0;
+	color: #2d2d2d;
+    text-align: justify;
+}
+
+.hushlist-section a {
+	font-weight: bold;
+	color: #fff;
+}
+
+.hushlist-section .btn {
+	font-size: 16px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+.hushlist-section i {
+	font-size: 36px;
+	margin-bottom: 25px;
+	color: #2d2d2d;
+}
+.hushlist-section .title .strongtext {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #2d2d2d;
 }
