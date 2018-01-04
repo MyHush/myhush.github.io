@@ -1,7 +1,7 @@
 /*
 	Theme Name:
-	Author: Iolar Demartini Jr
-	Author URI: https://www.iolardemartini.com/
+	Author: Iolar Demartini Jr, TheTrunk
+	Author URI: https://www.iolardemartini.com/ , https://github.com/TheTrunk
 	Description: Theme
 	Version: 1.0
 */
@@ -384,7 +384,7 @@ html {
 	font-size: 36px;
 }
 .home-section h3 {
-	font-size: 28px;
+	font-size: 24px;
 }
 .home-section h4 {
 	font-size: 20px;
@@ -409,6 +409,7 @@ html {
 .about-section .item {
 	margin-bottom: 30px;
 }
+
 .about-section .title h3 {
 	font-size: 22px;
 	font-weight: 700;
@@ -420,6 +421,12 @@ html {
 	font-size: 16px;
 	margin: 25px 0 0;
    min-height: 90px;
+}
+
+.about-section .about2 p {
+	font-size: 16px;
+	margin: 25px 0 0;
+   min-height: 50px;
 }
 
 .about-section .btn {
@@ -839,15 +846,67 @@ html {
 	Non-Mobile First Method
 *******************************************************************************/
 
+
 /* Large Devices, Wide Screens */
-@media only screen and (max-width : 1200px) {}
+@media only screen and (max-width : 1350px) {
+        .home-section {
+padding-top:50px;
+}
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+        .home-section {
+padding-top:100px;
+}
+        .pools {
+    padding-left: 1px;
+}
+
+.exchanges {
+    padding-left: 1px;
+}
+
+.specifications {
+    padding-left: 1px;
+}
+}
 
 /* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {}
+@media only screen and (max-width : 992px) {
+    .home-section {
+padding-top:100px;
+}
+            .pools {
+    padding-left: 1px;
+}
+
+.exchanges {
+    padding-left: 1px;
+}
+
+.specifications {
+    padding-left: 1px;
+}
+}
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
-	.navbar-brand {
+	    .home-section {
+padding-top:100px;
+}
+                .pools {
+    padding-left: 1px;
+}
+
+.exchanges {
+    padding-left: 1px;
+}
+
+.specifications {
+    padding-left: 1px;
+}
+    .navbar-brand {
 		padding: 13px 15px 0
 	}
 	.navbar-fixed-bottom .navbar-collapse,
@@ -1071,4 +1130,25 @@ li {
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #2d2d2d;
+}
+
+/******************************************************************************
+	HARDCODED SHIT also @media!
+*******************************************************************************/
+
+
+.pools {
+    padding-left: 230px;
+}
+
+.exchanges {
+    padding-left: 300px;
+}
+
+.specifications {
+    padding-left: 400px;
+}
+
+.list-group {
+    min-width: 200px;
 }
