@@ -840,15 +840,15 @@ button:focus {
 /* Custom, iPhone Retina */
 @media only screen and (min-width : 320px) {
                     .pools {
-    padding-left: 0px !important;
+    padding-left: 65px !important;
 }
 
 .exchanges {
-    padding-left: 0px !important;
+    padding-left: 29px !important;
 }
 
 .specifications {
-    padding-left: 0px !important;
+    padding-left: 9px !important;
 }
 
 }
@@ -856,15 +856,15 @@ button:focus {
 /* Extra Small Devices, Phones */
 @media only screen and (min-width : 480px) {
                     .pools {
-    padding-left: 0px !important;
+    padding-left: 65px !important;
 }
 
 .exchanges {
-    padding-left: 0px !important;
+    padding-left: 29px !important;
 }
 
 .specifications {
-    padding-left: 0px !important;
+    padding-left: 9px !important;
 }
 
 }
@@ -872,15 +872,15 @@ button:focus {
 /* Small Devices, Tablets */
 @media only screen and (min-width : 768px) {
                 .pools {
-    padding-left: 0px !important;
+    padding-left: 65px !important;
 }
 
 .exchanges {
-    padding-left: 0px !important;
+    padding-left: 29px !important;
 }
 
 .specifications {
-    padding-left: 0px !important;
+    padding-left: 9px !important;
 }
 
 }
@@ -943,12 +943,12 @@ padding-top:100px;
 
 }
 
+
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
 	    .home-section {
 padding-top:100px;
 }
-
     .navbar-brand {
 		padding: 13px 15px 0
 	}
@@ -1029,14 +1029,21 @@ padding-top:100px;
 /******************************************************************************
 	Modal
 *******************************************************************************/
+@media only screen and (max-width : 960px) {
+.modal {
+    display: none !important;
+    visibility: hidden !important;
+}
+
+}
 
 .modalButton {
 
 }
 .modal-dialog {
 	padding: 3% 0 3% 0;
-	width: 70%;
-	height: 80%;
+	width: 75%;
+	height: 85%;
 }
 .modal-dialog .close-button {
   overflow: hidden;
@@ -1156,6 +1163,7 @@ li {
 .hushlist-section a {
 	font-weight: bold;
 	color: #fff;
+    margin-bottom: 20px;
 }
 
 .hushlist-section .btn {
@@ -1177,7 +1185,7 @@ li {
 }
 
 /******************************************************************************
-	HARDCODED SHIT also @media!
+	HARDCODED
 *******************************************************************************/
 
 
@@ -1185,3 +1193,8 @@ li {
 .list-group {
     min-width: 200px;
 }
+
+.barterdex-section img {
+margin-bottom: 20px;
+}
+
