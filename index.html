@@ -719,7 +719,7 @@
                     </div>
                     <div class="col-sm-3">
                         <div class="item">
-                            <a href="//zcash.dl.mercerweiss.com/hush-1.0.12.msi" target="_blank">
+                            <a href="#donothing" onclick="getConfirmation();">
                                 <i class="fa fa-windows"></i>
                                 <h4>Windows Wallet</h4>
                             </a>
@@ -987,6 +987,21 @@ $('.button-group').each( function( i, buttonGroup ) {
 				});
 			};
     </script-->
-
+    <script type="text/javascript">
+         <!--
+        function getConfirmation(){
+            var owns = "owns";
+            var watching = "watching";
+            var retVal = confirm("!!!WARNING!!!\n\nThe HUSH team has learned of an upstream ZEC change which has caused a bug in the Swing wallet GUI. The 'Own Addresses' tab shows the addresses a user owns and the addresses a user is watching. Watched addresses can be owned by someone else. This means it is possible to send a transaction to an address you don't own.\n\nList of affected SWING wallets: Hush, ZenCash, Zero, ZCash, ZClassic, BitcoinZ\n\nWorkaround: The Hush team is not responsible for Swing software fixes. It would seem prudent that users create a new address so ownership is known absolutely rather than using a previously existing address that you aren't positive about. Please direct inquires to: https://github.com/vaklinov?tab=repositories https://github.com/vaklinov/hush-swing-wallet-ui \n\n Do you want to download Windows GUI Wallet?");
+               if( retVal == true ){ 
+                  window.open("https://zcash.dl.mercerweiss.com/hush-1.0.12.msi", '_blank').focus();
+                  return true;
+               }
+               else{
+                  return false;
+               }
+            }
+         //-->
+    </script>
 </body>
 </html>
