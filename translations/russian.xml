@@ -5,8 +5,8 @@
 	<translation id="featureslang">Особенности</translation>
 	<translation id="speclang">Подробности</translation>
 	<translation id="benefitslang">Преимущества</translation>
-	<translation id="exchangeslang">Биржи</translation>
-	<translation id="poolslang">Пулы</translation>
+	<translation id="exchangeslang">&#160;&#160;&#160;Биржи&#160;&#160;&#160;</translation>
+	<translation id="poolslang">&#160;&#160;&#160;Пулы&#160;&#160;&#160;</translation>
 	<translation id="doclang">Документация</translation>
 	<translation id="hushnglang">HushNG</translation>
 	<translation id="hushlistlang">HushList</translation>
@@ -39,8 +39,8 @@
 	<translation id="f6blang">Ethereum</translation>
 	<translation id="f6clang"> смогут </translation>
 	<translation id="f6dlang">Hush</translation>
-	<translation id="f6elang"> легко создавать smart contract на HUSH.</translation>
-	<translation id="f6flang">Hush</translation>
+	<translation id="f6elang"> легко создавать smart contract на </translation>
+	<translation id="f6flang">Hush.</translation>
 	<translation id="f7lang">Для Майнеров</translation>
 	<translation id="f8alang">Hush</translation>
 	<translation id="f8blang"> Hush постоянно находится в </translation>
@@ -56,7 +56,7 @@
 	<translation id="f13lang">Для Инвесторов</translation>
 	<translation id="f14alang">Результатом работы наших разработчиков являются самые высокотехнологичные и регулярно обновляемые продукты, благодаря чему  </translation>
 	<translation id="f14blang">Hush</translation>
-	<translation id="f14clang"> Hush является одной из самых обсуждаемых монет с большим будущим.</translation>
+	<translation id="f14clang"> является одной из самых обсуждаемых монет с большим будущим.</translation>
 	<translation id="f15lang">Электронный Кошелек</translation>
 	<translation id="sastlang">Подробности</translation>
 	<translation id="sas1llang">Алгоритм</translation>
@@ -95,15 +95,15 @@
 	<translation id="sfeaturesl6lang">Ваши переводы и транзакции исполняются мгновенно.</translation>	
 	<translation id="doc1lang">Брошюра Hush</translation>
 	<translation id="doc2alang">Hush</translation>
-	<translation id="doc2blang"> Hush - одна из самых обсуждаемых монет с большим будущим.</translation>
+	<translation id="doc2blang"> - одна из самых обсуждаемых монет с большим будущим.</translation>
 	<translation id="doc3lang">В разработке</translation>
 	<translation id="doc4lang">Брошюра HushList</translation>
 	<translation id="doc5alang">HushList</translation>
-	<translation id="doc5blang"> HushList - принципиально новая платформа распространения информации.</translation>
+	<translation id="doc5blang"> - принципиально новая платформа распространения информации.</translation>
 	<translation id="doc6lang">PDF</translation>
 	<translation id="doc7lang">Брошюра HushNG</translation>
 	<translation id="doc8alang">HushNG</translation>
-	<translation id="doc8blang"> HushNG - самый лучший криптокошелек.</translation>
+	<translation id="doc8blang"> - самый лучший криптокошелек.</translation>
 	<translation id="doc9lang">В разработке</translation>
 	<translation id="doc10lang">Брошюра HushPay</translation>
 	<translation id="doc11alang">HushPay</translation>
@@ -111,7 +111,7 @@
 	<translation id="doc12lang">В разработке</translation>		
 	<translation id="ng1lang">Новейшие Технологии</translation>
 	<translation id="ng2alang">Hush</translation>
-	<translation id="ng2bang"> Hush явлется первой криптовалютой, предлагающей zkSNARK (последний Zcash 1.0.13 build), TLS (безопасные узлы), TOR узлы и bitcore, что делает ее самой безопасной и продвинутой анонимной монетой из когда либо созданных!</translation>
+	<translation id="ng2blang"> Hush явлется первой криптовалютой, предлагающей zkSNARK (последний Zcash 1.0.13 build), TLS (безопасные узлы), TOR узлы и bitcore, что делает ее самой безопасной и продвинутой анонимной монетой из когда либо созданных!</translation>
 	<translation id="ng3alang">HushNG</translation>
 	<translation id="ng3blang">Мессенджер, кошелек, платформа для майнинга.</translation>
 	<translation id="ng4alang">Всё в одном,  </translation>
@@ -121,7 +121,7 @@
 	<translation id="ng5blang">zkSnarks</translation>
 	<translation id="ng5clang"> ядра, </translation>
 	<translation id="ng5dlang">HushNG</translation>
-	<translation id="ng5elang"> HushNG предлагает высокоскоростную коммуникацию и переводы на всех платформах.</translation>
+	<translation id="ng5elang"> предлагает высокоскоростную коммуникацию и переводы на всех платформах.</translation>
 	<translation id="ng6lang">Находится в разработке, анонс скоро.</translation>
 	<translation id="ng7lang">Особенности HushNG</translation>	
 	<translation id="hl1alang">HushList</translation>
