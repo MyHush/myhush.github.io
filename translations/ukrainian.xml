@@ -22,7 +22,7 @@
 	<translation id="aslang">Подробиці</translation>
 	<translation id="ablang">Переваги</translation>
 	<translation id="aelang">Біржи</translation>
-	<translation id="aplang">Пулы</translation>
+	<translation id="aplang">Пули</translation>
 	<translation id="adlang">Документація</translation>	
 	<translation id="f1lang">Принцип Нульового Розголошення</translation>
 	<translation id="f2alang">Hush</translation>
@@ -90,7 +90,7 @@
 	<translation id="sfeaturest4lang">Безпека</translation>
 	<translation id="sfeaturesl4lang">Повна безпека всіх операцій, завдяки вдосконаленому шифруванню.</translation>
 	<translation id="sfeaturest5lang">Всесвітнє Використання</translation>
-	<translation id="sfeaturesl5lang">Надсилайте гроші кому завгодно в будь-яку точку світу.</translation>
+	<translation id="sfeaturesl5lang">Надсилайте гроші кому завгодно в будь-який кінець світу.</translation>
 	<translation id="sfeaturest6lang">Блискавичність</translation>
 	<translation id="sfeaturesl6lang">Ваші перекази і транзакції виконуються миттєво.</translation>	
 	<translation id="doc1lang">Брошура Hush</translation>
@@ -99,15 +99,15 @@
 	<translation id="doc3lang">В розробці</translation>
 	<translation id="doc4lang">Брошура HushList</translation>
 	<translation id="doc5alang">HushList</translation>
-	<translation id="doc5blang"> HushList - принципиально новая платформа распространения информации.</translation>
+	<translation id="doc5blang"> HushList - принципово нова платформа поширення інформації.</translation>
 	<translation id="doc6lang">PDF</translation>
 	<translation id="doc7lang">Брошура HushNG</translation>
 	<translation id="doc8alang">HushNG</translation>
-	<translation id="doc8blang"> - самый лучший криптокошелек.</translation>
+	<translation id="doc8blang"> - найкращий криптогаманець.</translation>
 	<translation id="doc9lang">В розробці</translation>
 	<translation id="doc10lang">Брошура HushPay</translation>
 	<translation id="doc11alang">HushPay</translation>
-	<translation id="doc11blang"> нова легка система платежів на принципі нульового розголошення.</translation>
+	<translation id="doc11blang"> - нова, легка система платежів на принципі нульового розголошення.</translation>
 	<translation id="doc12lang">В розробці</translation>		
 	<translation id="ng1lang">Новітні Технології</translation>
 	<translation id="ng2alang">Hush</translation>
@@ -125,7 +125,7 @@
 	<translation id="ng6lang">Знаходиться в розробці, анонс скоро.</translation>
 	<translation id="ng7lang">Особливості HushNG</translation>	
 	<translation id="hl1alang">HushList</translation>
-	<translation id="hl1blang">Безпечний месенджер з можливістю спілкування як з використанням нікнейму, там і повністю анонімного.</translation>
+	<translation id="hl1blang">Безпечний месенджер з можливістю спілкування як з використанням нікнейму, так і повністю анонімного.</translation>
 	<translation id="hl2alang">Hushlist</translation>
 	<translation id="hl2blang"> - це програма для спілкування, з використанням криптовалюти Hush. Ви можете відправляти повідомлення 50 людям одночасно, використовуючи при цьому зашифрований список одержувачів.</translation>
 	<translation id="hl3lang">Протокол zCash дозволяє використовувати приховані адреси спільно з відкритими адресами Bitcoin, завдяки чому прихованою залишається вся інформація про переказ: відправник, отримувач, повідомлення (включаючи сам факт наявності повідомлення), і навіть розмір транзакції.</translation>
@@ -137,7 +137,7 @@
 	<translation id="bar2dlang"> і підтримує децентралізовані біржі.</translation>
 	<translation id="bar3lang">BarterDEX</translation>
 	<translation id="bar4alang">BarterDEX</translation>
-	<translation id="bar4blang"> - децентралізована кріптовалютна біржа (</translation>
+	<translation id="bar4blang"> - децентралізована криптовалютна біржа (</translation>
 	<translation id="bar4clang">1</translation>
 	<translation id="bar4dlang">) створена </translation>
 	<translation id="bar4elang">Komodo</translation>
@@ -150,7 +150,7 @@
 	<translation id="team5lang">Ларрі займається розробкою інфраструктур, у нього за спиною більше 20 років досвіду роботи з Linux і open source проектами. Вперше з криптовалютами він познайомився в 2011 року під час роботи в Університеті Мічигану, де він був учасником досліджень про користь блокчейна і біткоіна.</translation>
 	<translation id="team6alang">Ларри "Madbuda" Лудлоу</translation>
 	<translation id="team6blang">Головний Розробник і Робота над Інфраструктурою</translation>
-	<translation id="team7lang">Метью - розробник і кріптовалютний ентузіаст з Іллінойсу. Його основними інтересами є безпека і справжність, а ще гри. Він відповідає за безпеку мережі, а також є автором Authparty.io, системи верифікації блокчейна.</translation>
+	<translation id="team7lang">Метью - розробник і криптовалютний ентузіаст з Іллінойсу. Його основними інтересами є безпека і справжність, а ще гри. Він відповідає за безпеку мережі, а також є автором Authparty.io, системи верифікації блокчейна.</translation>
 	<translation id="team8alang">Мэтью Рейшард</translation>
 	<translation id="team8blang">Основний Розробник, Робота над Інструментарієм і Форумом</translation>
 	<translation id="team9lang">Людж - дизайнер і розробник. Він прихильник конфіденційності, і працював уже над декількома блокчейн проектами за останні 2 роки. Людж працює з двох місць, з США і з Азії, а також він закінчив Род Айлендську Школу Дизайну.</translation>
@@ -162,7 +162,7 @@
 	<translation id="team13lang">TheTrunk - фізик з Чехії, у якого за плечима роки роботи над веб-додатками, а також він явлется членом The Corporation. Він займається розробкою сервісів Hush і розвитком ком'юніті.</translation>
 	<translation id="team14alang">TheTrunk</translation>
 	<translation id="team14blang">Розробка і Комунікації</translation>
-	<translation id="team15lang">Питер працює розробником ПО для Fusion Marketing, а також торгує кріптовалютними активами, займається маркетингом і власними розробками. the8thbit в даний момент бере участь в створенні біржі Beaxy, а крім цього займається маркетингом для HUSH.</translation>
+	<translation id="team15lang">Питер працює розробником ПО для Fusion Marketing, а також торгує криптовалютними активами, займається маркетингом і власними розробками. the8thbit в даний момент бере участь в створенні біржі Beaxy, а крім цього займається маркетингом для HUSH.</translation>
 	<translation id="team16alang">Питер "the8thbit" Сассман</translation>
 	<translation id="team16blang">Маркетинг</translation>	
 	<translation id="stoolst0lang">Інструменти і Ресурси</translation>
