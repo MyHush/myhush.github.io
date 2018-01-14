@@ -43,7 +43,7 @@
 	<translation id="f6flang">Hush</translation>
 	<translation id="f7lang">Для Майнерів</translation>
 	<translation id="f8alang">Hush</translation>
-	<translation id="f8blang"> Hush постійно знаходиться в </translation>
+	<translation id="f8blang"> постійно знаходиться в </translation>
 	<translation id="f8clang">топ 10</translation>
 	<translation id="f8dlang"> популярних equihash монет для майнінгу. Знайдіть пули або ознайомтеся з нашим гайдом по майнінгу.</translation>
 	<translation id="f9lang">Більше про Майнінг</translation>
@@ -99,7 +99,7 @@
 	<translation id="doc3lang">В розробці</translation>
 	<translation id="doc4lang">Брошура HushList</translation>
 	<translation id="doc5alang">HushList</translation>
-	<translation id="doc5blang"> HushList - принципово нова платформа поширення інформації.</translation>
+	<translation id="doc5blang"> - принципово нова платформа поширення інформації.</translation>
 	<translation id="doc6lang">PDF</translation>
 	<translation id="doc7lang">Брошура HushNG</translation>
 	<translation id="doc8alang">HushNG</translation>
@@ -111,7 +111,7 @@
 	<translation id="doc12lang">В розробці</translation>		
 	<translation id="ng1lang">Новітні Технології</translation>
 	<translation id="ng2alang">Hush</translation>
-	<translation id="ng2blang"> Hush є першою криптовалютою, що пропонує zkSNARK (останній Zcash 1.0.13 build), TLS (безпечні вузли), TOR вузли і bitcore, що робить її найбезпечнішою і просунутою анонімною монетою з коли небудь створених!</translation>
+	<translation id="ng2blang"> є першою криптовалютою, що пропонує zkSNARK (останній Zcash 1.0.13 build), TLS (безпечні вузли), TOR вузли і bitcore, що робить її найбезпечнішою і просунутою анонімною монетою з коли небудь створених!</translation>
 	<translation id="ng3alang">HushNG</translation>
 	<translation id="ng3blang">Мессенджер, гаманець, платформа для майнінгу.</translation>
 	<translation id="ng4alang">Все в одному,  </translation>
