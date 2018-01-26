@@ -5,7 +5,7 @@
 	<translation id="featureslang">Funkce</translation>
 	<translation id="speclang">Specifikace</translation>
 	<translation id="benefitslang">Výhody</translation>
-	<translation id="exchangeslang">Burzy/směnárny</translation>
+	<translation id="exchangeslang">Směnárny</translation>
 	<translation id="poolslang">Těžba</translation>
 	<translation id="doclang">Dokumenty</translation>
 	<translation id="hushnglang">HushNG</translation>
@@ -21,7 +21,7 @@
 	<translation id="aflang">Funkce</translation>
 	<translation id="aslang">Specifikace</translation>
 	<translation id="ablang">Výhody</translation>
-	<translation id="aelang">Burzy/směnárny</translation>
+	<translation id="aelang">Směnárny</translation>
 	<translation id="aplang">Těžba</translation>
 	<translation id="adlang">Dokumenty</translation>	
 	<translation id="f1lang">Zero Knowledge Core</translation>
@@ -73,7 +73,7 @@
 	<translation id="sas6rlang">21.000.000 (jako Bitcoin)</translation>
 	<translation id="sas7llang">Odměna zakladatelům</translation>
 	<translation id="sas7rlang">Odstraněna</translation>
-	<translation id="sas8llang">Premine</translation>
+	<translation id="sas8llang">Předtěženo</translation>
 	<translation id="sas8rlang">0.578% (121475 HUSH)</translation>
 	<translation id="sas9llang">P2P Port</translation>
 	<translation id="sas9rlang">8888</translation>
@@ -161,9 +161,9 @@
 	<translation id="team11lang">Tamsin dříve pracovala jako síťový inženýr ve společnosti F5 Networks. Jejím úkolem bylo odstraňování chyb v šifrování a díky propojení problematiky s kryptoměnami a bohatým zkušenostem dokáže velmi jasně vysvětlit odborné záležitosti i netechnickým posluchačům.</translation>
 	<translation id="team12alang">Tamsin "Clamoring" Thorn</translation>
 	<translation id="team12blang">Technická spisovatelka</translation>
-	<translation id="team13lang">Původně částicový fyzik z České republiky. TheTrunk má dlouholeté zkušenosti s vytvářením úspěšných webových aplikací a je členem korporace. Zaměřuje se na služby HUSH a správu komunity.</translation>
+	<translation id="team13lang">Částicový fyzik původem z České republiky mající dlouholeté zkušenosti s vytvářením úspěšných webových aplikací a také člen The Corporation. Zaměřuje se na služby HUSH a správu komunity.</translation>
 	<translation id="team14alang">TheTrunk</translation>
-	<translation id="team14blang">Vývoj a komunity manažer</translation>
+	<translation id="team14blang">Vývojář</translation>
 	<translation id="team15lang">Ve dne softwarový inženýr Fusion Marketingu, v noci obchodník s kryptoměnami a vývojář. the8thbit v současnosti řídí marketing HUSH a pracuje pro chystanou směnárnu Beaxy.</translation>
 	<translation id="team16alang">Peter "the8thbit" Sussman</translation>
 	<translation id="team16blang">Marketing</translation>	
@@ -183,5 +183,5 @@
 	<translation id="con1lang">Přidej se k nám!</translation>	
 	<translation id="con2alang">Hush</translation>
 	<translation id="con2blang"> je projekt komunity. Každý je vítán s otevřenou náručí!</translation>
-	<translation id="con3lang">Copyright &copy; 2016-2018 Hush. All rights reserved.</translation>
+	<translation id="con3lang">Copyright &#169; 2016-2018 Hush. Všechna práva vyhrazena.</translation>
 </translations>
