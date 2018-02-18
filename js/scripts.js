@@ -24,7 +24,7 @@ $(window).scroll(function() {
 		}
 	});
 	//Navbar Change Background After Scrolling
-	if ($(this).scrollTop() >= 200) {
+	if ($(this).scrollTop() >= 10) {
 		$('.navbar').addClass('scrolled');
 	} else {
 		$('.navbar').removeClass('scrolled');
