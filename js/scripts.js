@@ -7,40 +7,29 @@ $(window).on("load", function() {
 	$(".loading-overlay").fadeOut(300)
 });
 
-// Button Home Get started
+// Button Home Get started OnClick
 $('.home-section .get-started').on('click', function() {
 	$('html,body').animate({
 		scrollTop: $('#' + $(this).data('value')).offset().top - 81
-	}, 1500);
+	}, 700); // speed of scroll for getting started button
 });
 
 $(window).scroll(function() {
-	// Navbar Change Active On Scroll
 	var windowScroll = $(window).scrollTop();
-	$('section').each(function(i) {
-		if ($(this).position().top <= windowScroll + 100) {
-			$('.navbar .navbar-nav li.active').removeClass('active');
-			$('.navbar .navbar-nav li').eq(i).addClass('active');
-		}
-	});
-	//Navbar Change Background After Scrolling
-	if ($(this).scrollTop() >= 10) {
+	// Init Navbar Change Background After Scrolling
+	if ($(this).scrollTop() >= 5) {
 		$('.navbar').addClass('scrolled');
 	} else {
 		$('.navbar').removeClass('scrolled');
 	}
 });
 
-// Navbar Scroll After Click
-$('.navbar a').on('click', function(e) {
-	e.preventDefault();
-	// change active element navbar
-	$('.navbar .navbar-nav li').removeClass('active');
-	$(this).addClass('active');
-	// make an animation on scroll
+// Navbar Scroll Page Down After Click
+$('.navbar a').on('click', function() {
+	// make a smooth animation on scroll
 	$('html,body').animate({
-		scrollTop: $('#' + $(this).data('value')).offset().top - 81
-	}, 1200);
+		scrollTop: $('#' + $(this).data('value')).offset().top
+	}, 900); // speed of section scroll
 });
 
 $(".navbar-toggle").on("click", function() {
@@ -49,6 +38,10 @@ $(".navbar-toggle").on("click", function() {
 
 $('[data-toggle=\'tooltip\']').tooltip({container: 'body'});
 
+// Bootstrap Navbar Scrollspy .navbar
+$('body').scrollspy({ target: '.navbar'})
+
+// Scroll to top
 var o = $("#scroll-top");
 $(window).scroll(function() {
 	$(this).scrollTop() >= 500 ? o.show() : o.hide()

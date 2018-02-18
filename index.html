@@ -34,7 +34,7 @@
 	<!-- Hotjar -->
 	<!-- <script src="js/hotjar.js"></script> -->
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offest="-20">
 	<!-- Loading -->
 	<div class="loading-overlay">
 		<div class="lds-css ng-scope">
@@ -49,6 +49,7 @@
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
+				<!--Mobile menu icon -->
 				<div class="container navbar-toggle collapsed" data-toggle="collapse" data-target="#menuicon" aria-expanded="true" role="button">
 					<div class="bar1"></div>
 					<div class="bar2"></div>
@@ -58,12 +59,12 @@
 					<img src="images/logo-nav.png" alt="Logo">
 				</a>
 			</div>
-
+			<!-- Bootstrap Navbar No Mobile -->
 			<div class="collapse navbar-collapse" id="menuicon">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#" data-value="home-section" class="homelang">Home</a></li>
+                    <li class="active"><a href="#home-section" data-value="home-section" class="homelang">Home</a></li>
                     <li class="dropdown">
-                        <a href="#" data-value="about-section" class="aboutlang">About</a>
+                        <a href="#about-section" data-value="about-section" class="aboutlang">About</a>
                         <ul class="dropdown-content">
                             <li>
                                 <a href="#"  data-value="about-section" class="featureslang" onclick="document.getElementById('features').click()">
@@ -97,13 +98,13 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="#" data-value="hushng-section" class="hushnglang">HushNG</a></li>
-                    <li><a href="#" data-value="hushlist-section" class="hushlistlang">HushList</a></li>
-                    <li><a href="#" data-value="barterdex-section" class="barterlang">BarterDex</a></li>
+                    <li class="active"><a href="#hushng-section" data-value="hushng-section" class="hushnglang">HushNG</a></li>
+                    <li><a href="#hushlist-section" data-value="hushlist-section" class="hushlistlang">HushList</a></li>
+                    <li><a href="#barterdex-section" data-value="barterdex-section" class="barterlang">BarterDex</a></li>
                     <!--<li><a href="#" data-value="roadmap-section">Roadmap</a></li>-->
-                    <li><a href="#" data-value="team-section" class="teamlang">Team</a></li>
-                    <li><a href="#" data-value="tools-section" class="toolslang">Tools</a></li>
-                    <li><a href="#" data-value="contact-section" class="contactlang">Contact</a></li>
+                    <li><a href="#team-section" data-value="team-section" class="teamlang">Team</a></li>
+                    <li><a href="#tools-section" data-value="tools-section" class="toolslang">Tools</a></li>
+                    <li><a href="#contact-section" data-value="contact-section" class="contactlang">Contact</a></li>
                     <li class="dropdown">
                         <a class="trlangREMOVED" href="javascript:;">&nbsp;&nbsp;<i class="fa fa-cog"></i>&nbsp;&nbsp;</a>
                         <ul class="dropdown-content-lang">
@@ -189,7 +190,6 @@
                             </li>-->
                         </ul>
                     </li>
-
                 </ul>
 			</div>
 		</div>
