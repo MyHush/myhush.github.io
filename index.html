@@ -34,7 +34,7 @@
 	<!-- Hotjar -->
 	<!-- <script src="js/hotjar.js"></script> -->
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar" data-offest="-20">
 	<!-- Loading -->
 	<div class="loading-overlay">
 		<div class="lds-css ng-scope">
@@ -49,6 +49,7 @@
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
+				<!--Mobile menu icon -->
 				<div class="container navbar-toggle collapsed" data-toggle="collapse" data-target="#menuicon" aria-expanded="true" role="button">
 					<div class="bar1"></div>
 					<div class="bar2"></div>
@@ -58,12 +59,12 @@
 					<img src="images/logo-nav.png" alt="Logo">
 				</a>
 			</div>
-
+			<!-- Bootstrap Navbar No Mobile -->
 			<div class="collapse navbar-collapse" id="menuicon">
                 <ul class="nav navbar-nav navbar-right">
-                    <li class="active"><a href="#" data-value="home-section" class="homelang">Home</a></li>
+                    <li class="active"><a href="#home-section" data-value="home-section" class="homelang">Home</a></li>
                     <li class="dropdown">
-                        <a href="#" data-value="about-section" class="aboutlang">About</a>
+                        <a href="#about-section" data-value="about-section" class="aboutlang">About</a>
                         <ul class="dropdown-content">
                             <li>
                                 <a href="#"  data-value="about-section" class="featureslang" onclick="document.getElementById('features').click()">
@@ -97,13 +98,13 @@
                             </li>
                         </ul>
                     </li>
-                    <li><a href="#" data-value="hushng-section" class="hushnglang">HushNG</a></li>
-                    <li><a href="#" data-value="hushlist-section" class="hushlistlang">HushList</a></li>
-                    <li><a href="#" data-value="barterdex-section" class="barterlang">BarterDex</a></li>
+                    <li class="active"><a href="#hushng-section" data-value="hushng-section" class="hushnglang">HushNG</a></li>
+                    <li><a href="#hushlist-section" data-value="hushlist-section" class="hushlistlang">HushList</a></li>
+                    <li><a href="#barterdex-section" data-value="barterdex-section" class="barterlang">BarterDex</a></li>
                     <!--<li><a href="#" data-value="roadmap-section">Roadmap</a></li>-->
-                    <li><a href="#" data-value="team-section" class="teamlang">Team</a></li>
-                    <li><a href="#" data-value="tools-section" class="toolslang">Tools</a></li>
-                    <li><a href="#" data-value="contact-section" class="contactlang">Contact</a></li>
+                    <li><a href="#team-section" data-value="team-section" class="teamlang">Team</a></li>
+                    <li><a href="#tools-section" data-value="tools-section" class="toolslang">Tools</a></li>
+                    <li><a href="#contact-section" data-value="contact-section" class="contactlang">Contact</a></li>
                     <li class="dropdown">
                         <a class="trlangREMOVED" href="javascript:;">&nbsp;&nbsp;<i class="fa fa-cog"></i>&nbsp;&nbsp;</a>
                         <ul class="dropdown-content-lang">
@@ -189,7 +190,6 @@
                             </li>-->
                         </ul>
                     </li>
-
                 </ul>
 			</div>
 		</div>
@@ -495,13 +495,13 @@
                 <div class="col-sm-6 col-lg-push-1">
                     <div class="item">
                         <img class="img-responsive center-block" src="images/hushlist.png" alt="HushList">
-</div>
+										</div>
                 </div>
             </div>
         </div>
     </section>
 
-        <!-- BarterDEX Section -->
+    <!-- BarterDEX Section -->
     <section class="barterdex-section bg-gray25" id="barterdex-section">
         <div class="container">
             <div class="row">
@@ -527,7 +527,7 @@
         </div>
     </section>
 
-        <!-- Roadmap Section 
+        <!-- Roadmap Section
         <section class="roadmap-section" id="roadmap-section">
             <div class="container">
                 <div class="row">
@@ -577,7 +577,7 @@
                             </div>
                         </div>
                         <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-							<div class="single-member">
+													<div class="single-member">
                                 <div class="member-img">
                                     <img src="images/team/tamsin.jpg" alt="Tamsin Thorn">
                                     <div class="member-content">
@@ -585,7 +585,7 @@
                                             <p class="team11lang">Tamsin's most recent professional focus has been on enterprise-level computer networking as a former Network Engineer at F5 Networks. Her work troubleshooting encryption issues as well as exposure to cutting-edge networking technology dovetails naturally into an intrigue with cryptocurrency, and her experience translating dev jargon to management-speak has honed her ability to explain very technical content to non-technical audiences.</p>
                                             <div class="member-social">
                                                 <ul>
-					            <li><a href="//twitter.com/cryptocoinmama" target="_blank"><i class="fa fa-twitter"></i></a></li>
+																									  <li><a href="//twitter.com/cryptocoinmama" target="_blank"><i class="fa fa-twitter"></i></a></li>
                                                     <li><a href="//linkedin.com/in/tamsin-thorn-a5178383" target="_blank"><i class="fa fa-linkedin"></i></a></li>
                                                 </ul>
                                             </div>
@@ -596,25 +596,52 @@
                                     <h3><span class="name team12alang">Tamsin "Clamoring" Thorn</span> <span class="function team12blang">Technical Writer</span></h3>
                                 </div>
                             </div>
-			</div>
-                        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
-                            <div class="single-member">
-                                <div class="member-img">
-                                    <img src="images/placeholder-hi.png" width="370px" height="410px"  alt="You?">
-                                    <div class="member-content">
-                                        <div class="member-info">
-                                            <p class="team5lang"></p>
-                                            <div class="member-social">
-                                                
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="member-name">
-                                    <h3><span class="name team6alang">You?</span> <span class="function team6blang"></span></h3>
-                                </div>
-                            </div>
-			</div>						
+													</div>
+
+													<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+	                            <div class="single-member">
+	                                <div class="member-img">
+	                                    <img src="images/team/firemartz.jpg" alt="FireMartZ">
+	                                    <div class="member-content">
+	                                        <div class="member-info">
+	                                            <p class="team5lang">FireMartZ has a strong background in business management and more than 15 years of experience in scientific software engineering and development in areas such as augmented reality, virtual reality, interactive rendering and image processing. He loves to solve technical challenges to deliver in a timely fashion high quality products solving real problems and meeting users expectations. He decided to join Hush because he believes security and privacy should be the top priority in the decentralized world we are building today.</p>
+	                                            <div class="member-social">
+	                                                <ul>
+	                                                    <li><a href="//twitter.com/firemartz" target="_blank"><i class="fa fa-twitter"></i></a></li>
+	                                                    <li><a href="//github.com/firemartz" target="_blank"><i class="fa fa-github"></i></a></li>
+	                                                </ul>
+	                                            </div>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                                <div class="member-name">
+	                                    <h3><span class="name team5alang">FireMartZ</span> <span class="function team5blang">Core Developer</span></h3>
+	                                </div>
+	                            </div>
+	                        </div>
+
+													<div class="col-lg-4 col-md-4 col-sm-6 col-xs-12">
+	                            <div class="single-member">
+	                                <div class="member-img">
+	                                    <img src="images/team/bruxis.jpeg" alt="Bruxis">
+	                                    <div class="member-content">
+	                                        <div class="member-info">
+	                                            <p class="team4lang">Bruxis has lead and developed projects in a variety of industries including games, video streaming, and IoT. Like many of us, his interest in crypto stems from a love of cyberpunk and a desire to see a major shift in how we represent value and exchange it. He's chosen to join Hush because he strongly believes that privacy is extremely important and it should be a deliberate choice to reveal one's information.</p>
+	                                            <div class="member-social">
+	                                                <ul>
+	                                                    <li><a href="//twitter.com/thebruxis" target="_blank"><i class="fa fa-twitter"></i></a></li>
+	                                                    <li><a href="//github.com/joshgentry" target="_blank"><i class="fa fa-github"></i></a></li>
+	                                                </ul>
+	                                            </div>
+	                                        </div>
+	                                    </div>
+	                                </div>
+	                                <div class="member-name">
+	                                    <h3><span class="name team4alang">Bruxis</span> <span class="function team4blang">Core Developer </span></h3>
+	                                </div>
+	                            </div>
+	                        </div>
+
                     </div>
                 </div>
             </div>
@@ -736,7 +763,7 @@
         <section class="contact-section" id="contact-section">
             <div class="container">
                 <div class="row">
-                    <div class="col-sm-8 col-sm-offset-2">                  
+                    <div class="col-sm-8 col-sm-offset-2">
                         <div class="title"><h3 class="con1lang">Join us!</h3></div>
                             <p><strong class="con2alang">Hush</strong><span class="con2blang"> is a community project. Everyone is welcomed with open arms!</span></p>
                         <div class="contact-text">
@@ -834,7 +861,7 @@ $('.button-group').each( function( i, buttonGroup ) {
 
     <script>
         if ($(window).width() < 960) {
-            
+
             (function ($) {
                     $('.modalButton').on('click', function (e) {
                         var src = $(this).attr('data-src');
@@ -915,7 +942,7 @@ $('.button-group').each( function( i, buttonGroup ) {
          <!--
         function getConfirmation(){
             var retVal = confirm("!!!WARNING!!!\n\nMany Java SWING wallets, including the HUSH windows wallet, currently list watch-only addresses in the 'own addresses' tab due to an upstream bug. As some applications (e.g. BarterDEX) will modify watchonly addresses, unowned addresses may appear as owned without a user directly changing the watch status on an address. Please make sure to double check who owns an address before you send to it!");
-               if( retVal == true ){ 
+               if( retVal == true ){
                   window.open("https://zcash.dl.mercerweiss.com/hush-1.0.12.msi", '_blank').focus();
                   return true;
                }
