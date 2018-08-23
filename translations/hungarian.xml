@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <translations>
 	<translation id="homelang">Kezdőlap</translation>
 	<translation id="aboutlang">Rólunk</translation>
@@ -156,9 +156,9 @@
 	<translation id="team9lang">Luge B egy dizájner és betűtípus készítő. A magánélet védelmének a támogatója és több blokklánc projekten dolgozott már az elmúlt 2 évben. Luge az Egyesült Államok és Ázsia között ingázik és a Rhode Island Design iskolában tanult.</translation>
 	<translation id="team10alang">Luge</translation>
 	<translation id="team10blang">Dizájner</translation>
-	<translation id="team11lang">Tamsin jelenleg professzionális vállalati számítógép hálózatokkal foglalkozik. Korábban hálózati mérnökként dolgozott az F5 Networksnél. A munkája a titkosítási problémák elhárítása valamint a legújabb hálózati technológiák integrálása jól illeszkedik a kriptovalutákhoz. A műszaki zsargon lefordításában szerzett tapasztalata sokat segít hogy technikai jellegű tartalmat magyarázzon el egy nem-technikai hátterű közönségnek.</translation>
-	<translation id="team12alang">Tamsin "Clamoring" Thorn</translation>
-	<translation id="team12blang">Technikai Író</translation>
+	<translation id="team11lang">Berg egy fiatal szakember, aki szakértelemmel rendelkezik a pénzügyi tervezésben és elemzésben, valamint a szervezeti vezetésben. Jelenleg pénzügyi elemzőként dolgozik a Forbes 10 legnagyobb magánvállalatának, és társasház-tulajdonosa és üzemeltetője. Évnyi vállalkozói tevékenységén keresztül sokat tanult a piaci penetrációról, a marketingstratégiákról és az üzleti kapcsolatok kezeléséről, amelyeket reményei szerint a csapatban betöltött szerepével bővíteni tud.</translation>
+	<translation id="team12alang">Alex "Berg" Bergeron</translation>
+	<translation id="team12blang">Közösségi menedzser</translation>
 	<translation id="team13lang">Eredetileg részecslefizikus Csehországból. TheTrunknak több éves tapasztalata van sikeres web applikációk tervezésében és tagja a The Corporationnek is. A Hush szolgáltatásaira és a közösséggel való kapcsolattartásra fókuszál jelenleg.</translation>
 	<translation id="team14alang">TheTrunk</translation>
 	<translation id="team14blang">Fejlesztés és Közösségi Kapcsolatok</translation>
