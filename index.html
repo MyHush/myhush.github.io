@@ -254,8 +254,8 @@
                     <div class="col-sm-4">
                         <div class="item">
                             <div class="title"><h3 class="f7lang">For Miners</h3></div>
-                            <p><strong class="f8alang">Hush</strong><span class="f8blang"> is consistently among the </span><strong class="f8clang">Top 10</strong><span class="f8dlang"> equihash coins to mine. Find pools or read through our mining setup guide.</span></p>
-                            <a class="btn btn-hush f9lang" href="https://forum.myhush.org/t/hush-mining-quickstart-guide/13" target="_blank">More on Mining</a>
+                            <p><strong class="f8alang">Hush</strong><span class="f8blang"> is often one of the most profitable </span><strong class="f8clang">EquiHash</strong><span class="f8dlang"> coins to mine. Mining is possible with GPU and ASICs. For help, join us on the 'Mining' channel of our Discord or connect to a pool.</span></p>
+                            <a class="btn btn-hush f9lang" data-value="about-section" class="poolslang" onclick="document.getElementById('pools').click()">Find a pool</a>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -612,29 +612,6 @@
 	                                </div>
 	                            </div>
 	                        </div>
-
-                        <div class="col-lg-4 col-md-6 col-sm-6 col-xs-12">
-	                            <div class="single-member">
-	                                <div class="member-img">
-	                                    <img src="images/team/rjanetzek.jpg" alt="rjanetzek">
-	                                    <div class="member-content">
-	                                        <div class="member-info">
-	                                            <p class="team4lang">Rjanetzek has been a professional software developer for more than 15 years, providing software solutions for public administration and industry. In the last few years he focussed on the development of geographic information systems. He joined the Hush team because he strongly believes that privacy matters even if you have nothing to hide (yet). </p>
-	                                            <div class="member-social">
-	                                                <ul>
-	                                                    <li><a href="//twitter.com/rjanetzek" target="_blank"><i class="fa fa-twitter"></i></a></li>
-	                                                    <li><a href="//github.com/rjanetzek" target="_blank"><i class="fa fa-github"></i></a></li>
-	                                                </ul>
-	                                            </div>
-	                                        </div>
-	                                    </div>
-	                                </div>
-	                                <div class="member-name">
-	                                    <h3><span class="name team4alang">rjanetzek</span> <span class="function team4blang">Core Developer </span></h3>
-	                                </div>
-	                            </div>
-	                        </div>
-
                     </div>
                 </div>
             </div>
@@ -929,21 +906,6 @@ $('.button-group').each( function( i, buttonGroup ) {
 					}
 				});
 			};
-    </script>
-    <!--OLD : !!!WARNING!!!\n\nThe HUSH team has learned of an upstream ZEC change which has caused a bug in the Swing wallet GUI. The 'Own Addresses' tab shows the addresses a user owns and the addresses a user is watching. Watched addresses can be owned by someone else. This means it is possible to send a transaction to an address you don't own.\n\nList of affected SWING wallets: Hush, ZenCash, Zero, ZCash, ZClassic, BitcoinZ\n\nWorkaround: The Hush team is not responsible for Swing software fixes. It would seem prudent that users create a new address so ownership is known absolutely rather than using a previously existing address that you aren't positive about. Please direct inquires to: https://github.com/vaklinov?tab=repositories https://github.com/vaklinov/hush-swing-wallet-ui \n\n Do you want to download Windows GUI Wallet?-->
-    <script type="text/javascript">
-         <!--
-        function getConfirmation(){
-            var retVal = confirm("!!!WARNING!!!\n\nMany Java SWING wallets, including the HUSH windows wallet, currently list watch-only addresses in the 'own addresses' tab due to an upstream bug. As some applications (e.g. BarterDEX) will modify watchonly addresses, unowned addresses may appear as owned without a user directly changing the watch status on an address. Please make sure to double check who owns an address before you send to it!");
-               if( retVal == true ){
-                  window.open("https://zcash.dl.mercerweiss.com/hush-1.0.12.msi", '_blank').focus();
-                  return true;
-               }
-               else{
-                  return false;
-               }
-            }
-         //-->
     </script>
 </body>
 </html>
