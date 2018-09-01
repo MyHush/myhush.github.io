@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <translations>
 	<translation id="homelang">Domů</translation>
 	<translation id="aboutlang">Info</translation>
@@ -43,10 +43,10 @@
 	<translation id="f6flang">Hush</translation>
 	<translation id="f7lang">Pro těžaře</translation>
 	<translation id="f8alang">Hush</translation>
-	<translation id="f8blang"> patří mezi </translation>
-	<translation id="f8clang">Top 10</translation>
-	<translation id="f8dlang"> středně energeticky náročných mincí pro těžbu. Najděte si těžařský pool nebo si přečtěte naši příručku pro těžaře.</translation>
-	<translation id="f9lang">Více o těžení</translation>
+	<translation id="f8blang"> je často jednou z nejvýnosnějších mincí </translation>
+	<translation id="f8clang">EquiHash</translation>
+	<translation id="f8dlang">, které se minou. Těžba je možná s GPU a ASIC. Pro pomoc se připojte k kanálu 'Mining' našeho diskuze nebo se připojte k bazénu.</translation>
+	<translation id="f9lang">Najděte bazén</translation>
 	<translation id="f10lang">Pro vývojáře</translation>
 	<translation id="f11alang">Naši zkušení vývojáři přinášejí své znalosti do open source prijektu. Podívejte se na naše současné </translation>
 	<translation id="f11blang">projekty</translation>
@@ -158,9 +158,9 @@
 	<translation id="team9lang">Luge B je designér a tvůrce fontu pro tento web. V posledních 2 letech je ochráncem soukromí a pracoval na několika blockchain projektech. Luge studoval na Rhode Island School of Design a nyní se pracovně pohybuje mezi Spojenými státy a Asií.</translation>
 	<translation id="team10alang">Luge</translation>
 	<translation id="team10blang">Designér</translation>
-	<translation id="team11lang">Tamsin dříve pracovala jako síťový inženýr ve společnosti F5 Networks. Jejím úkolem bylo odstraňování chyb v šifrování a díky propojení problematiky s kryptoměnami a bohatým zkušenostem dokáže velmi jasně vysvětlit odborné záležitosti i netechnickým posluchačům.</translation>
-	<translation id="team12alang">Tamsin "Clamoring" Thorn</translation>
-	<translation id="team12blang">Technická spisovatelka</translation>
+	<translation id="team11lang">Berg je mladý odborník, jehož odborné znalosti se zabývají finančním plánováním a analýzou a organizačním vedením. V současné době pracuje jako finanční analytik pro top 10 soukromou společnost Forbes a spoluvlastní a provozuje investiční a správcovskou společnost pro nemovitosti. Prostřednictvím svých podnikatelských let se naučil hodně o pronikání na trh, marketingových strategiích a řízení obchodních vztahů, což doufá, že rozšíří svou roli v týmu.</translation>
+	<translation id="team12alang">Alex "Berg" Bergeron</translation>
+	<translation id="team12blang">Community Manager</translation>
 	<translation id="team13lang">Částicový fyzik původem z České republiky mající dlouholeté zkušenosti s vytvářením úspěšných webových aplikací a také člen The Corporation. Zaměřuje se na služby HUSH a správu komunity.</translation>
 	<translation id="team14alang">TheTrunk</translation>
 	<translation id="team14blang">Vývoj aplikací a nástrojů</translation>

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+﻿<?xml version="1.0" encoding="UTF-8"?>
 <translations>
 	<translation id="homelang">Home</translation>
 	<translation id="aboutlang">Über</translation>
@@ -43,10 +43,10 @@
 	<translation id="f6flang">Hush</translation>
 	<translation id="f7lang">Für Miner</translation>
 	<translation id="f8alang">Hush</translation>
-	<translation id="f8blang"> gehört konsequent zu den </translation>
-	<translation id="f8clang">Top 10</translation>
-	<translation id="f8dlang"> Equihash-Coins, welche man derzeit minen kann. Finde Pools oder lesen Sie unser Mining Setup Guide.</translation>
-	<translation id="f9lang">Mehr übers Minen</translation>
+	<translation id="f8blang"> ist oft eine der profitabelsten </translation>
+	<translation id="f8clang">EquiHash</translation>
+	<translation id="f8dlang">-Münzen. Mining ist mit GPU und ASICs möglich. Für Hilfe, treten Sie uns auf den "Mining" -Kanal unserer Discord oder verbinden Sie sich mit einem Pool.</translation>
+	<translation id="f9lang">Finde einen Pool</translation>
 	<translation id="f10lang">Für Developer</translation>
 	<translation id="f11alang">Unsere erfolgreichen Entwickler bringen ihre Fähigkeiten in ein Open-Source-Projekt ein. Schau dir unsere aktuellen </translation>
 	<translation id="f11blang">Projekte an</translation>
@@ -156,9 +156,9 @@
 	<translation id="team9lang">Luge B ist Designer und Front-End Entwickler.. Er ist Anwalt für Datenschutz und hat in den letzten 2 Jahren an mehreren Blockchain-Projekten gearbeitet. Luge arbeitet in den USA und Asien und studierte an der Rhode Island School of Design.</translation>
 	<translation id="team10alang">Luge</translation>
 	<translation id="team10blang">Designer</translation>
-	<translation id="team11lang">Tamsins letzter beruflicher Schwerpunkt lag auf derComputer Networking auf Unternehmensebene als ehemaliger Network Engineer bei F5 Networks. Ihre Arbeit bei der Lösung von Verschlüsselungsproblemen sowie der Kontakt zu hochmodernen Netzwerktechnologien verzahnt sich natürlich zu einer Intrige mit Kryptowährung und ihre Erfahrung sowie Fachjargon in Management-Sprache zu übersetzen, hat ihre Fähigkeit verbessert, sehr technischen Inhalt einem nicht-technischen Publikum zu erklären.</translation>
-	<translation id="team12alang">Tamsin "Clamoring" Thorn</translation>
-	<translation id="team12blang">Technischer Verfasser</translation>
+	<translation id="team11lang">Berg ist ein junger Fachmann, dessen Expertise in der Finanzplanung und -analyse sowie der organisatorischen Führung liegt. Derzeit arbeitet er als Finanzanalyst für eine Forbes Top-10-Privatgesellschaft und ist Miteigentümer und Betreiber einer Immobilieninvestment- und -verwaltungsfirma. Durch seine Jahre des Unternehmertums hat er viel über Marktdurchdringung, Marketingstrategien und das Management von Geschäftsbeziehungen gelernt, die er durch seine Rolle im Team erweitern möchte.</translation>
+	<translation id="team12alang">Alex "Berg" Bergeron</translation>
+	<translation id="team12blang">Community Manager</translation>
 	<translation id="team13lang">Der ursprünglich aus der Tschechischen Republik stammende Teilchenphysiker TheTrunk hat jahrelange Erfahrung in der Erstellung erfolgreicher Webanwendungen und ist Mitglied der Kooperation. Sein Fokus liegt auf Hush Services und Community Engagement.</translation>
 	<translation id="team14alang">TheTrunk</translation>
 	<translation id="team14blang">Entwicklung &amp; Community Engagement</translation>
