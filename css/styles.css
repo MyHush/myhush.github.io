@@ -400,6 +400,7 @@ html {
 	margin: 50px auto;
 }
 .home-section .btn {
+	color: white;
 	font-size: 16px;
 	text-transform: uppercase;
 }
@@ -480,6 +481,7 @@ html {
 }
 .hushng-section .btn,
 .barterdex-section .btn {
+	color: white;
 	font-size: 16px;
 	margin-top: 25px;
 	text-transform: uppercase;
@@ -1183,6 +1185,7 @@ li {
 }
 
 .hushlist-section .btn {
+	color: white;
 	font-size: 16px;
 	margin-top: 25px;
 	text-transform: uppercase;
