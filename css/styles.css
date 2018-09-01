@@ -1036,13 +1036,9 @@ padding-top:100px;
 .modal {
     display: none !important;
     visibility: hidden !important;
+		}
 }
 
-}
-
-.modalButton {
-
-}
 .modal-dialog {
 	padding: 3% 0 3% 0;
 	width: 75%;
