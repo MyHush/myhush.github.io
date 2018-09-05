@@ -400,6 +400,7 @@ html {
 	margin: 50px auto;
 }
 .home-section .btn {
+	color: white;
 	font-size: 16px;
 	text-transform: uppercase;
 }
@@ -480,6 +481,7 @@ html {
 }
 .hushng-section .btn,
 .barterdex-section .btn {
+	color: white;
 	font-size: 16px;
 	margin-top: 25px;
 	text-transform: uppercase;
@@ -1036,13 +1038,9 @@ padding-top:100px;
 .modal {
     display: none !important;
     visibility: hidden !important;
+		}
 }
 
-}
-
-.modalButton {
-
-}
 .modal-dialog {
 	padding: 3% 0 3% 0;
 	width: 75%;
@@ -1187,6 +1185,7 @@ li {
 }
 
 .hushlist-section .btn {
+	color: white;
 	font-size: 16px;
 	margin-top: 25px;
 	text-transform: uppercase;
