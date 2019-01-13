@@ -730,25 +730,25 @@ html {
 	margin-bottom: 35px;
 }
 .contact-section .contact-text ul li {
-	display: inline-block;
+	/*display: inline-block;*/
 	margin-right: 10px;
 	margin-bottom: 15px;
 	margin-left: 10px;
 }
 .contact-section .contact-text ul li a {
-	line-height: 40px;
+	line-height: 45px;
 	display: block;
-	width: 40px;
-	height: 40px;
-	transition: all .5s ease 0s;
+	width: 45px;
+	height: 45px;
+	/*transition: all .5s ease 0s;*/
 	text-align: center;
-	color: #2d2d2d;
-	border: 1px solid #2d2d2d;
+	/*color: #2d2d2d;*/
+	/*border: 1px solid #2d2d2d;*/
 }
-.contact-section .contact-text ul li a:hover {
+/*.contact-section .contact-text ul li a:hover {
 	color: #fff;
 	background-color: #2d2d2d;
-}
+}*/
 .contact-section .contact-copyright p {
 	font-size: 12px;
 	text-align: center;
