@@ -216,6 +216,16 @@ html {
 	position: relative;
 }
 
+#home-section {padding-top:0px}
+#about-section {padding-top:120px}
+#hushng-section {padding-top:120px}
+#hushlist-section {padding-top:120px}
+#barterdex-section {padding-top:120px}
+#team-section {padding-top:120px}
+#tools-section {padding-top:120px}
+#contact-section {padding-top:120px}
+
+
 /******************************************************************************
 	Navbar
 *******************************************************************************/
