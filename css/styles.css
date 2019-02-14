@@ -221,6 +221,8 @@ html {
 #hushng-section {padding-top:120px}
 #hushlist-section {padding-top:120px}
 #barterdex-section {padding-top:120px}
+#agama-section {padding-top:120px}
+#news-section {padding-top:120px}
 #team-section {padding-top:120px}
 #tools-section {padding-top:120px}
 #contact-section {padding-top:120px}
@@ -512,6 +514,60 @@ html {
 }
 
 /******************************************************************************
+	Agama Section
+*******************************************************************************/
+.agama-section {
+	padding: 70px 0;
+	text-align: center;
+}
+
+.agama-section .title h3 {
+	font-size: 22px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #2d2d2d;
+}
+
+.agama-section p {
+	font-size: 16px;
+	margin: 25px 0 0;
+	color: #2d2d2d;
+    text-align: center;
+}
+
+.agama-section .centered p {
+	font-size: 16px;
+	margin: 25px 0 0;
+	color: #2d2d2d;
+    text-align: center;
+}
+
+.agama-section a {
+	font-weight: bold;
+	color: #2d2d2d;
+}
+
+.agama-section .btn {
+	color: white;
+	font-size: 16px;
+	margin-top: 25px;
+	text-transform: uppercase;
+}
+
+.agama-section i {
+	font-size: 36px;
+	margin-bottom: 25px;
+	color: #2d2d2d;
+}
+
+.agama-section .title .strongtext {
+	font-size: 18px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #2d2d2d;
+}
+
+/******************************************************************************
 	Dev/Miners Section
 *******************************************************************************/
 .dev-miners-section {
@@ -774,6 +830,62 @@ html {
 	font-size: 16px;
 	margin: 25px 0 35px 0;
 	color: #2d2d2d;
+}
+
+
+/******************************************************************************
+	News Section
+*******************************************************************************/
+.news-section {
+	padding: 70px 0;
+	text-align: center;
+	color: #fff;
+}
+.news-section .title {
+	font-size: 22px;
+	margin: 25px 0 0;
+	margin-bottom: 60px;
+	color: #fff;
+}
+.news-section .title h3 {
+	font-size: 22px;
+	font-weight: 700;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+}
+.news-section .item {
+	margin-bottom: 30px;
+	padding: 22px 30px 25px;
+	transition: all .2s;
+	text-align: center;
+	color: #fff;
+}
+
+.news-section a {
+	font-size: 50px;
+	display: block;
+	color: #fff;
+}
+
+.news-section i {
+	font-size: 50px;
+	margin-bottom: 25px;
+	color: #fff;
+}
+
+.news-section h4 {
+	font-size: 22px;
+	font-weight: bold;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.news-section .btn {
+	color: white;
+	font-size: 16px;
+	margin-top: 25px;
+	text-transform: uppercase;
 }
 
 
