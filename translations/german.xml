@@ -172,4 +172,15 @@
 	<translation id="con2alang">Hush</translation>
 	<translation id="con2blang"> ist ein Gemeinschaftsprojekt. Jeder wird mit offenen Händen begrüßt!</translation>
 	<translation id="con3lang">Copyright &#169; 2016-2019 Hush. All rights reserved.</translation>
+
+	<translation id="sap1lang">Hush Sapling Upgrade</translation>
+	<translation id="sap2lang">Als Reaktion auf die Inflation von Zcash Sprout (</translation>
+	<translation id="sap3lang">) fehler, zu dem Hush ein Upgrade durchführen wird </translation>
+	<translation id="sap4lang">Dadurch wird verhindert, dass Angreifer abgeschirmte Fonds erstellen, die sie nicht sollten. Aus diesem Grund spricht man von "Inflation" oder "Fälschung", weil beides geschieht. Wenn ein Angreifer den Fehler erfolgreich ausnutzen kann, kann er auf betrügerische Weise "neues Geld" erstellen und auch das Gesamtangebot der Münze erhöhen (Inflation). Weitere Details zum Fehler finden Sie hier </translation>
+	<translation id="sap5lang">Github issue</translation>
+	<translation id="sap6lang">Wenn das Upgrade auf Schössling erfolgt, werden Gelder in transparenten Adressen (beginnend mit t1) auf die neue Version übertragen. Leider können Gelder in abgeschirmten Adressen (beginnend mit zc) nicht abgehängt werden. Das heißt, wenn Sie Geld in abgeschirmten Adressen haben, MÜSSEN Sie diese MÜSSEN an eine transparente Adresse verschieben, um den Air Drop zu erhalten. Hush unterstützt die ältere Version (Sprout) nach dem Abwurfdatum nicht mehr.</translation>
+	<translation id="sap7lang">Schnappschusshöhe bei 500.000 BLOCK (~ 14. April 2019)</translation>
+	<translation id="sap8lang">Die Gelder aus der aktuellen Hush-Kette werden bei Block 500.000 erfasst und auf unsere neue, auf Sapling basierende Kette umgestellt </translation>
+	<translation id="sap9lang">Geschützte Mittel, die nach 500.000 in Sprout-Pool übrig sind, werden in der alten Kette gesperrt. Die Sicherheit der gesamten Münzversorgung müssen wir mit den Geldern jedes Inhabers verwalten. Zum Zeitpunkt des Schreibens Di Feb 12 21:17:39 PST 2019 befinden sich 1,2% der aktuellen HUSH-Versorgung (71318.74047807 HUSH) in INSECURE abgeschirmten Sprout-Adressen.</translation>
+	<translation id="sap10lang">UPDATE: Ab Sat Mar 02 07:35:53 PST 2019, 1,18% des aktuellen Hush-Angebots ist in Sprout-Adressen.</translation>
 </translations>
