@@ -174,4 +174,15 @@
 	<translation id="con2alang">Hush</translation>
 	<translation id="con2blang"> je projekt komunity. Každý je vítán s otevřenou náručí!</translation>
 	<translation id="con3lang">Copyright &#169; 2016-2019 Hush. Všechna práva vyhrazena.</translation>
+
+	<translation id="sap1lang">Hush Sapling Upgrade</translation>
+	<translation id="sap2lang">V reakci na inflaci Zcash Sprout (</translation>
+	<translation id="sap3lang">) chyba, Hush bude upgradovat na </translation>
+	<translation id="sap4lang">To zabrání útočníkům potenciálně vytvářet stíněné fondy, které by neměly být schopny. To je důvod, proč se nazývá chyba "inflace" nebo "padělání", protože se oba děje. Pokud útočník může chybu úspěšně využít, může podvodně vytvořit "nové peníze" a také zvýšit celkovou nabídku mince (inflace). Další podrobnosti o chybě naleznete v této zprávě </translation>
+	<translation id="sap5lang">Github issue</translation>
+	<translation id="sap6lang">Při upgradu na službu Sapling dojde k přenesení prostředků na transparentní adresy (začínající t1) na novou verzi. Bohužel, prostředky ve stíněných adresách (počínaje zc) nelze přenést. To znamená, že pokud máte v stíněných adresách peníze, musíte je přesunout na průhlednou adresu, abyste mohli dostat airdrop. HUSH už nebude podporovat starší verzi (Sprout) po datu letu.</translation>
+	<translation id="sap7lang">Výška snímku u 500 000 bloků (~ 14. dubna 2019)</translation>
+	<translation id="sap8lang">Prostředky ze současného řetězce Hush budou zaznamenány na bloku 500 000 a přemístěny do nového řetězce umožňujícího používání řapíku Sapling, založeného na </translation>
+	<translation id="sap9lang">Stíněné fondy, které zůstanou v bazénu Sprout po bloku 500 000, budou zablokovány na starém řetězci. Musíme spravovat bezpečnost celé mince s prostředky každého držitele. Od tohoto písemného útku 12. února 21:17:39 PST 2019 je 1,2% současné dodávky HUSH (71318.74047807 Hush) v adresách INSECURE stíněných výhonků.</translation>
+	<translation id="sap10lang">UPDATE: Od So Mar 02 07:35:53 PST 2019, 1,18% současné dodávky HUSH je v adresách Sprout.</translation>
 </translations>
