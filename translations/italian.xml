@@ -172,4 +172,15 @@
 	<translation id="con2alang">Hush</translation>
 	<translation id="con2blang"> è un progetto basato sulla community. Tutti sono accolti a braccia aperte!</translation>
 	<translation id="con3lang">Copyright &#169; 2016-2019 Hush. Tutti i diritti riservati.</translation>
+	
+	<translation id="sap1lang">Aggiornamento Hush Sapling</translation>
+	<translation id="sap2lang">In risposta all'inflazione di Zcash Sprout (</translation>
+	<translation id="sap3lang">) bug, Hush aggiornerà a </translation>
+	<translation id="sap4lang">Ciò impedirà agli aggressori di creare potenziali fondi protetti, che non dovrebbero essere in grado di fare. Questo è il motivo per cui viene chiamato un bug "inflazione" o "contraffazione", perché entrambi stanno accadendo. Se un malintenzionato può sfruttare il bug con successo, può creare in modo fraudolento "nuovi soldi" e aumentare anche l'offerta totale della moneta (inflazione). Maggiori dettagli sul bug possono essere trovati in questo </translation>
+	<translation id="sap5lang">Github issue</translation>
+	<translation id="sap6lang">Quando l'aggiornamento a Sapling avviene, i fondi in indirizzi trasparenti (a partire da t1) saranno trasferiti nella nuova versione. Sfortunatamente, i fondi negli indirizzi schermati (che iniziano con zc) non possono essere trasferiti in aereo. Ciò significa che se hai fondi in indirizzi schermati DEVI trasferirli a un indirizzo trasparente per ricevere il lancio aereo. HUSH non supporterà più la versione precedente (Sprout) dopo la data dell'aerostato.</translation>
+	<translation id="sap7lang">Altezza istantanea a BLOCK 500.000 (~ 14 aprile 2019)</translation>
+	<translation id="sap8lang">I fondi dell'attuale catena Hush verranno catturati istantaneamente al blocco 500.000 e migrati alla nostra nuova catena abilitata Sapling, basata su </translation>
+	<translation id="sap9lang">I fondi schermati lasciati nel pool Sprout dopo il blocco 500.000 SARANNO BLOCCATI sulla vecchia catena. Dobbiamo gestire la sicurezza dell'intera fornitura di monete con i fondi di ciascun titolare. Al momento della stesura di Tue Feb 12 21:17:39 PST 2019, 1,2% dell'attuale fornitura di Hush (71318,74047807 Hush) si trova negli indirizzi di Sprout protetti da INSECURE.</translation>
+	<translation id="sap10lang">AGGIORNAMENTO: A partire da Mar 02 02 07:35:53 PST 2019, 1,18% dell'attuale fornitura di Hush è in indirizzi di Sprout.</translation>
 </translations>
