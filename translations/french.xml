@@ -175,4 +175,15 @@
 	<translation id="con2alang">Hush</translation>
 	<translation id="con2blang"> est un projet communautaire. Tout le monde est accueilli à bras ouverts!</translation>
 	<translation id="con3lang">Copyright &#169; 2016-2019 Hush. Tous les droits sont réservés.</translation>
+
+	<translation id="sap1lang">Mise à jour de Hush vers Sapling</translation>
+	<translation id="sap2lang">En réponse au bug de l’inflation de Zcash Sprout (</translation>
+	<translation id="sap3lang">), Hush va être mis à jour vers </translation>
+	<translation id="sap4lang">Cela empêchera les assaillants de créer des fonds protégés, ce qu’ils ne devraient pas pouvoir. C'est pourquoi on parle de "inflation" ou de "contrefaçon", car les deux se produisent. Si un attaquant parvient à exploiter le bug avec succès, il peut créer frauduleusement de la "nouvelle monnaie" et également augmenter l'offre totale de la pièce (inflation). Plus de détails sur le bug disponible à cette adresse </translation>
+	<translation id="sap5lang">Github issue</translation>
+	<translation id="sap6lang">Lorsque la mise à jour vers Sapling se produira, les fonds situés dans des adresses transparentes (commençant par t1) seront transférés dans la nouvelle version. Malheureusement, les fonds en adresses blindées (commençant par zc) ne pourront pas être récupérés. Cela signifie que si vous avez des fonds en adresses blindées, vous DEVEZ les déplacer vers une adresse transparente. HUSH ne prendra plus en charge l'ancienne version (Sprout) après l'airdrop.</translation>
+	<translation id="sap7lang">Bascule au BLOC n°500 000 (~ 14 avril 2019)</translation>
+	<translation id="sap8lang">Les fonds de la chaîne actuelle de Hush seront instantanément enregistrés lors du bloc n°500 000 et transférés vers notre nouvelle chaîne activée par Sapling, basée sur </translation>
+	<translation id="sap9lang">Les fonds protégés laissés dans le pool Sprout après le bloc 500 000 SERONT VERROUILLÉS sur l'ancienne chaîne. Nous devons gérer la sécurité de l’approvisionnement en pièces de monnaie avec les fonds de chaque détenteur.. Au moment de la rédaction de ce document marrdi 12 fév 21:17:39 PST 2019, 1,2% de l’offre HUSH actuelle (71318.74047807 HUSH) est stockée dans des adresses Sprout.</translation>
+	<translation id="sap10lang">MISE À JOUR : Le samedi 2 mars à 07:35:53 PST 2019, 1,18% de l'offre HUSH actuelle est stockée dans des adresses Sprout.</translation>
 </translations>
