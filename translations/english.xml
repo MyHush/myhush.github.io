@@ -174,4 +174,15 @@
 	<translation id="con2alang">Hush</translation>
 	<translation id="con2blang"> is a community project. Everyone is welcomed with open arms!</translation>
 	<translation id="con3lang">Copyright &#169; 2016-2019 Hush. All rights reserved.</translation>
+
+	<translation id="sap1lang">Hush Sapling Upgrade</translation>
+	<translation id="sap2lang">In response to the Zcash Sprout inflation (</translation>
+	<translation id="sap3lang">) bug, Hush will upgrade to </translation>
+	<translation id="sap4lang">This will prevent attackers from potentially creating shielded funds, which they should not be able to. This is why it's called an "inflation" or "counterfeiting" bug, because both are happening. If an attacker can exploit the bug successfully they can fraudently create "new money" and also increase the total supply of the coin (inflation). More details about the bug can be found in this </translation>
+	<translation id="sap5lang">Github issue</translation>
+	<translation id="sap6lang">When the upgrade to Sapling happens funds in transparent addresses (starting with t1) will be airdropped to the new version. Unfortunately, funds in shielded addresses (starting with zc) cannot be airdropped. This means that if you have funds in shielded addresses you MUST move them to a transparent address in order to receive the airdrop. HUSH will no longer support the older version (Sprout) after the airdrop date.</translation>
+	<translation id="sap7lang">Snapshot height at BLOCK 500,000 (~April 14th 2019)</translation>
+	<translation id="sap8lang">Funds from the current Hush chain will be snapshotted at block 500,000 and migrated to our new Sapling-enabled chain, based on </translation>
+	<translation id="sap9lang">Shielded funds left in Sprout pool after block 500,000 WILL BE LOCKED on the old chain. We must manage the security of the entire coin supply with the funds of each holder. As of this writing Tue Feb 12 21:17:39 PST 2019, 1.2% of the current HUSH supply (71318.74047807 HUSH) is in INSECURE shielded Sprout addresses.</translation>
+	<translation id="sap10lang">UPDATE: As of Sat Mar 02 07:35:53 PST 2019, 1.18% of current HUSH supply is in Sprout addresses.</translation>
 </translations>
