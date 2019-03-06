@@ -185,4 +185,11 @@
 	<translation id="sap8lang">Funds from the current Hush chain will be snapshotted at block 500,000 and migrated to our new Sapling-enabled chain, based on </translation>
 	<translation id="sap9lang">Shielded funds left in Sprout pool after block 500,000 WILL BE LOCKED on the old chain. We must manage the security of the entire coin supply with the funds of each holder. As of this writing Tue Feb 12 21:17:39 PST 2019, 1.2% of the current HUSH supply (71318.74047807 HUSH) is in INSECURE shielded Sprout addresses.</translation>
 	<translation id="sap10lang">UPDATE: As of Sat Mar 02 07:35:53 PST 2019, 1.18% of current HUSH supply is in Sprout addresses.</translation>
+
+	<translation id="news1lang">NEWS</translation>
+	<translation id="news2lang">Hush</translation>
+	<translation id="news3lang"> can confirm that we are vulnerable to the Zcash inflation bug (CVE-2019-7167)</translation>
+	<translation id="news4lang">and we are working on upgrading our chain to Sapling.</translation>
+	<translation id="news5lang">More details and recommendations for those with shielded funds can be found in the link below :</translation>
+	<translation id="news6lang">More details</translation>
 </translations>
