@@ -183,4 +183,11 @@
 	<translation id="sap8lang">A jelenlegi Hush-láncból származó pénzösszegeket az 500.000 blokkban rögzítjük, és áthelyezzük az új Sapling-alapú láncunkra </translation>
 	<translation id="sap9lang">Az 500.000 blokk után a Sprout poolben maradt árnyékolt alapokat bezárják a régi láncban. A teljes érme-ellátás biztonságát minden birtokos pénzével kell kezelnünk. Ebből az írásból február 12, 21:17:39 PST 2019, az aktuális HUSH tápellátás 1,2% -a (71318.74047807 HUSH) az INSECURE árnyékolt hajtáscímekben van.</translation>
 	<translation id="sap10lang">UPDATE: március 02-től 07:35:53 PST 2019, a jelenlegi HUSH-ellátás 1,18% -a Sprout címekben található.</translation>
+
+	<translation id="news1lang">hírek</translation>
+	<translation id="news2lang">Hush</translation>
+	<translation id="news3lang"> megerősítheti, hogy érzékenyek vagyunk a Zcash inflációs hibára (CVE-2019-7167)</translation>
+	<translation id="news4lang">és azon dolgozunk, hogy láncunkat a csemetékre frissítsük.</translation>
+	<translation id="news5lang">További információk és ajánlások az árnyékolt alapokkal rendelkezők számára az alábbi linken találhatók:</translation>
+	<translation id="news6lang">További részletek</translation>
 </translations>
