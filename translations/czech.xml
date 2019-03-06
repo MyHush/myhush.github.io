@@ -185,4 +185,11 @@
 	<translation id="sap8lang">Prostředky ze současného řetězce Hush budou zaznamenány na bloku 500 000 a přemístěny do nového řetězce umožňujícího používání řapíku Sapling, založeného na </translation>
 	<translation id="sap9lang">Stíněné fondy, které zůstanou v bazénu Sprout po bloku 500 000, budou zablokovány na starém řetězci. Musíme spravovat bezpečnost celé mince s prostředky každého držitele. Od tohoto písemného útku 12. února 21:17:39 PST 2019 je 1,2% současné dodávky HUSH (71318.74047807 Hush) v adresách INSECURE stíněných výhonků.</translation>
 	<translation id="sap10lang">UPDATE: Od So Mar 02 07:35:53 PST 2019, 1,18% současné dodávky HUSH je v adresách Sprout.</translation>
+
+	<translation id="news1lang">Zprávy</translation>
+	<translation id="news2lang">Hush</translation>
+	<translation id="news3lang"> může potvrdit, že jsme zranitelní chybou zcash inflace (CVE-2019-7167)</translation>
+	<translation id="news4lang">a pracujeme na modernizaci našeho řetězce na Sapling.</translation>
+	<translation id="news5lang">Další podrobnosti a doporučení pro ty, kteří mají stíněné prostředky, naleznete v následujícím odkazu:</translation>
+	<translation id="news6lang">Více informací</translation>
 </translations>
