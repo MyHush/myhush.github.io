@@ -185,4 +185,11 @@
 	<translation id="sap8lang">Кошти з поточної мережі Hush будуть зняті в блоці 500 000 і перенесені на наш новий ланцюжок з підтримкою Sapling, заснований на </translation>
 	<translation id="sap9lang">Захищені кошти, що залишилися в басейні Sprout після блоку 500 000, будуть заблоковані на старому ланцюжку. Ми повинні керувати безпекою всього постачання монет за рахунок коштів кожного власника. Станом на цю статтю Tue Feb 12 21:17:39 PST 2019, 1.2% поточного постачання Hush (71318.74047807 Hush) знаходиться в захищеній адресою INSECURE.</translation>
 	<translation id="sap10lang">UPDATE: За станом на Sat Mar 02 07:35:53 PST 2019, 1.18% поточного постачання HUSH знаходиться в Sprout адреси.</translation>
+
+	<translation id="news1lang">Новини</translation>
+	<translation id="news2lang">Hush</translation>
+	<translation id="news3lang"> може підтвердити, що ми вразливі до помилки інфляції Zcash (CVE-2019-7167)</translation>
+	<translation id="news4lang">і ми працюємо над вдосконаленням нашого ланцюжка до саджанців.</translation>
+	<translation id="news5lang">Більш детальну інформацію та рекомендації для тих, хто має захищені кошти, можна знайти за посиланням нижче:</translation>
+	<translation id="news6lang">Детальніше</translation>
 </translations>
