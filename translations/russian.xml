@@ -173,7 +173,6 @@
 	<translation id="con2blang"> это общественный проект, мы будем рады любому участию!</translation>
 	<translation id="con3lang">Copyright &#169; 2016-2019 Hush. Все права защищены.</translation>
 
-	
 	<translation id="sap1lang">Hush Sapling Обновление</translation>
 	<translation id="sap2lang">В ответ на инфляцию Zcash Sprout (</translation>
 	<translation id="sap3lang">) ошибка, Hush обновится до </translation>
@@ -184,4 +183,11 @@
 	<translation id="sap8lang">Средства из текущей цепочки Hush будут сняты на блоке 500 000 и перенесены в нашу новую цепочку с поддержкой Sapling на </translation>
 	<translation id="sap9lang">Экранированные средства, оставленные в пуле ростков после блока 500 000, будут заблокированы в старой цепочке. Мы должны обеспечить безопасность всей поставки монет за счет средств каждого держателя. На момент написания статьи Вторник, 12 февраля 21:17:39 PST 2019, 1,2% от текущей поставки Hush (71318.74047807 Hush) занято в INSECURE защищенных адресах Sprout.</translation>
 	<translation id="sap10lang">ОБНОВЛЕНИЕ: По состоянию на субботу, 02 марта, 07:35:53 PST 2019, 1,18% от текущей поставки Hush находится по адресам Sprout.</translation>
+
+	<translation id="news1lang">Новости</translation>
+	<translation id="news2lang">Hush</translation>
+	<translation id="news3lang"> может подтвердить, что мы уязвимы для ошибки инфляции Zcash (CVE-2019-7167)</translation>
+	<translation id="news4lang">и мы работаем над модернизацией нашей сети до Sapling.</translation>
+	<translation id="news5lang">Более подробную информацию и рекомендации для тех, у кого есть экранированные средства, можно найти по ссылке ниже:</translation>
+	<translation id="news6lang">Подробнее</translation>
 </translations>
