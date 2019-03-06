@@ -186,4 +186,12 @@
 	<translation id="sap8lang">Les fonds de la chaîne actuelle de Hush seront instantanément enregistrés lors du bloc n°500 000 et transférés vers notre nouvelle chaîne activée par Sapling, basée sur </translation>
 	<translation id="sap9lang">Les fonds protégés laissés dans le pool Sprout après le bloc 500 000 SERONT VERROUILLÉS sur l'ancienne chaîne. Nous devons gérer la sécurité de l’approvisionnement en pièces de monnaie avec les fonds de chaque détenteur. Au moment de la rédaction de ce message le mardi 12 février à 21:17:39 PST 2019, 1,2% de l’offre HUSH actuelle (71318.74047807 HUSH) est stockée dans des adresses Sprout.</translation>
 	<translation id="sap10lang">MISE À JOUR : Le samedi 2 mars à 07:35:53 PST 2019, 1,18% de l'offre HUSH actuelle est stockée dans des adresses Sprout.</translation>
+
+	<translation id="news1lang">Informations</translation>
+	<translation id="news2lang">Hush</translation>
+	<translation id="news3lang"> confirme que nous sommes vulnérables au bug d'inflation de Zcash (CVE-2019-7167)</translation>
+	<translation id="news4lang">et nous travaillons à mettre à jour de notre chaîne vers Sapling.</translation>
+	<translation id="news5lang">Plus de détails et de recommandations pour ceux qui ont des fonds protégés (adresses blindées commençant par zc) peuvent être trouvés dans le lien ci-dessous:</translation>
+	<translation id="news6lang">+ de détails</translation>
+
 </translations>
