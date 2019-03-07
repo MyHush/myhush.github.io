@@ -1,5 +1,11 @@
 ﻿<?xml version="1.0" encoding="UTF-8"?>
 <translations>
+
+	<translation id="con1lang">加入我們！</translation>	
+	<translation id="con2alang">Hush</translation>
+	<translation id="con2blang">是一個社區項目。 每個人都張開雙臂歡迎！</translation>
+	<translation id="con3lang">版權 &#169; 2016-2019 Hush。 保留所有權利。</translation>
+
 	<translation id="sap1lang">Hush升级至Sapling</translation>
 	<translation id="sap2lang">为了应对Zcash 芽孢通胀（</translation>
 	<translation id="sap3lang">）错误，Hush将升级至 </translation>
