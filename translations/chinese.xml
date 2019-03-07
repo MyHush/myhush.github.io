@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<translations>
+	<translation id="sap1lang">Hush升级至Sapling</translation>
+	<translation id="sap2lang">为了应对Zcash 芽孢通胀（</translation>
+	<translation id="sap3lang">）错误，Hush将升级至 </translation>
+	<translation id="sap4lang">。这将防止攻击者暗中创建隔离资产。这就是为什么它既被称为“通胀”错误又称为“伪造”错误，因为两者都在发生。如果攻击者能够成功利用该漏洞，他们可以欺骗性地创造“新资金”并增加硬币的总供应量（通货膨胀）。有关该错误的更多细节可以在这个中找到。</translation>
+	<translation id="sap5lang">Github issue</translation>
+	<translation id="sap6lang">当升级到Sapling时，透明地址（以t1开头）的资金将被空投到新版本。不幸的是，屏蔽地址（从zc开始）的资金不能被空投。这意味着如果您有屏蔽地址的资金，您必须将它们移动到透明地址才能接收空投。在空投日期之后，HUSH将不再支持旧版本（Sprout）。</translation>
+	<translation id="sap7lang">快照高度为500,000（大约2019年4月14日）</translation>
+	<translation id="sap8lang">来自当前Hush链上的资金将在块500,000处快照，并迁移到我们基于</translation>
+	<translation id="sap9lang">的新的Sapling链。在500,000块之后留在Sprout中的屏蔽资金将被锁定在旧链上。我们必须用每个持有人的资金来管理整个硬币供应的安全性。截至本文书写时间即2月12日星期二，太平洋标准时间2019-17：39，当前HUSH供应的1.2％（71318.74047807 HUSH）位于INSECURE屏蔽的Sprout地址中。</translation>
+	<translation id="sap10lang">更新：截止到2017年3月2日07:35:53太平洋标准时间2019，当前HUSH供应的1.18％在Sprout地址中</translation>
+</translations>

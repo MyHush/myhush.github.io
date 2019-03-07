@@ -176,12 +176,12 @@
 	<translation id="sap1lang">Hush Sapling frissítés</translation>
 	<translation id="sap2lang">Válaszul a Zcash Sprout inflációra (</translation>
 	<translation id="sap3lang">) hiba, Hush frissül </translation>
-	<translation id="sap4lang">Ez megakadályozza, hogy a támadók árnyékolt alapokat hozzanak létre, amelyeket nem tudnak megtenni. Ezért az úgynevezett "infláció" vagy "hamisítás" hiba, mert mindkettő történik. Ha egy támadó sikeresen kihasználhatja a hibát, csalással létrehozhatják az „új pénzt”, és növelhetik az érme teljes kínálatát (infláció). A hibáról további részletek találhatók </translation>
+	<translation id="sap4lang">. Ez megakadályozza, hogy a támadók árnyékolt alapokat hozzanak létre, amelyeket nem tudnak megtenni. Ezért az úgynevezett "infláció" vagy "hamisítás" hiba, mert mindkettő történik. Ha egy támadó sikeresen kihasználhatja a hibát, csalással létrehozhatják az „új pénzt”, és növelhetik az érme teljes kínálatát (infláció). A hibáról további részletek találhatók </translation>
 	<translation id="sap5lang">Github issue</translation>
 	<translation id="sap6lang">Amikor a Saplingra való frissítés történik, az átlátható címekben lévő alapok (a t1-től kezdődően) az új verzióra kerülnek. Sajnos az árnyékolt címekben lévő források (zc-vel kezdődően) nem vonhatók le. Ez azt jelenti, hogy ha árnyékolt címekben van pénzeszköze, akkor át kell helyeznie őket egy átlátszó címre, hogy megkapja a légi felvételt. A HUSH már nem támogatja a régebbi verziót (Sprout) a légi felvétel dátuma után.</translation>
 	<translation id="sap7lang">Pillanatfelvétel magassága: BLOCK 500,000 (~ 2019. április 14.)</translation>
 	<translation id="sap8lang">A jelenlegi Hush-láncból származó pénzösszegeket az 500.000 blokkban rögzítjük, és áthelyezzük az új Sapling-alapú láncunkra </translation>
-	<translation id="sap9lang">Az 500.000 blokk után a Sprout poolben maradt árnyékolt alapokat bezárják a régi láncban. A teljes érme-ellátás biztonságát minden birtokos pénzével kell kezelnünk. Ebből az írásból február 12, 21:17:39 PST 2019, az aktuális HUSH tápellátás 1,2% -a (71318.74047807 HUSH) az INSECURE árnyékolt hajtáscímekben van.</translation>
+	<translation id="sap9lang">. Az 500.000 blokk után a Sprout poolben maradt árnyékolt alapokat bezárják a régi láncban. A teljes érme-ellátás biztonságát minden birtokos pénzével kell kezelnünk. Ebből az írásból február 12, 21:17:39 PST 2019, az aktuális HUSH tápellátás 1,2% -a (71318.74047807 HUSH) az INSECURE árnyékolt hajtáscímekben van.</translation>
 	<translation id="sap10lang">UPDATE: március 02-től 07:35:53 PST 2019, a jelenlegi HUSH-ellátás 1,18% -a Sprout címekben található.</translation>
 
 	<translation id="news1lang">hírek</translation>
