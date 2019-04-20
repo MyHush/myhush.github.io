@@ -64,7 +64,7 @@
 	<translation id="sas2llang">Durée d'un block</translation>
 	<translation id="sas2rlang">2,5 minutes</translation>
 	<translation id="sas3llang">Récompense par block</translation>
-	<translation id="sas3rlang">12,5 Hush (12,5 pour les mineurs)</translation>
+	<translation id="sas3rlang">12,5 Hush (11.25 pour les mineurs)</translation>
 	<translation id="sas4llang">Ajustement de difficulté</translation>
 	<translation id="sas4rlang">A chaque block (Digishield V3)</translation>
 	<translation id="sas5llang">Réduction de la récompense</translation>
@@ -72,7 +72,7 @@
 	<translation id="sas6llang">Nombre total de pièces</translation>
 	<translation id="sas6rlang">21 000 000 (identique au Bitcoin)</translation>
 	<translation id="sas7llang">Récompense pour les fondateurs</translation>
-	<translation id="sas7rlang">Aucune</translation>
+	<translation id="sas7rlang">10%</translation>
 	<translation id="sas8llang">Pré-minage</translation>
 	<translation id="sas8rlang">0,578% (121 475 HUSH)</translation>
 	<translation id="sas9llang">Port P2P</translation>
