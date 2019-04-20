@@ -64,7 +64,7 @@
 	<translation id="sas2llang">Block Time</translation>
 	<translation id="sas2rlang">2.5 minutes</translation>
 	<translation id="sas3llang">Block Reward</translation>
-	<translation id="sas3rlang">12.5 Hush (12.5 miner)</translation>
+	<translation id="sas3rlang">12.5 Hush (11.25 miner)</translation>
 	<translation id="sas4llang">Difficulty Adjustment</translation>
 	<translation id="sas4rlang">Every block, Digishield V3</translation>
 	<translation id="sas5llang">Reward Halving</translation>
@@ -72,7 +72,7 @@
 	<translation id="sas6llang">Total Coin Supply</translation>
 	<translation id="sas6rlang">21,000,000 (same as Bitcoin)</translation>
 	<translation id="sas7llang">Founders Reward</translation>
-	<translation id="sas7rlang">Removed</translation>
+	<translation id="sas7rlang">10%</translation>
 	<translation id="sas8llang">Premine</translation>
 	<translation id="sas8rlang">0.578% (121475 HUSH)</translation>
 	<translation id="sas9llang">P2P Port</translation>

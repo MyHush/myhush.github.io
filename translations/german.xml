@@ -64,7 +64,7 @@
 	<translation id="sas2llang">Block Zeit</translation>
 	<translation id="sas2rlang">2.5 Minuten</translation>
 	<translation id="sas3llang">Block Belohnung</translation>
-	<translation id="sas3rlang">12.5 Hush (12.5 Miner)</translation>
+	<translation id="sas3rlang">12.5 Hush (11.25 Miner)</translation>
 	<translation id="sas4llang">Anpassung der Difficulty</translation>
 	<translation id="sas4rlang">Jeder Block, Digishield V3</translation>
 	<translation id="sas5llang">Halbierung der Belohnung</translation>
@@ -72,7 +72,7 @@
 	<translation id="sas6llang">Gesamte Anzahl der Münzen</translation>
 	<translation id="sas6rlang">21,000,000 ( wie bei Bitcoin )</translation>
 	<translation id="sas7llang">Gründer Belohnung</translation>
-	<translation id="sas7rlang">Entfernt</translation>
+	<translation id="sas7rlang">10%</translation>
 	<translation id="sas9llang">P2P Port</translation>
 	<translation id="sas9rlang">8888</translation>
 	<translation id="sas10llang">RPC Port</translation>
