@@ -64,7 +64,7 @@
 	<translation id="sas2llang">Blokk idő</translation>
 	<translation id="sas2rlang">2,5 perc</translation>
 	<translation id="sas3llang">Blokk jutalom</translation>
-	<translation id="sas3rlang">12,5 Hush (11.25 bányászoknak)</translation>
+	<translation id="sas3rlang">12,5 Hush (11,25 bányászoknak)</translation>
 	<translation id="sas4llang">Nehézség állítás</translation>
 	<translation id="sas4rlang">Minden blokknál, Digishield V3</translation>
 	<translation id="sas5llang">Jutalom feleződés</translation>
@@ -73,10 +73,9 @@
 	<translation id="sas6rlang">21,000,000 (ugyanúgy mint a Bitcoinnál)</translation>
 	<translation id="sas7llang">Alapítói jutalom</translation>
 	<translation id="sas7rlang">10%</translation>
+	<translation id="sas8rlang">0,76% (160 000 HUSH)</translation>
 	<translation id="sas9llang">P2P Port</translation>
-	<translation id="sas9rlang">8888</translation>
 	<translation id="sas10llang">RPC Port</translation>
-	<translation id="sas10rlang">8822</translation>
 	<translation id="sas11llang">Testnet P2P Port</translation>
 	<translation id="sas11rlang">18888</translation>
 	<translation id="sas12llang">Testnet RPC Port</translation>
