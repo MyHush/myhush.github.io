@@ -74,11 +74,9 @@
 	<translation id="sas7llang">Нагорода Розробнику</translation>
 	<translation id="sas7rlang">10%</translation>
 	<translation id="sas8llang">Попередній видобуток</translation>
-	<translation id="sas8rlang">0.578% (121475 HUSH)</translation>
+	<translation id="sas8rlang">0,76% (160,000 HUSH)</translation>
 	<translation id="sas9llang">P2P Порт</translation>
-	<translation id="sas9rlang">8888</translation>
 	<translation id="sas10llang">RPC Порт</translation>
-	<translation id="sas10rlang">8822</translation>
 	<translation id="sas11llang">Testnet P2P Порт</translation>
 	<translation id="sas11rlang">18888</translation>
 	<translation id="sas12llang">Testnet RPC Порт</translation>
@@ -170,6 +168,7 @@
 	<translation id="stoolst12lang">Особистий Кабінет</translation>
 	<translation id="stoolst13lang">Blockfolio</translation>
 	<translation id="stoolst14lang">Block Explorer 2</translation>
+	<translation id="stoolst15lang">Block Explorer 3</translation>
 	<translation id="con1lang">Приєднуйтесь! </translation>
 	<translation id="con2alang">Hush</translation>
 	<translation id="con2blang"> це загальнодоступний проект, ми будемо раді будь-якій участі!</translation>

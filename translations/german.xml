@@ -73,10 +73,9 @@
 	<translation id="sas6rlang">21,000,000 ( wie bei Bitcoin )</translation>
 	<translation id="sas7llang">Gründer Belohnung</translation>
 	<translation id="sas7rlang">10%</translation>
+	<translation id="sas8rlang">0,76% (160 000 HUSH)</translation>
 	<translation id="sas9llang">P2P Port</translation>
-	<translation id="sas9rlang">8888</translation>
 	<translation id="sas10llang">RPC Port</translation>
-	<translation id="sas10rlang">8822</translation>
 	<translation id="sas11llang">Testnetz P2P Port</translation>
 	<translation id="sas11rlang">18888</translation>
 	<translation id="sas12llang">Testnetz RPC Port</translation>
@@ -168,6 +167,7 @@
 	<translation id="stoolst12lang">Dashboard</translation>
 	<translation id="stoolst13lang">Blockfolio</translation>
 	<translation id="stoolst14lang">Block Explorer 2</translation>
+	<translation id="stoolst15lang">Block Explorer 3</translation>
 	<translation id="con1lang">Trete uns bei!</translation>	
 	<translation id="con2alang">Hush</translation>
 	<translation id="con2blang"> ist ein Gemeinschaftsprojekt. Jeder wird mit offenen Händen begrüßt!</translation>

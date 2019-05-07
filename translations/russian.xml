@@ -73,10 +73,9 @@
 	<translation id="sas6rlang">21,000,000 (так же, как Bitcoin)</translation>
 	<translation id="sas7llang">Награда Разработчику</translation>
 	<translation id="sas7rlang">10%</translation>
+	<translation id="sas8rlang">0,76% (160 000 HUSH)</translation>
 	<translation id="sas9llang">P2P Порт</translation>
-	<translation id="sas9rlang">8888</translation>
 	<translation id="sas10llang">RPC Порт</translation>
-	<translation id="sas10rlang">8822</translation>
 	<translation id="sas11llang">Testnet P2P Порт</translation>
 	<translation id="sas11rlang">18888</translation>
 	<translation id="sas12llang">Testnet RPC Порт</translation>
@@ -168,6 +167,7 @@
 	<translation id="stoolst12lang">Личный Кабинет</translation>
 	<translation id="stoolst13lang">Blockfolio</translation>
 	<translation id="stoolst14lang">Block Explorer 2</translation>
+	<translation id="stoolst15lang">Block Explorer 3</translation>
 	<translation id="con1lang">Присоединяйтесь! </translation>
 	<translation id="con2alang">Hush</translation>
 	<translation id="con2blang"> это общественный проект, мы будем рады любому участию!</translation>
