@@ -176,7 +176,7 @@
 	<translation id="sap1lang">Hush Sapling Upgrade</translation>
 	<translation id="sap2lang">Als Reaktion auf die Inflation von Zcash Sprout (</translation>
 	<translation id="sap3lang">) fehler, zu dem Hush ein Upgrade durchführen wird </translation>
-	<translation id="sap4lang". >Dadurch wird verhindert, dass Angreifer abgeschirmte Fonds erstellen, die sie nicht sollten. Aus diesem Grund spricht man von "Inflation" oder "Fälschung", weil beides geschieht. Wenn ein Angreifer den Fehler erfolgreich ausnutzen kann, kann er auf betrügerische Weise "neues Geld" erstellen und auch das Gesamtangebot der Münze erhöhen (Inflation). Weitere Details zum Fehler finden Sie hier </translation>
+	<translation id="sap4lang">Dadurch wird verhindert, dass Angreifer abgeschirmte Fonds erstellen, die sie nicht sollten. Aus diesem Grund spricht man von "Inflation" oder "Fälschung", weil beides geschieht. Wenn ein Angreifer den Fehler erfolgreich ausnutzen kann, kann er auf betrügerische Weise "neues Geld" erstellen und auch das Gesamtangebot der Münze erhöhen (Inflation). Weitere Details zum Fehler finden Sie hier </translation>
 	<translation id="sap5lang">Github issue</translation>
 	<translation id="sap6lang">Wenn das Upgrade auf Schössling erfolgt, werden Gelder in transparenten Adressen (beginnend mit t1) auf die neue Version übertragen. Leider können Gelder in abgeschirmten Adressen (beginnend mit zc) nicht abgehängt werden. Das heißt, wenn Sie Geld in abgeschirmten Adressen haben, MÜSSEN Sie diese MÜSSEN an eine transparente Adresse verschieben, um den Air Drop zu erhalten. Hush unterstützt die ältere Version (Sprout) nach dem Abwurfdatum nicht mehr.</translation>
 	<translation id="sap7lang">Schnappschusshöhe bei 500.000 BLOCK (~ 14. April 2019)</translation>
