@@ -220,7 +220,7 @@ html {
 #about-section {padding-top:120px}
 #hushng-section {padding-top:120px}
 #hushlist-section {padding-top:120px}
-#barterdex-section {padding-top:120px}
+#atomicdex-section {padding-top:120px}
 #agama-section {padding-top:120px}
 #news-section {padding-top:120px}
 #team-section {padding-top:120px}
@@ -458,41 +458,41 @@ html {
 }
 
 /******************************************************************************
-	HushNG / BarterDEX Section
+	HushNG / AtomicDEX Section
 *******************************************************************************/
 .hushng-section,
-.barterdex-section {
+.atomicdex-section {
 	padding: 70px 0;
 	text-align: center;
 }
 .hushng-section .title h3,
-.barterdex-section .title h3 {
+.atomicdex-section .title h3 {
 	font-size: 22px;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #fff;
 }
 .hushng-section p,
-.barterdex-section p {
+.atomicdex-section p {
 	font-size: 16px;
 	margin: 25px 0 0;
 	color: #fff;
     text-align: center;
 }
 .hushng-section .centered p,
-.barterdex-section .centered p {
+.atomicdex-section .centered p {
 	font-size: 16px;
 	margin: 25px 0 0;
 	color: #fff;
     text-align: center;
 }
 .hushng-section a,
-.barterdex-section a {
+.atomicdex-section a {
 	font-weight: bold;
 	color: #fff;
 }
 .hushng-section .btn,
-.barterdex-section .btn {
+.atomicdex-section .btn {
 	color: white;
 	font-size: 16px;
 	margin-top: 25px;
@@ -500,13 +500,13 @@ html {
 }
 
 .hushng-section i,
-.barterdex-section i {
+.atomicdex-section i {
 	font-size: 36px;
 	margin-bottom: 25px;
 	color: #fff;
 }
 .hushng-section .title .strongtext,
-.barterdex-section .title .strongtext {
+.atomicdex-section .title .strongtext {
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
