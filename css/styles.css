@@ -218,7 +218,7 @@ html {
 
 #home-section {padding-top:0px}
 #about-section {padding-top:120px}
-#hushng-section {padding-top:120px}
+#silentdragon-section {padding-top:120px}
 #hushlist-section {padding-top:120px}
 #atomicdex-section {padding-top:120px}
 #agama-section {padding-top:120px}
@@ -460,38 +460,38 @@ html {
 /******************************************************************************
 	HushNG / AtomicDEX Section
 *******************************************************************************/
-.hushng-section,
+.silentdragon-section,
 .atomicdex-section {
 	padding: 70px 0;
 	text-align: center;
 }
-.hushng-section .title h3,
+.silentdragon-section .title h3,
 .atomicdex-section .title h3 {
 	font-size: 22px;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #fff;
 }
-.hushng-section p,
+.silentdragon-section p,
 .atomicdex-section p {
 	font-size: 16px;
 	margin: 25px 0 0;
 	color: #fff;
     text-align: center;
 }
-.hushng-section .centered p,
+.silentdragon-section .centered p,
 .atomicdex-section .centered p {
 	font-size: 16px;
 	margin: 25px 0 0;
 	color: #fff;
     text-align: center;
 }
-.hushng-section a,
+.silentdragon-section a,
 .atomicdex-section a {
 	font-weight: bold;
 	color: #fff;
 }
-.hushng-section .btn,
+.silentdragon-section .btn,
 .atomicdex-section .btn {
 	color: white;
 	font-size: 16px;
@@ -499,13 +499,13 @@ html {
 	text-transform: uppercase;
 }
 
-.hushng-section i,
+.silentdragon-section i,
 .atomicdex-section i {
 	font-size: 36px;
 	margin-bottom: 25px;
 	color: #fff;
 }
-.hushng-section .title .strongtext,
+.silentdragon-section .title .strongtext,
 .atomicdex-section .title .strongtext {
 	font-size: 18px;
 	font-weight: 700;
