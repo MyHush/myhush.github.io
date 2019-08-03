@@ -140,7 +140,7 @@
 	<translation id="bar4dlang"> desarrollado por </translation>
 	<translation id="bar4elang">Komodo</translation>
 	<translation id="bar4flang">, que soporta HUSH y muchas otras monedas. Le permite intercambiar una criptomoneda por otra, del mismo modo que cambiaría el papel moneda en un cambio de moneda en un aeropuerto. Lo hace utilizando una tecnología llamada Atomic Swaps. Los intercambios atómicos permiten a los compradores y vendedores realizar intercambios entre pares (P2P) en lugar de a través de un intercambio centralizado. En los términos más simples, actúa como una especie de depósito en garantía.</translation>
-	<translation id="bar5lang">próximamente</translation>	
+	<translation id="bar5lang">descargar</translation>	
 	<translation id="team1lang">Equipo Central</translation>
 	<translation id="team2lang">Duke ha dedicado bits a docenas de proyectos de código abierto y gratuito y ha participado en la comunidad Free + Open Source durante más de 20 años. Verá su nombre en Firefox sobre:créditos por ayudar a su motor de Javascript a usar menos memoria, así como en la publicación 'Nature' para Tomato Genome, como parte de su trabajo con BioPerl. También ayudó a diseñar el backend de OpenTreeOfLife, donde científicos de todo el mundo pueden estudiar cómo se relacionan todos los seres vivos de una manera abierta y accesible. Duke escribe código que optimiza y mejora el mundo para aumentar el promedio de libertad para las personas.</translation>
 	<translation id="team3alang">Jonathan "Duke" Leto</translation>
@@ -204,15 +204,4 @@
 	<translation id="news2lang">Lee ahora</translation>
 	<translation id="news3lang">31 de julio de 2019: El próximo lanzamiento de la billetera GUI SilentDragon de $ HUSH contendrá muchas evoluciones:</translation>
 	<translation id="news4lang">Lee ahora</translation>
-
-	<translation id="aga1lang">AGAMA CARTERA</translation>
-	<translation id="aga2alang">Agama</translation>
-	<translation id="aga2blang"> es una Multicartera proporcionado por  el proyecto SuperNet , una compañía adquirida por Komodo (KMD) que apoya HUSH.</translation>
-	<translation id="aga4alang">Agama Escritorio</translation>
-	<translation id="aga4blang"> está disponible en Windows, MacOS and Linux.</translation>
-	<translation id="aga4clang"> here</translation>
-	<translation id="aga5lang" >Obtener la versión de escritorio</translation>
-	<translation id="aga4alang">Agama Móvil</translation>
-	<translation id="aga4blang"> está actualmente disponible en el Google Playstore.</translation>
-	<translation id="aga5lang">Obtener la versión móvil</translation>
 </translations>
