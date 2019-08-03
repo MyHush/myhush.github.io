@@ -198,10 +198,9 @@
 	<translation id="sap9lang">. I fondi schermati lasciati nel pool di Sprout dopo il blocco 500.000 saranno bloccati sulla vecchia blockchain. Dobbiamo gestire la sicurezza dell'intero ammontare di monete con i fondi di ogni detentore. A tale data, martedì 12 febbraio 21:17:17:39 PST 2019, l'1,2% dell’ammontare totale di HUSH (71318.74047807 HUSH) si trova in indirizzi Sprout schermati e NON SICURI.</translation>
 	<translation id="sap10lang">AGGIORNAMENTO: sabato 2 marzo 07:35:53:53 PST 2019, l'1,18% dell’ammontare totale di HUSH si trova in indirizzi Sprout.</translation>
 
-	<translation id="news1lang">Notizia</translation>
-	<translation id="news2lang">Hush</translation>
-	<translation id="news3lang"> può confermare che siamo vulnerabili al bug di inflazione di Zcash (CVE-2019-7167)</translation>
-	<translation id="news4lang">e stiamo lavorando per aggiornare la nostra catena a Sapling.</translation>
-	<translation id="news5lang">Maggiori dettagli e consigli per chi ha fondi protetti è disponibile nel link sottostante:</translation>
-	<translation id="news6lang">Più dettagli</translation>
+	<translation id="newslang">Notizia</translation>
+	<translation id="news1lang">26 luglio 2019: articolo su Hush scritto da @gigamesh:</translation>
+	<translation id="news2lang">Leggi ora</translation>
+	<translation id="news3lang">31 luglio 2019: La prossima versione del portafoglio GUI SilentDragon $ HUSH conterrà molte evoluzioni:</translation>
+	<translation id="news4lang">Leggi ora</translation>
 </translations>
