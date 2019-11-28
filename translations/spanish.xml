@@ -40,8 +40,8 @@
 	<translation id="f6clang">(Prueba de trabajo retrasada), haciendo que las cadenas de bloques sean mucho más seguras y resistentes al ataque al 51%.</translation>
 	<translation id="f7lang">Para mineros</translation>
 	<translation id="f8alang">Hush</translation>
-	<translation id="f8blang"> es a menudo una de las monedas Equihahs más rentables. </translation>
-	<translation id="f8clang">para minar.</translation>
+	<translation id="f8blang"> es a menudo una de las monedas Equihahs más rentables </translation>
+	<translation id="f8clang">para minar. </translation>
 	<translation id="f8dlang">La minería es posible con GPU Y ASICs. Para mas ayuda, únete a nosotros en el canal "Mining" de nuestro Discord o conecta a través de un pool de minado.</translation>
 	<translation id="f9lang">Busca un pool</translation>
 	<translation id="f10lang">Para desarrolladores</translation>
@@ -110,7 +110,7 @@
 	<translation id="sd2alang">SilentDragon</translation>
 	<translation id="sd2blang"> es una billetera compatible con Sapling y un nodo completo para Hush que se ejecuta en Linux, Windows y macOS para Hush.</translation>
 	<translation id="sd3alang">SilentDragon</translation>
-	<translation id="sd3blang">Mensagería, cartera y plataforma de minería.</translation>
+	<translation id="sd3blang">Mensajería, cartera y plataforma de minería.</translation>
 	<translation id="sd4alang">Todo-en-uno, </translation>
 	<translation id="sd4blang">SilentDragon</translation>
 	<translation id="sd4clang"> es una plataforma de mensajería, transacciones y activos de alta velocidad para el blockchain.</translation>
@@ -122,7 +122,7 @@
 	<translation id="hl1alang">HushList</translation>
 	<translation id="hl1blang">Mensajero privado para comunicaciones seudónimas y anónimas</translation>
 	<translation id="hl2alang">Hushlist</translation>
-	<translation id="hl2blang"> Es un programa que permite comunicarse a través de la criptomoneda Hush. Puede enviar mensajes a cerca de 50 personas simultáneamente, lo que permite mensajes de estilo de lista de correo cifrados.</translation>
+	<translation id="hl2blang"> Es un programa que permite comunicarse a través de la criptomoneda Hush. Puede enviar mensajes a cerca de 50 personas simultáneamente, lo que permite mensajes cifrados al estilo lista de correo cifrados.</translation>
 	<translation id="hl3lang">Usando el protocolo zCash, permite transacciones que involucran direcciones blindadas, además de las direcciones de Bitcoin transparentes normales. Esto permite transacciones sin revelar el remitente, el destinatario, el mensaje (o incluso que existió un mensaje) o el monto de la transacción financiera.</translation>
 	<translation id="hl4lang">Whitepaper</translation>	
 	<translation id="bar1lang">Un nuevo nivel de seguridad &amp; Descentralización</translation>
