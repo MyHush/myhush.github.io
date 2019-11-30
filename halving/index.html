@@ -176,23 +176,12 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12">
-                            <h1 class="halving1lang"> Hush Halving </h1>
+                            <h1 class="halving1lang"> Hush is halving in :</h1>
+                            <p>
+                                <h2 class="halving3lang" id="days_until_halving"><noscript>Thank you for activating your JavaScript.</noscript></h2>
+                                <h2 class="halving4lang" id="date_halving"> </h2>
+                            </p>
                         </div>
-                        <p>
-                            <span class="halving2lang">Line 1</span>
-                        </p>
-                        <p class="halving3lang">
-                            Line 2 
-                        </p>
-                        <h2 class="halving4lang">
-                            Line 3
-                        </h2>
-                        <p>
-                            <span class="halving5lang">Line 4</span>
-                        </p>
-                        <p class="halving6lang">
-                            Line 5
-                        </p>
 					</div>
 				</div>
 			</div>
@@ -231,6 +220,7 @@
 
         <!-- Scripts -->
         <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"> </script>
         <script src="/js/bootstrap.min.js"></script>
         <script src="/js/scripts.js"></script>
     <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
@@ -292,6 +282,62 @@ $('.button-group').each( function( i, buttonGroup ) {
             </div><!-- /.modal-content -->
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
+
+    <script>
+        $( document ).ready(function() {
+            $.ajax({
+                url: "https://explorer.myhush.org/insight-api-komodo/blocks?limit=1",
+                type: "GET",
+                dataType : "json",
+            })
+            .done(function( json ) {
+                console.log(json);
+                //$('#current_height').html( json.blocks[0].height );
+                //$('#seconds_until_halving').html( (340000 - json.blocks[0].height)*150 );
+
+                if (json.blocks[0].height < 340000 ) {
+                    var seconds = parseInt((340000 - json.blocks[0].height)*150, 10);
+
+                    var days = Math.floor(seconds / (3600*24));
+                    seconds  -= days*3600*24;
+                    var hrs   = Math.floor(seconds / 3600);
+                    seconds  -= hrs*3600;
+                    var mnts = Math.floor(seconds / 60);
+                    seconds  -= mnts*60;
+                    if (days > 0) {
+                        $('#days_until_halving').html(days+" days, "+hrs+"h "+mnts+"m "+seconds+"s");
+                    } else {
+                        $('#days_until_halving').html(hrs+"h "+mnts+"m "+seconds+"s");
+                    }
+
+                    var today = new Date();
+                    var tomorrow = new Date();
+
+                    var timeStamp = tomorrow.setDate(today.getDate() + days)
+                    ts = new Date(timeStamp); 
+                    $('#date_halving').html(ts.toLocaleDateString());
+
+                } else {
+                    $('#days_until_halving').html(" --- ")
+                }
+                
+
+                // 576 blocks per day, until next halving!!!
+                //$('#days_until_havling').html( (340000 - json.blocks[0].height)*576*150);
+                
+            })
+            .fail(function( xhr, status, errorThrown ) {
+                //alert( "Ooops, error talking to explorer API!");
+                $('#seconds_until_halving').html("Ooops, error talking to explorer API !")
+                console.log( "Error: " + errorThrown );
+                console.log( "Status: " + status );
+                console.dir( xhr );
+            })
+            .always(function( xhr, status ) {
+                console.log("Finished!");
+            });
+        });
+    </script>
 
     <script>
         if ($(window).width() < 960) {
