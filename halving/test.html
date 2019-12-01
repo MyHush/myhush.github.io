@@ -296,6 +296,7 @@ $('.button-group').each( function( i, buttonGroup ) {
         }
 
         function count(time_seconds){
+            log("time_seconds="+time_seconds);
             var seconds = time_seconds;
             var days = Math.floor(seconds / (3600*24));
             seconds  -= days*3600*24;
@@ -327,9 +328,10 @@ $('.button-group').each( function( i, buttonGroup ) {
             .done(function( json ) {
                 console.log(json);
                 $('#current_height').html( json.blocks[0].height );
+                var time_seconds;
                 try {
                     if (json.blocks[0].height < 340000 ) {
-                        var time_seconds = parseInt((340000 - json.blocks[0].height)*150, 10);
+                        time_seconds = parseInt((340000 - json.blocks[0].height)*150, 10);
                     } else {
                         $('#days_until_halving').html(" --- ")
                     }
