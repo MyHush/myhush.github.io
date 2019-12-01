@@ -290,9 +290,10 @@ $('.button-group').each( function( i, buttonGroup ) {
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
-
-    
     <script>
+        function log(s) {
+            console && console.log(s);
+        }
 
         function count(time_seconds){
             var seconds = time_seconds;
@@ -303,6 +304,7 @@ $('.button-group').each( function( i, buttonGroup ) {
             var mnts = Math.floor(seconds / 60);
             seconds  -= mnts*60;
             $('#seconds_until_halving').html( seconds );
+            log("seconds = " + seconds);
 
             if (days > 0) {
                 $('#days_until_halving').html(days+" days, "+hrs+"h "+mnts+"m "+seconds+"s");
@@ -342,7 +344,9 @@ $('.button-group').each( function( i, buttonGroup ) {
                 count(time_seconds);
                 console.log("Setting up timer");
                 var timeinterval = setInterval(function(){
-                    var secs = parseInt( $('#seconds_until_halving').innerHtml );
+                    log( $('#seconds_until_halving').val() );
+                    var secs = parseInt( $('#seconds_until_halving').val() );
+                    log("secs = " + secs);
                     secs    -= 1;
                     console.log("updating timer with secs=" + secs);
                     count( secs );
