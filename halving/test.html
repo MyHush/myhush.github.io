@@ -168,7 +168,8 @@
 			</div>
 		</div>
 	</nav>
-    <div id="seconds_until_halving" style="display:none;"></div>
+    <!-- <div id="seconds_until_halving" style="display:none;"></div> -->
+    Seconds until halving: <div id="seconds_until_halving"></div>
 
 	<!-- Home Section -->
 	<section class="home-section" id="home-section">
@@ -329,7 +330,7 @@ $('.button-group').each( function( i, buttonGroup ) {
             .done(function( json ) {
                 console.log(json);
                 $('#current_height').html( json.blocks[0].height );
-                var time_seconds;
+                
                 try {
                     if (json.blocks[0].height < 340000 ) {
                         time_seconds = parseInt((340000 - json.blocks[0].height)*150, 10);
@@ -344,10 +345,11 @@ $('.button-group').each( function( i, buttonGroup ) {
                     // Note - error messages will vary depending on browser
                 }
 
+                log("count(" + time_seconds + ")" );
                 count(time_seconds);
                 console.log("Setting up timer");
                 var timeinterval = setInterval(function(){
-                    log( $('#seconds_until_halving').val() );
+                    log( "DOM seconds_until_halving" + $('#seconds_until_halving').val() );
                     var secs = parseInt( $('#seconds_until_halving').val() );
                     log("secs = " + secs);
                     secs    -= 1;
