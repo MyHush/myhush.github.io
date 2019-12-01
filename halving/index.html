@@ -168,6 +168,8 @@
 			</div>
 		</div>
 	</nav>
+    <div id="seconds_until_halving" style="display:none;">0</div>
+    <!-- DEBUG Seconds until halving: <div id="seconds_until_halving">0</div> -->
 
 	<!-- Home Section -->
 	<section class="home-section" id="home-section">
@@ -289,10 +291,38 @@ $('.button-group').each( function( i, buttonGroup ) {
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
-
-    
     <script>
+        function log(s) {
+            console && console.log(s);
+        }
+
+        function count(time_seconds){
+            log("time_seconds="+time_seconds);
+            $('#seconds_until_halving').html( time_seconds );
+
+            var seconds = time_seconds;
+            var days = Math.floor(seconds / (3600*24));
+            seconds  -= days*3600*24;
+            var hrs   = Math.floor(seconds / 3600);
+            seconds  -= hrs*3600;
+            var mnts = Math.floor(seconds / 60);
+            seconds  -= mnts*60;
+            log("seconds = " + seconds);
+
+            if (days > 0) {
+                $('#days_until_halving').html(days+" days, "+hrs+"h "+mnts+"m "+seconds+"s");
+            } else {
+                $('#days_until_halving').html(hrs+"h "+mnts+"m "+seconds+"s");
+            }
+
+            var today     = new Date();
+            var tomorrow  = new Date();
+            var timeStamp = tomorrow.setDate(today.getDate() + days)
+            ts            = new Date(timeStamp);
+            $('#date_halving').html(ts.toLocaleDateString());
+        }
         $( document ).ready(function() {
+            log("doc ready");
             $.ajax({
                 url: "https://explorer.myhush.org/insight-api-komodo/blocks?limit=1",
                 type: "GET",
@@ -300,33 +330,10 @@ $('.button-group').each( function( i, buttonGroup ) {
             })
             .done(function( json ) {
                 console.log(json);
-                //$('#current_height').html( json.blocks[0].height );
+                $('#current_height').html( json.blocks[0].height );
                 try {
                     if (json.blocks[0].height < 340000 ) {
-                        var time_seconds = parseInt((340000 - json.blocks[0].height)*150, 10);
-
-                         function count(){
-                            var seconds = time_seconds;
-                            var days = Math.floor(seconds / (3600*24));
-                            seconds  -= days*3600*24;
-                            var hrs   = Math.floor(seconds / 3600);
-                            seconds  -= hrs*3600;
-                            var mnts = Math.floor(seconds / 60);
-                            seconds  -= mnts*60;
-
-                            if (days > 0) {
-                                $('#days_until_halving').html(days+" days, "+hrs+"h "+mnts+"m "+seconds+"s");
-                            } else {
-                                $('#days_until_halving').html(hrs+"h "+mnts+"m "+seconds+"s");
-                            }
-
-                            var today = new Date();
-                            var tomorrow = new Date();
-
-                            var timeStamp = tomorrow.setDate(today.getDate() + days)
-                            ts = new Date(timeStamp); 
-                            $('#date_halving').html(ts.toLocaleDateString());
-                        }
+                        time_seconds = parseInt((340000 - json.blocks[0].height)*150, 10);
                     } else {
                         $('#days_until_halving').html(" --- ")
                     }
@@ -338,8 +345,21 @@ $('.button-group').each( function( i, buttonGroup ) {
                     // Note - error messages will vary depending on browser
                 }
 
-                count();
-               
+                log("count(" + time_seconds + ")" );
+                count(time_seconds);
+                console.log("Setting up timer");
+                var timeinterval = setInterval(function(){
+                    log( "DOM seconds_until_halving" + $('#seconds_until_halving').html() );
+                    var secs = parseInt( $('#seconds_until_halving').html() );
+                    log("secs = " + secs);
+                    secs    -= 1;
+                    console.log("updating timer with secs=" + secs);
+                    count( secs );
+                    if(secs <= 0){
+                        //TODO: setup new halving interval
+                        clearInterval(timeinterval);
+                    }
+                },1000);
             })
             .fail(function( xhr, status, errorThrown ) {
                 //alert( "Ooops, error talking to explorer API!");
