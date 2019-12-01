@@ -283,6 +283,8 @@ $('.button-group').each( function( i, buttonGroup ) {
         </div><!-- /.modal-dialog -->
     </div><!-- /.modal -->
 
+
+    
     <script>
         $( document ).ready(function() {
             $.ajax({
@@ -293,38 +295,45 @@ $('.button-group').each( function( i, buttonGroup ) {
             .done(function( json ) {
                 console.log(json);
                 //$('#current_height').html( json.blocks[0].height );
-                //$('#seconds_until_halving').html( (340000 - json.blocks[0].height)*150 );
+                try {
+                    if (json.blocks[0].height < 340000 ) {
+                        var time_seconds = parseInt((340000 - json.blocks[0].height)*150, 10);
 
-                if (json.blocks[0].height < 340000 ) {
-                    var seconds = parseInt((340000 - json.blocks[0].height)*150, 10);
+                         function count(){
+                            var seconds = time_seconds;
+                            var days = Math.floor(seconds / (3600*24));
+                            seconds  -= days*3600*24;
+                            var hrs   = Math.floor(seconds / 3600);
+                            seconds  -= hrs*3600;
+                            var mnts = Math.floor(seconds / 60);
+                            seconds  -= mnts*60;
 
-                    var days = Math.floor(seconds / (3600*24));
-                    seconds  -= days*3600*24;
-                    var hrs   = Math.floor(seconds / 3600);
-                    seconds  -= hrs*3600;
-                    var mnts = Math.floor(seconds / 60);
-                    seconds  -= mnts*60;
-                    if (days > 0) {
-                        $('#days_until_halving').html(days+" days, "+hrs+"h "+mnts+"m "+seconds+"s");
+                            if (days > 0) {
+                                $('#days_until_halving').html(days+" days, "+hrs+"h "+mnts+"m "+seconds+"s");
+                            } else {
+                                $('#days_until_halving').html(hrs+"h "+mnts+"m "+seconds+"s");
+                            }
+
+                            var today = new Date();
+                            var tomorrow = new Date();
+
+                            var timeStamp = tomorrow.setDate(today.getDate() + days)
+                            ts = new Date(timeStamp); 
+                            $('#date_halving').html(ts.toLocaleDateString());
+                        }
                     } else {
-                        $('#days_until_halving').html(hrs+"h "+mnts+"m "+seconds+"s");
+                        $('#days_until_halving').html(" --- ")
                     }
-
-                    var today = new Date();
-                    var tomorrow = new Date();
-
-                    var timeStamp = tomorrow.setDate(today.getDate() + days)
-                    ts = new Date(timeStamp); 
-                    $('#date_halving').html(ts.toLocaleDateString());
-
-                } else {
-                    $('#days_until_halving').html(" --- ")
                 }
-                
+                    catch(error) {
+                    console.error(error);
+                    $('#seconds_until_halving').html("Oooops, error talking to explorer API !")
+                    // expected output: ReferenceError: nonExistentFunction is not defined
+                    // Note - error messages will vary depending on browser
+                }
 
-                // 576 blocks per day, until next halving!!!
-                //$('#days_until_havling').html( (340000 - json.blocks[0].height)*576*150);
-                
+                count();
+               
             })
             .fail(function( xhr, status, errorThrown ) {
                 //alert( "Ooops, error talking to explorer API!");
