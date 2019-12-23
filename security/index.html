@@ -221,7 +221,7 @@
                             </ul>
                         </div>
                         <div class="contact-copyright">
-                            <p class="con3lang">Copyright &copy; 2016-2019 Hush. All rights reserved.</p>
+                            <p>Copyright &copy; 2016-<span id="s_year"></span> The Hush developers. All rights reserved.</p>
                         </div>
 
                     </div>
@@ -236,6 +236,12 @@
         </div>
 
         <!-- Scripts -->
+        <script type="text/javascript">
+            var today=new Date();
+            var year = today.getFullYear();
+            var syear = document.getElementById('s_year');
+            syear.innerHTML = year;
+        </script>
         <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
         <script src="/js/bootstrap.min.js"></script>
         <script src="/js/scripts.js"></script>
