@@ -192,7 +192,7 @@
 	<translation id="sap9lang">. Les fonds protégés laissés dans le pool Sprout après le bloc 500 000 SERONT VERROUILLÉS sur l'ancienne chaîne. Nous devons gérer la sécurité de l’approvisionnement en pièces de monnaie avec les fonds de chaque détenteur. Au moment de la rédaction de ce message le mardi 12 février à 21:17:39 PST 2019, 1,2% de l’offre HUSH actuelle (71318.74047807 HUSH) est stockée dans des adresses Sprout.</translation>
 	<translation id="sap10lang">MISE À JOUR : Le samedi 2 mars à 07:35:53 PST 2019, 1,18% de l'offre HUSH actuelle est stockée dans des adresses Sprout.</translation>
 
-	<translation id="news1lang">Informations</translation>
+	<translation id="newslang">Informations</translation>
 	<translation id="news1lang">26/07/2019: Article sur Hush écrit par @gigamesh:</translation>
 	<translation id="news2lang">Lire maintenant</translation>
 	<translation id="news3lang">31/07/2019: La prochaine version du portefeuille $HUSH SilentDragon contiendra de nombreuses évolutions :</translation>
@@ -200,5 +200,5 @@
     <translation id="news5alang">17/09/2019 : AtomicDEX a officiellement intégré HUSH :</translation>
 	<translation id="news5blang">Lire maintenant sur Twitter</translation>
 	<translation id="news6alang">07/01/2020: Marquez votre calendrier, tous les nœuds complets doivent obligatoirement être mis à jour vers 3.3.0 surnommé "Sneaky Sasquatch" avant le bloc 166 250 le 29 janvier à 13h00 UTC ou vous ne serez pas sur le bon réseau!</translation>
-	<translation id="news6blang">Plus d'informations sur cette mise à jour ici</translation>
+	<translation id="news6blang">Plus d'informations ici</translation>
 </translations>
