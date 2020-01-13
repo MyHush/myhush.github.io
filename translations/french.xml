@@ -193,12 +193,14 @@
 	<translation id="sap10lang">MISE À JOUR : Le samedi 2 mars à 07:35:53 PST 2019, 1,18% de l'offre HUSH actuelle est stockée dans des adresses Sprout.</translation>
 
 	<translation id="newslang">Informations</translation>
-	<translation id="news1lang">26/07/2019: Article sur Hush écrit par @gigamesh:</translation>
+	<translation id="news1lang">26/07/2019 : Article sur Hush écrit par @gigamesh:</translation>
 	<translation id="news2lang">Lire maintenant</translation>
-	<translation id="news3lang">31/07/2019: La prochaine version du portefeuille $HUSH SilentDragon contiendra de nombreuses évolutions :</translation>
+	<translation id="news3lang">31/07/2019 : La prochaine version du portefeuille $HUSH SilentDragon contiendra de nombreuses évolutions :</translation>
 	<translation id="news4lang">Lire maintenant sur Twitter</translation>
     <translation id="news5alang">17/09/2019 : AtomicDEX a officiellement intégré HUSH :</translation>
 	<translation id="news5blang">Lire maintenant sur Twitter</translation>
-	<translation id="news6alang">07/01/2020: Marquez votre calendrier, tous les nœuds complets doivent obligatoirement être mis à jour vers 3.3.0 surnommé "Sneaky Sasquatch" avant le bloc 166 250 le 29 janvier à 13h00 UTC ou vous ne serez pas sur le bon réseau!</translation>
+	<translation id="news6alang">07/01/2020 : Marquez votre calendrier, tous les nœuds complets doivent obligatoirement être mis à jour vers 3.3.0 surnommé "Sneaky Sasquatch" avant le bloc 166 250 le 29 janvier à 13h00 UTC ou vous ne serez pas sur le bon réseau!</translation>
 	<translation id="news6blang">Plus d'informations ici</translation>
+	<translation id="news7alang">09/01/2020 : HUSH est désormais disponible sur l'exchange CITEX! Couplages BTC et USDT, les adresses «z» blindées sont prises en charge</translation>
+	<translation id="news7blang">Ici</translation>
 </translations>
