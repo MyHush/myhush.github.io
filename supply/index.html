@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- Basic -->
+	<meta charset="utf-8">
+	<title>Hush Supply Statistics</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Favicons -->
+	<link rel="shortcut icon" href="/favicon.ico">
+	<link rel="apple-touch-icon-precomposed" href="/images/icons/favicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/images/icons/favicon@2x.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72"   href="/images/icons/favicon-72.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/images/icons/favicon-72@2x.png">
+	<link rel="apple-touch-icon-precomposed" sizes="60x60"   href="/images/icons/favicon-60.png">
+	<link rel="apple-touch-icon-precomposed" sizes="120x120" href="/images/icons/favicon-60@2x.png">
+	<link rel="apple-touch-icon-precomposed" sizes="76x76"   href="/images/icons/favicon-76.png">
+	<link rel="apple-touch-icon-precomposed" sizes="152x152" href="/images/icons/favicon-76@2x.png">
+
+	<!-- Styles -->
+	<link rel="stylesheet" href="/css/bootstrap.min.css">
+	<link rel="stylesheet" href="/css/styles.css">
+
+	<!-- IE9 Support -->
+	<!--[if lt IE 9]>
+		<script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		<script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+	<![endif]-->
+
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offest="120">
+	<!-- Navbar -->
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<!--Mobile menu icon -->
+				<div class="container navbar-toggle collapsed" data-toggle="collapse" data-target="#menuicon" aria-expanded="true" role="button">
+					<div class="bar1"></div>
+					<div class="bar2"></div>
+					<div class="bar3"></div>
+				</div>
+				<a class="navbar-brand" href="../index.html" data-value="home-section">
+					<img src="/images/logo-nav.png" alt="Logo">
+				</a>
+			</div>
+			<!-- Bootstrap Navbar No Mobile -->
+			<div class="collapse navbar-collapse" id="menuicon">
+                <ul class="nav navbar-nav navbar-right">
+                    <!--<li class="dropdown">
+                        <a href="#about-section" data-value="about-section" class="aboutlang">List</a>
+                        <ul class="dropdown-content">
+                            <li>
+                                <a href="#"  data-value="about-section" class="featureslang" onclick="document.getElementById('Exemple_1').click()">
+                                    Exemple_1
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-value="about-section" class="speclang" onclick="document.getElementById('Exemple_2').click()">
+                                    Exemple_2
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" data-value="about-section" class="benefitslang" onclick="document.getElementById('Exemple_3').click()">
+                                    Exemple_3
+                                </a>
+                            </li>
+                        </ul>
+                    </li>-->
+                    <!--<li class="active"><a href="#hushng-section" data-value="hushng-section" class="hushnglang">HushNG</a></li>
+                    <li><a href="#hushlist-section" data-value="hushlist-section" class="hushlistlang">HushList</a></li>-->
+                    <li class="dropdown">
+                        <a class="trlangREMOVED" href="javascript:;">&nbsp;&nbsp;<i class="fa fa-cog"></i>&nbsp;&nbsp;</a>
+                        <ul class="dropdown-content-lang">
+                            <!--<li>
+                                <a class="bulgarian" id="bulgarian" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-bg"></span> Bulgarian
+                                </a>
+                            </li>
+                            <li>
+                                <a class="chinese" id="chinese" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-cn"></span> Chinese
+                                </a>
+                            </li>
+                            <li>
+                                <a class="dutch" id="dutch" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-nl"></span> Dutch
+                                </a>
+                            </li>-->
+                            <li>
+                                <a class="english" id="english" href="javascript:;" onclick="testch(this.id)">
+                                    English
+                                </a>
+                            </li>
+                            <!--<li>
+                                <a class="czech" id="czech" href="javascript:;" onclick="testch(this.id)">
+                                    Czech
+                                </a>
+                            </li>
+                            <li>
+                                <a class="french" id="french" href="javascript:;" onclick="testch(this.id)">
+                                    Français
+                                </a>
+                            </li>
+                            <li>
+                                <a class="german" id="german" href="javascript:;" onclick="testch(this.id)">
+                                   German
+                                </a>
+                            </li>
+                            <li>
+                                <a class="hungarian" id="hungarian" href="javascript:;" onclick="testch(this.id)">
+                                   Hungarian
+                                </a>
+                            </li>
+                            <li>
+                                <a class="italian" id="italian" href="javascript:;" onclick="testch(this.id)">
+                                   Italian
+                                </a>
+                            </li>>-->
+                           <!-- <li>
+                                <a class="polish" id="polish" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-pl"></span> Polish
+                                </a>
+                            </li>
+                            <li>
+                                <a class="portuguese" id="portuguese" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-br"></span> Portuguese
+                                </a>
+                            </li>-->
+                            <!-- <li>
+                                <a class="russian" id="russian" href="javascript:;" onclick="testch(this.id)">
+                                    Русский
+                                </a>
+                            </li>
+                            <li>
+                                <a class="spanish" id="spanish" href="javascript:;" onclick="testch(this.id)">
+                                    Español
+                                </a>
+                            </li>
+                            <li>
+                                <a class="ukrainian" id="ukrainian" href="javascript:;" onclick="testch(this.id)">
+                                    Українська
+                                </a>
+                            </li>
+                            <li>
+                                <a class="chinese" id="chinese" href="javascript:;" onclick="testch(this.id)">
+                                    中國
+                                </a>
+                            </li>>-->
+                            <!--<li>
+                                <a class="spanish" id="spanish" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-es"></span> Spanish
+                                </a>
+                            </li>
+                            <li>
+                                <a class="swedish" id="swedish" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-se"></span> Swedish
+                                </a>
+                            </li>
+                            <li>
+                                <a class="turkish" id="turkish" href="javascript:;" onclick="testch(this.id)">
+                                    <span class="flag-icon flag-icon-tr"></span> Turkish
+                                </a>
+                            </li>-->
+                        </ul>
+                    </li>
+                </ul>
+			</div>
+		</div>
+	</nav>
+    <div id="seconds_until_halving" style="display:none;">0</div>
+    <!-- DEBUG Seconds until halving: <div id="seconds_until_halving">0</div> -->
+
+	<!-- Home Section -->
+	<section class="home-section" id="home-section">
+		<div class="display-table">
+			<div class="display-table-cell">
+				<div class="container">
+					<div class="row">
+						<div class="col-sm-12">
+                            <h1 class="halving1lang"> Hush supply stats :</h1>
+                            <p>
+                                <h2 class="halving3lang" id="totalsupply"><noscript>Thank you for activating your JavaScript.</noscript></h2>
+                                <h2 class="halving4lang" id="zfunds"> </h2>
+                            </p>
+                        </div>
+                        <br>
+                        <div>
+                        </div>
+                        <a class="btn btn-hush hl4lang" href="https://github.com/MyHush/hush-v3-whitepaper/raw/master/hush-v3.pdf" target="_blank">Whitepaper</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+    <section class="contact-section" id="contact-section">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-8 col-sm-offset-2">
+                        <div class="title"><h3 class="con1lang">Join us!</h3></div>
+                            <p><strong class="con2alang">Hush</strong><span class="con2blang"> is a community project. Everyone is welcomed with open arms!</span></p>
+                        <div class="contact-text">
+                            <ul>
+                                <li><a class="discord" href="//myhush.org/discord/index.html" target="_blank" data-toggle="tooltip" title="Discord"><img src="/images/logo_discord.svg" alt="Discord" height="45px" width="45px"/></a></li>
+                                <li><a class="telegram" href="//t.me/Hush_Coin" target="_blank" data-toggle="tooltip" title="Telegram"><img src="/images/logo_telegram.svg" alt="Telegram" height="45px" width="45px"/></a></li>
+                                <li><a class="twitter" href="//twitter.com/MyHushTeam" target="_blank" data-toggle="tooltip" title="Twitter"><img src="/images/logo_twitter.svg" alt="Twitter" height="45px" width="45px"/></a></li>
+                                <!--<li><a class="facebook" href="//fb.me/MyHushTeam" target="_blank" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a></li>-->
+                                <li><a class="reddit" href="//reddit.com/r/Myhush" target="_blank" data-toggle="tooltip" title="Reddit"><img src="/images/logo_reddit.svg" alt="Reddit" height="45px" width="45px"/></a></li>
+                                <li><a class="btc" href="//bitcointalk.org/index.php?topic=2008578.0" target="_blank" data-toggle="tooltip" title="Bitcointalk"><img src="/images/logo_bitcointalk.svg" alt="Bitcointalk" height="45px" width="45px"/></a></li>
+                                <li><a class="github" href="//github.com/MyHush" target="_blank" data-toggle="tooltip" title="GitHub"><img src="/images/logo_github.svg" alt="GitHub" height="45px" width="45px"/></a></li>
+                            </ul>
+                        </div>
+                        <div class="contact-copyright">
+                            <p>Copyright &copy; 2016-<span id="s_year"></span> The Hush developers. All rights reserved.</p>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Scroll Top -->
+        <div class="animated fadeInRight" id="scroll-top">
+            <i class="fa fa-chevron-up"></i>
+        </div>
+
+        <!-- Scripts -->
+        <script type="text/javascript">
+            var today=new Date();
+            var year = today.getFullYear();
+            var syear = document.getElementById('s_year');
+            syear.innerHTML = year;
+        </script>
+        <script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.js"> </script>
+        <script src="/js/bootstrap.min.js"></script>
+        <script src="/js/scripts.js"></script>
+    <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.js"></script>
+    <script>
+// external js: isotope.pkgd.js
+// init Isotope
+var $grid = $('.grid').isotope({
+  filter: '.features',
+  itemSelector: '.element-item',
+  layoutMode: 'fitRows',
+  fitWidth: true
+});
+// filter functions
+var filterFns = {
+  // show if number is greater than 50
+  numberGreaterThan50: function() {
+    var number = $(this).find('.number').text();
+    return parseInt( number, 10 ) > 50;
+  },
+  // show if name ends with -ium
+  ium: function() {
+    var name = $(this).find('.name').text();
+    return name.match( /ium$/ );
+  }
+};
+// bind filter button click
+$('.filters-button-group').on( 'click', 'button', function() {
+  var filterValue = $( this ).attr('data-filter');
+  // use filterFn if matches value
+  filterValue = filterFns[ filterValue ] || filterValue;
+  $grid.isotope({ filter: filterValue });
+});
+// change is-checked class on buttons
+$('.button-group').each( function( i, buttonGroup ) {
+  var $buttonGroup = $( buttonGroup );
+  $buttonGroup.on( 'click', 'button', function() {
+    $buttonGroup.find('.is-checked').removeClass('is-checked');
+    $( this ).addClass('is-checked');
+  });
+});
+
+    </script>
+    <div class="modal fade" id="myModal">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-body">
+
+                    <div class="close-button">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+
+
+                    </div>
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" frameborder="0"></iframe>
+                    </div>
+                </div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div><!-- /.modal -->
+
+    <script>
+        function log(s) {
+            console && console.log(s);
+        }
+
+        $( document ).ready(function() {
+            log("doc ready");
+            $.ajax({
+                url: "https://explorer.myhush.org/api/coinsupply",
+                type: "GET",
+                dataType : "json",
+            })
+            .done(function( json ) {
+                log(json);
+                $('#zfunds').html( json.zfunds );
+            })
+            .fail(function( xhr, status, errorThrown ) {
+                //alert( "Ooops, error talking to explorer API!");
+                $('#seconds_until_halving').html("Ooops, error talking to explorer API !")
+                log( "Error: " + errorThrown );
+                log( "Status: " + status );
+                console.dir( xhr );
+            })
+            .always(function( xhr, status ) {
+                log("Finished!");
+            });
+        });
+    </script>
+
+    <script>
+        if ($(window).width() < 960) {
+
+            (function ($) {
+                    $('.modalButton').on('click', function (e) {
+                        var src = $(this).attr('data-src');
+                        window.open(src, '_blank').focus();
+
+                    });
+            })(jQuery);
+        } else {
+            (function ($) {
+
+                function iframeModalOpen() {
+
+
+                    $('.modalButton').on('click', function (e) {
+                        var src = $(this).attr('data-src');
+                        var width = $(this).attr('data-width') || 640;
+                        var height = $(this).attr('data-height') || 360;
+
+                        var allowfullscreen = $(this).attr('data-video-fullscreen');
+
+
+                        $("#myModal iframe").attr({
+                            'src': src,
+                            'height': height,
+                            'width': width,
+                            'allowfullscreen': ''
+                        });
+                    });
+
+
+                    $('#myModal').on('hidden.bs.modal', function () {
+                        $(this).find('iframe').html("");
+                        $(this).find('iframe').attr("src", "");
+                    });
+                }
+
+                $(document).ready(function () {
+                    iframeModalOpen();
+                });
+
+            })(jQuery);
+        }
+    </script>
+   <script>
+		$(document).ready(function() {
+			if(localStorage.getItem('language') != null) {
+				language = localStorage.getItem('language');
+				$.ajax({
+				    url: '/translations/' + language + '.xml',
+					success: function(xml) {
+						$(xml).find('translation').each(function(){
+							var id = $(this).attr('id');
+							var text = $(this).text();
+							$("." + id).html(text);
+						});
+					}
+				});
+			}
+		});
+
+		function testch(id) {
+				localStorage.setItem('language', id);
+				language = id
+				$.ajax({
+					url: '/translations/' + language + '.xml',
+					success: function(xml) {
+						$(xml).find('translation').each(function(){
+							var id = $(this).attr('id');
+							var text = $(this).text();
+							$("." + id).html(text);
+						});
+					}
+				});
+			};
+    </script>
+</body>
+</html>
