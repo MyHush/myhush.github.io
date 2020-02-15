@@ -180,6 +180,7 @@
 						<div class="col-sm-12">
                             <h1 class="halving1lang"> Hush supply stats :</h1>
                             <p>
+                                As of Block Height <div id=height></div>...
                                 Total Supply:<h2 class="halving3lang" id="totalsupply"><noscript>Please activate JavaScript to see this data.</noscript></h2>
                                 Shielded Funds:<h2 class="halving4lang" id="zfunds"> </h2>
                                 Shielded %:<h2 class="halving4lang" id="zfundspercent"> </h2>
@@ -312,6 +313,7 @@ $('.button-group').each( function( i, buttonGroup ) {
             .done(function( json ) {
                 log(json);
                 $('#zfunds').html( json.zfunds + " HUSH" );
+                $('#height').html( json.height );
                 var zfundspercent = 0;
                 if (json.total > 0) {
                     zfundspercent = json.zfunds / json.total;
