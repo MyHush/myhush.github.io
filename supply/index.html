@@ -181,9 +181,11 @@
                             <h1 class="halving1lang"> Hush Supply Stats :</h1>
                             <p>
                                 Block Height:<h2 id=height></h2>
-                                Total Supply:<h2 class="halving3lang" id="totalsupply"><noscript>Please activate JavaScript to see this data.</noscript></h2>
-                                Shielded Funds:<h2 class="halving4lang" id="zfunds"> </h2>
-                                Shielded %:<h2 class="halving4lang" id="zfundspercent"> </h2>
+                                Circulating Supply:<h2 class="halving3lang" id="totalsupply"><noscript>Please activate JavaScript to see this data.</noscript></h2>
+                                Circulating Shielded Funds:<h2 class="halving4lang" id="zfunds"> </h2>
+                                Shielded Percent:<h2 class="halving4lang" id="zfundspercent"> </h2>
+                                Percent Circulating: <h2 id="percentcirculating"></h2>
+                                Total Supply:<h2 class="halving3lang">21,000,000 HUSH</h2>
                             </p>
                         </div>
                         <br>
@@ -320,6 +322,7 @@ $('.button-group').each( function( i, buttonGroup ) {
                 }
                 $('#zfundspercent').html( parseFloat(100*zfundspercent).toPrecision(4) + "%" );
                 $('#totalsupply').html( json.total + " HUSH" );
+                $('#percentcirculating').html( parseFloat( 100*(json.total/ 21000000)).toPrecision(4) + "%" );
             })
             .fail(function( xhr, status, errorThrown ) {
                 //alert( "Ooops, error talking to explorer API!");
