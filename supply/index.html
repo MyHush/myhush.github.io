@@ -313,11 +313,11 @@ $('.button-group').each( function( i, buttonGroup ) {
                 log(json);
                 $('#zfunds').html( json.zfunds + " HUSH" );
                 var zfundspercent = 0;
-                if (json.totalsupply > 0) {
-                    zfundspercent = json.zfunds / json.totalsupply;
+                if (json.total > 0) {
+                    zfundspercent = json.zfunds / json.total;
                 }
                 $('#zfundspercent').html( parseFloat(100*zfundspercent).toPrecision(4) + "%" );
-                $('#totalsupply').html( json.totalsupply + " HUSH" );
+                $('#totalsupply').html( json.total + " HUSH" );
             })
             .fail(function( xhr, status, errorThrown ) {
                 //alert( "Ooops, error talking to explorer API!");
