@@ -9,7 +9,7 @@
 	<translation id="poolslang">Poolok</translation>
 	<translation id="doclang">Dokumentáció</translation>
 	<translation id="hushnglang">HushNG</translation>
-	<translation id="hushlistlang">HushList</translation>
+	<translation id="hushchatlang">HushChat</translation>
 	<translation id="barterlang">AtomicDEX</translation>
 	<translation id="teamlang">Csapat</translation>
 	<translation id="toolslang">Eszközök</translation>
@@ -32,7 +32,7 @@
 	<translation id="f3lang">Titkosított Üzenetküldés</translation>
 	<translation id="f4alang">Hush Messenger</translation>
 	<translation id="f4blang"> és </translation>
-	<translation id="f4clang">HushList</translation>
+	<translation id="f4clang">HushChat</translation>
 	<translation id="f4dlang"> a legkorszerűbb kommunikáció a zkSNARKS technológia erejével.</translation>
 	<translation id="f5lang">Biztonság</translation>
 	<translation id="f6alang">A </translation>
@@ -60,6 +60,7 @@
 	<translation id="sas1rlang">Equihash</translation>
 	<translation id="sas2llang">Blokk idő</translation>
 	<translation id="sas2rlang">2,5 perc</translation>
+	<translation id="sas2mlang">(75 másodperc kezdődik 2020 novemberében - 340k blokk)</translation>
 	<translation id="sas3llang">Blokk jutalom</translation>
 	<translation id="sas3rlang">12,5 Hush (11,25 bányászoknak)</translation>
 	<translation id="sas4llang">Nehézség állítás</translation>
@@ -93,8 +94,8 @@
 	<translation id="doc2alang">Hush</translation>
 	<translation id="doc2blang"> a leggyakrabban említett "figyelőlistás érme".</translation>
 	<translation id="doc3lang">PDF</translation>
-	<translation id="doc4lang">HushList fehér könyv</translation>
-	<translation id="doc5alang">HushList</translation>
+	<translation id="doc4lang">HushChat fehér könyv</translation>
+	<translation id="doc5alang">HushChat</translation>
 	<translation id="doc5blang"> az új levelező platform.</translation>
 	<translation id="doc6lang">PDF</translation>
 	<translation id="doc7lang">HushNG fehér könyv</translation>
@@ -118,10 +119,10 @@
 	<translation id="sd5elang"> lehetővé teszi az azonnali üzenetküldést, tranzakciót és titkos vagy nyilvános címek létrehozását minden platformon.</translation>
 	<translation id="sd6lang">Fejlesztés alatt.</translation>
 	<translation id="sd7lang">Letöltés</translation>
-	<translation id="hl1alang">HushList</translation>
+	<translation id="hl1alang">HushChat</translation>
 	<translation id="hl1blang">Titkosított messenger az anonim és pszeudoanonim kommunikációhoz</translation>
-	<translation id="hl2alang">Hushlist</translation>
-	<translation id="hl2blang"> egy program ami lehetővé teszi a kommunikációt a Hush kriptovalután keresztül. Akár 50 embernek is küldhetsz üzeneteket egyszerre, lehetővé téve a titkosított levlista szerű üzenetküldést.</translation>
+	<translation id="hl2alang">HushChat</translation>
+	<translation id="hl2blang"> egy program ami lehetővé teszi a kommunikációt a Hush kriptovalután keresztül. Akár 1000 embernek is küldhetsz üzeneteket egyszerre, lehetővé téve a titkosított levlista szerű üzenetküldést.</translation>
 	<translation id="hl3lang">A zCash protokoll használatával lehetőség nyílik a védett (shileded) címek használatára a hagyományos transzparens Bitcoin címek mellett. Ez lehetővé teszi a tranzakciókat úgy hogy a küldő a fogadó az üzenet és az összeg titkos maradjon.</translation>
 	<translation id="hl4lang">Fehér könyv</translation>	
 	<translation id="bar1lang">A biztonság új szintje és Decentralizálás</translation>
