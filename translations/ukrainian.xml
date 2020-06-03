@@ -9,7 +9,7 @@
 	<translation id="poolslang">&#160;&#160;&#160;Пули&#160;&#160;&#160;</translation>
 	<translation id="doclang">Документація</translation>
 	<translation id="hushnglang">HushNG</translation>
-	<translation id="hushlistlang">HushList</translation>
+	<translation id="hushchatlang">HushChat</translation>
 	<translation id="barterlang">AtomicDEX</translation>
 	<translation id="teamlang">Команда</translation>
 	<translation id="toolslang">Інструментарій</translation>
@@ -32,7 +32,7 @@
 	<translation id="f3lang">Конфіденційне Спілкування</translation>
 	<translation id="f4alang">Hush Мессенджер</translation>
 	<translation id="f4blang"> і </translation>
-	<translation id="f4clang">HushList</translation>
+	<translation id="f4clang">HushChat</translation>
 	<translation id="f4dlang"> являються винятковими інструментами спілкування, завдяки ефективному використанню технології zkSNARKS.</translation>
 	<translation id="f5lang">Безпека</translation>
 	<translation id="f6alang">Використання </translation>
@@ -95,8 +95,8 @@
 	<translation id="doc2alang">Hush</translation>
 	<translation id="doc2blang"> - одна з найбільш обговорюваних монет з великим майбутнім.</translation>
 	<translation id="doc3lang">PDF</translation>
-	<translation id="doc4lang">Брошура HushList</translation>
-	<translation id="doc5alang">HushList</translation>
+	<translation id="doc4lang">Брошура HushChat</translation>
+	<translation id="doc5alang">HushChat</translation>
 	<translation id="doc5blang"> - принципово нова платформа поширення інформації.</translation>
 	<translation id="doc6lang">PDF</translation>
 	<translation id="doc7lang">Брошура HushNG</translation>
@@ -120,9 +120,9 @@
 	<translation id="sd5elang"> пропонує високошвидкісну комунікацію і перекази на всіх платформах.</translation>
 	<translation id="sd6lang">Знаходиться в розробці</translation>
 	<translation id="sd7lang">скачати</translation>	
-	<translation id="hl1alang">HushList</translation>
+	<translation id="hl1alang">HushChat</translation>
 	<translation id="hl1blang">Безпечний месенджер з можливістю спілкування як з використанням нікнейму, так і повністю анонімного.</translation>
-	<translation id="hl2alang">Hushlist</translation>
+	<translation id="hl2alang">HushChat</translation>
 	<translation id="hl2blang"> - це програма для спілкування, з використанням криптовалюти Hush. Ви можете відправляти повідомлення 1000 людям одночасно, використовуючи при цьому зашифрований список одержувачів.</translation>
 	<translation id="hl3lang">Протокол zCash дозволяє використовувати приховані адреси спільно з відкритими адресами Bitcoin, завдяки чому прихованою залишається вся інформація про переказ: відправник, отримувач, повідомлення (включаючи сам факт наявності повідомлення), і навіть розмір транзакції.</translation>
 	<translation id="hl4lang">Брошура</translation>	

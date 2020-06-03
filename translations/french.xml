@@ -9,7 +9,7 @@
 	<translation id="poolslang">Pools</translation>
 	<translation id="doclang">Documentation</translation>
 	<translation id="hushnglang">HushNG</translation>
-	<translation id="hushlistlang">HushList</translation>
+	<translation id="hushchatlang">HushChat</translation>
 	<translation id="barterlang">AtomicDEX</translation>
 	<translation id="teamlang">Equipe</translation>
 	<translation id="toolslang">Outils</translation>
@@ -32,7 +32,7 @@
 	<translation id="f3lang">Message privée</translation>
 	<translation id="f4alang">Hush Messenger</translation>
 	<translation id="f4blang"> et </translation>
-	<translation id="f4clang">HushList</translation>
+	<translation id="f4clang">HushChat</translation>
 	<translation id="f4dlang"> sont des systèmes de communication privé à la pointe de la technologie exploitant la technologie zkSNARKS.</translation>
 	<translation id="f5lang">Sécurité</translation>
 	<translation id="f6alang">Utilisation de  </translation>
@@ -95,8 +95,8 @@
 	<translation id="doc2alang">Hush</translation>
 	<translation id="doc2blang"> la plus parlé des "pièces à suivre".</translation>
 	<translation id="doc3lang">PDF</translation>
-	<translation id="doc4lang">HushList Whitepaper</translation>
-	<translation id="doc5alang">HushList</translation>
+	<translation id="doc4lang">HushChat Whitepaper</translation>
+	<translation id="doc5alang">HushChat</translation>
 	<translation id="doc5blang"> la nouvelle plateforme de messagerie.</translation>
 	<translation id="doc6lang">PDF</translation>
 	<translation id="doc7lang">HushNG Whitepaper</translation>
@@ -120,10 +120,10 @@
 	<translation id="sd5elang"> permet une messagerie rapide, des transactions et des émissions pour des adresses privées ou publiques, sur toutes les plates-formes.</translation>
 	<translation id="sd6lang">En plein développement.</translation>
 	<translation id="sd7lang">Télécharger</translation>	
-	<translation id="hl1alang">HushList</translation>
+	<translation id="hl1alang">HushChat</translation>
 	<translation id="hl1blang">Messages privés pour les communications pseudonymes et anonymes</translation>
-	<translation id="hl2alang">Hushlist</translation>
-	<translation id="hl2blang"> est un programme qui permet de communiquer via la crypto-monnaie Hush. Vous pouvez envoyer des messages cryptée à environ 1000 personnes simultanément grâce aux listes de diffusion.</translation>
+	<translation id="hl2alang">HushChat</translation>
+	<translation id="hl2blang"> est un programme qui permet de communiquer via la crypto-monnaie Hush. Vous pouvez envoyer des messages cryptée jusqu'à environ 1000 personnes simultanément grâce aux listes de diffusion.</translation>
 	<translation id="hl3lang">L'utilisation du protocole zCash permet des transactions impliquant des adresses protégées en plus des adresses Bitcoin transparentes normales. Cela permet des transactions sans divulguer l'expéditeur, le destinataire, le message (ou même qu'un message existait), ou le montant de la transaction financière.</translation>
 	<translation id="hl4lang">Whitepaper</translation>	
 	<translation id="bar1lang">Un nouveau niveau de sécurité &amp; de décentralisation</translation>

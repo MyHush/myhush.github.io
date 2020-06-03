@@ -9,7 +9,7 @@
 	<translation id="poolslang">Pools</translation>
 	<translation id="doclang">Documentazione</translation>
 	<translation id="hushnglang">HushNG</translation>
-	<translation id="hushlistlang">HushList</translation>
+	<translation id="hushchatlang">HushChat</translation>
 	<translation id="barterlang">AtomicDEX</translation>
 	<translation id="teamlang">Team</translation>
 	<translation id="toolslang">Strumenti</translation>
@@ -32,7 +32,7 @@
 	<translation id="f3lang">Messaggistica Privata</translation>
 	<translation id="f4alang">Hush Messenger</translation>
 	<translation id="f4blang"> e </translation>
-	<translation id="f4clang">HushList</translation>
+	<translation id="f4clang">HushChat</translation>
 	<translation id="f4dlang"> sono comunicazioni private allo stato dell'arte che sfruttano la tecnologia zkSNARKS.</translation>
 	<translation id="f5lang">Sicurezza</translation>
 	<translation id="f6alang">Utilizzando </translation>
@@ -94,8 +94,8 @@
 	<translation id="doc2alang">Hush</translation>
 	<translation id="doc2blang"> è la più chiacchierata tra le "monete da tenere d'occhio".</translation>
 	<translation id="doc3lang">PDF</translation>
-	<translation id="doc4lang">HushList Whitepaper</translation>
-	<translation id="doc5alang">HushList</translation>
+	<translation id="doc4lang">HushChat Whitepaper</translation>
+	<translation id="doc5alang">HushChat</translation>
 	<translation id="doc5blang"> è la nuova piattaforma per le mail.</translation>
 	<translation id="doc6lang">PDF</translation>
 	<translation id="doc7lang">HushNG Whitepaper</translation>
@@ -119,9 +119,9 @@
 	<translation id="sd5elang"> consente messaggi rapidi, le transazioni e l'emissione di indirizzi privati ​​o pubblici su tutte le piattaforme.</translation>
 	<translation id="sd6lang">La piattaforma è in pieno sviluppo</translation>
 	<translation id="sd7lang">Scaricare</translation>	
-	<translation id="hl1alang">HushList</translation>
+	<translation id="hl1alang">HushChat</translation>
 	<translation id="hl1blang">Messenger privato per comunicazioni con pseudonimi ed anonime</translation>
-	<translation id="hl2alang">Hushlist</translation>
+	<translation id="hl2alang">HushChat</translation>
 	<translation id="hl2blang"> è un programma che consente la comunicazione tramite la criptovaluta Hush. È possibile inviare messaggi a circa 1000 persone contemporaneamente, consentendo la messaggistica in stile mailing list crittografata.</translation>
 	<translation id="hl3lang">Utilizzando il protocollo zCash, consente transazioni con indirizzi schermati oltre ai normali indirizzi trasparenti di Bitcoin. Ciò consente transazioni senza rivelare il mittente, destinatario, messaggio (e se esiste un messaggio) o importo della transazione finanziaria.</translation>
 	<translation id="hl4lang">Whitepaper</translation>	

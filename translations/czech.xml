@@ -9,7 +9,7 @@
 	<translation id="poolslang">Těžba</translation>
 	<translation id="doclang">Dokumenty</translation>
 	<translation id="hushnglang">HushNG</translation>
-	<translation id="hushlistlang">HushList</translation>
+	<translation id="hushchatlang">HushChat</translation>
 	<translation id="barterlang">AtomicDEX</translation>
 	<translation id="teamlang">Tým</translation>
 	<translation id="toolslang">Nástroje</translation>
@@ -32,7 +32,7 @@
 	<translation id="f3lang">Soukromé zprávy</translation>
 	<translation id="f4alang">Hush Messenger</translation>
 	<translation id="f4blang"> a </translation>
-	<translation id="f4clang">HushList</translation>
+	<translation id="f4clang">HushChat</translation>
 	<translation id="f4dlang"> nabízejí nejmodernější komunikační prostředky prostřednictvím technologie zkSNARKS.</translation>
 	<translation id="f5lang">Bezpečnost</translation>
 	<translation id="f6alang">Použití </translation>
@@ -95,8 +95,8 @@
 	<translation id="doc2alang">Hush</translation>
 	<translation id="doc2blang"> je nejčastěji zmiňovaná mince, kterou se vyplatí sledovat.</translation>
 	<translation id="doc3lang">PDF</translation>
-	<translation id="doc4lang">HushList Whitepaper</translation>
-	<translation id="doc5alang">HushList</translation>
+	<translation id="doc4lang">HushChat Whitepaper</translation>
+	<translation id="doc5alang">HushChat</translation>
 	<translation id="doc5blang"> je nová komunikační platforma.</translation>
 	<translation id="doc6lang">PDF</translation>
 	<translation id="doc7lang">HushNG Whitepaper</translation>
@@ -120,9 +120,9 @@
 	<translation id="sd5elang"> umožňuje rychlé zasílání zpráv, transakcí a vydávání soukromých nebo veřejných adres na všech platformách.</translation>
 	<translation id="sd6lang">Plně se věnujeme vývoji</translation>
 	<translation id="sd7lang">Stažení</translation>	
-	<translation id="hl1alang">HushList</translation>
+	<translation id="hl1alang">HushChat</translation>
 	<translation id="hl1blang">Soukromý messenger pro pseudonymní a anonymní komunikaci</translation>
-	<translation id="hl2alang">Hushlist</translation>
+	<translation id="hl2alang">HushChat</translation>
 	<translation id="hl2blang"> je program umožňující komunikaci skrze kryptoměnu Hush. Můžete zasílat zprávy přibližně 1000 osobám zároveň - pomocí šifrovaného seznamu zpráv.</translation>
 	<translation id="hl3lang">Používání protokolu Zcash umožňuje používání skrytých adres ve spojení s  běžnými transparentními Bitcoin adresami. Díky tomu nedochází ke zveřejnění odesílatele, příjemce, zprávy (ani její existenci) nebo objemu finanční transakce.</translation>
 	<translation id="hl4lang">Whitepaper</translation>	
