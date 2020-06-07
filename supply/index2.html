@@ -328,7 +328,31 @@ $('.button-group').each( function( i, buttonGroup ) {
                 $('#zfundspercent').html( parseFloat(100*zfundspercent).toPrecision(4) + "%" );
                 $('#totalsupply').html( json.total + " HUSH" );
                 $('#percentcirculating').html( parseFloat( 100*(json.total/ 21000000)).toPrecision(4) + "%" );
-            })
+
+                $.ajax({
+                    url: "https://api.coingecko.com/api/v3/simple/price?ids=hush&vs_currencies=btc%2Cusd%2Ceur&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true",
+                    type: "GET",
+                    dataType : "json",
+                })
+                .done(function( json2 ) {
+                    log(json2);
+                    var mcap = parseFloat(json2.hush.btc_market_cap).toPrecision(4) + " BTC ," +
+                               parseFloat(json2.hush.usd_market_cap).toPrecision(8) + " USD"
+                    log("mcap=" + mcap);
+                    $('#marketcap').html( mcap );
+                    var usdprice = json2.hush.usd;
+                    var btcprice = json2.hush.btc;
+                    var zmcap    = parseFloat(btcprice * zfunds).toPrecision(5) + " BTC, " + parseFloat(usdprice * zfunds).toPrecision(8) + " USD";
+                    $("#zmarketcap").html( zmcap );
+                    log("zmcap=" + zmcap);
+                })
+                .fail(function( xhr, status, errorThrown ) {
+                })
+                .always(function( xhr, status ) {
+                    log("Finished!");
+                });
+                })
+
             .fail(function( xhr, status, errorThrown ) {
                 //alert( "Ooops, error talking to explorer API!");
                 $('#seconds_until_halving').html("Ooops, error talking to explorer API !")
@@ -340,28 +364,6 @@ $('.button-group').each( function( i, buttonGroup ) {
                 log("Finished!");
             });
 
-            $.ajax({
-                url: "https://api.coingecko.com/api/v3/simple/price?ids=hush&vs_currencies=btc%2Cusd%2Ceur&include_market_cap=true&include_24hr_vol=true&include_24hr_change=true",
-                type: "GET",
-                dataType : "json",
-            })
-            .done(function( json ) {
-                log(json);
-                var mcap = parseFloat(json.hush.btc_market_cap).toPrecision(4) + " BTC ," +
-                           parseFloat(json.hush.usd_market_cap).toPrecision(8) + " USD"
-                log("mcap=" + mcap);
-                $('#marketcap').html( mcap );
-                var usdprice = json.hush.usd;
-                var btcprice = json.hush.btc;
-                var zmcap    = parseFloat(btcprice * zfunds).toPrecision(5) + " BTC, " + parseFloat(usdprice * zfunds).toPrecision(8) + " USD";
-                $("#zmarketcap").html( zmcap );
-                log("zmcap=" + zmcap);
-            })
-            .fail(function( xhr, status, errorThrown ) {
-            })
-            .always(function( xhr, status ) {
-                log("Finished!");
-            });
         });
     </script>
 
