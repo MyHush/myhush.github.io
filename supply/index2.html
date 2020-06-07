@@ -182,7 +182,8 @@
                             <p>
                                 Block Height:<h2 id="height">...</h2>
                                 Circulating Supply:<h2 class="halving3lang" id="totalsupply">... HUSH<noscript>Please activate JavaScript to see this data.</noscript></h2>
-                                Market Cap :<h2 class="halving3lang" id="marketcap_btc">...</h2> BTC, <h2 class="halving3lang" id="marketcap_usd">...</h2> USD
+                                Market Cap :<h2 class="halving3lang" id="marketcap_btc">... BTC</h2>
+                                            <h2 class="halving3lang" id="marketcap_usd">... USD</h2>
                                 Circulating Shielded Funds:<h2 class="halving4lang" id="zfunds">... HUSH</h2>
                                 Shielded Percent:<h2 class="halving4lang" id="zfundspercent">... </h2>
                                 Percent Circulating: <h2 id="percentcirculating">... HUSH</h2>
@@ -343,10 +344,8 @@ $('.button-group').each( function( i, buttonGroup ) {
             })
             .done(function( json ) {
                 log(json);
-                $('#marketcap_btc').html( json.hush.btc_market_cap );
-                $('#marketcap_usd').html( json.hush.usd_market_cap );
-                //json.usd_market_cap
-                //json.btc_market_cap
+                $('#marketcap_btc').html( parseFloat(json.hush.btc_market_cap).toPrecision(2) + " BTC"  );
+                $('#marketcap_usd').html( parseFloat(json.hush.usd_market_cap).toPrecision(2) + " USD" );
                 //json.usd
             })
             .fail(function( xhr, status, errorThrown ) {
