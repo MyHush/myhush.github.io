@@ -100,13 +100,13 @@
                         </ul>
                     </li>
                     <li class="active"><a href="#silentdragon-section" data-value="silentdragon-section" class="silentdragonlang">SilentDragon</a></li>
-                    <li><a href="#hushlist-section" data-value="hushlist-section" class="hushlistlang">HushList</a></li>
+                    <li><a href="#hushchat-section" data-value="hushchat-section" class="hushchatlang">HushChat</a></li>
 		    <li><a href="#atomicdex-section" data-value="atomicdex-section" class="barterlang">AtomicDEX</a></li>
-		    <li><a href="/roadmap" data-value="roadmap">Roadmap</a></li>
                     <li><a href="#news-section" data-value="news-section" class="newslang">News</a></li>
                     <li><a href="#team-section" data-value="team-section" class="teamlang">Team</a></li>
                     <li><a href="#tools-section" data-value="tools-section" class="toolslang">Tools</a></li>
                     <li><a href="#contact-section" data-value="contact-section" class="contactlang">Contact</a></li>
+	            <li><a href="/roadmap" data-value="roadmap">Roadmap</a></li>
                     <li class="dropdown">
                         <a class="trlangREMOVED" href="javascript:;">&nbsp;&nbsp;<i class="fa fa-cog"></i>&nbsp;&nbsp;</a>
                         <ul class="dropdown-content-lang">
@@ -224,6 +224,7 @@
                 <button class="btn btn-hush button is-checked aflang" data-filter=".features" id="features">Features</button>
                 <button class="btn button btn-hush aslang" data-filter=".specifications" id="specifications">Specifications</button>
                 <button class="btn button btn-hush ablang" data-filter=".benefits" id="benefits">Benefits</button>
+		<button class="btn button btn-hush" data-filter=".wallets" id="wallets">Wallets</button>
                 <button class="btn button btn-hush aelang" data-filter=".exchanges" id="exchanges">Exchanges</button>
                 <button class="btn button btn-hush aplang" data-filter=".pools" id="pools">Pools</button>
                 <button class="btn button btn-hush adlang" data-filter=".documentation" id="documentation">Documentation</button>
@@ -243,7 +244,7 @@
                     <div class="col-sm-4">
                         <div class="item">
                             <div class="title"><h3>Private Messaging</h3></div>
-                            <p><strong>HushChat </strong> <span>and </span><strong>HushList </strong> <span>are state of the art private communications technologies leveraging zkSNARKS.</span></p>
+                            <p><strong>HushChat </strong> <span>and </span><strong>HushChat </strong> <span>are state of the art private communications technologies leveraging zkSNARKS.</span></p>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -282,7 +283,7 @@
                         <ul class="list-group">
                             <li class="list-group-item text-center"><h4 class="no-margin"><strong><i class="fa fa-cogs"></i> <span class="sastlang">Specifications</span></strong></h4></li>
                             <li class="list-group-item"><strong class="sas1llang">Algorithm</strong>: <span class="sas1rlang">Equihash</span></li>
-                            <li class="list-group-item"><strong class="sas2llang">Block Time</strong>: <span class="sas2rlang">2.5 minutes</span></li>
+                            <li class="list-group-item"><strong class="sas2llang">Block Time</strong>: <span class="sas2rlang">2.5 minutes</span><br><span class="sas2mlang">(75 seconds starting in November 2020 - Block 340k)</span></li>
                             <li class="list-group-item"><strong class="sas3llang">Block Reward</strong>: <span class="sas3rlang">12.5 Hush (11.25 miner)</span></li>
                             <li class="list-group-item"><strong class="sas4llang">Difficulty Adjustment</strong>: <span class="sas4rlang">Every block, Digishield V3</span></li>
                             <li class="list-group-item"><strong class="sas5llang">Reward Halving</strong>: <span class="sas5rlang">Every 4 years (same as Bitcoin)</span></li>
@@ -388,6 +389,37 @@
                         </div>
                     </div>
                 </div>
+	    	    <!-- Wallets -->
+                <div class="row element-item wallets">
+			 <div class="col-sm-4">
+                        <div class="item">
+                            <div class="title"><h3>Lite Wallet</h3></div>
+                            <p><span>SilentDragonLite is Hush's premiere Lite wallet which syncs in a matter of seconds! Ideal for the average user. </span></p>
+                            <a class="btn btn-hush" href="https://github.com/MyHush/SilentDragonLite/releases" target="_blank">Download</a>
+                        </div>
+                    </div>
+			 <div class="col-sm-4">
+                        <div class="item">
+                            <div class="title"><h3>Full Node Wallet</h3></div>
+                            <p><span>This full node wallet helps to secure the network.</span></p>
+                            <a class="btn btn-hush" href="https://github.com/MyHush/SilentDragon/releases" target="_blank">Download</a>
+                        </div>
+                    </div>
+				 <div class="col-sm-4">
+                        <div class="item">
+                            <div class="title"><h3>Android Pairing Wallet</h3></div>
+                            <p><span>SilentDragonAndroid acts as a remote control for your Lite or Full Node wallet!</span></p>
+                            <a class="btn btn-hush" href="https://github.com/MyHush/SilentDragonAndroid/releases" target="_blank">Download</a>
+                        </div>
+                    </div>
+				 <div class="col-sm-12">
+                        <div class="item">
+                            <div class="title"><h3>Web Wallet</h3></div>
+                            <p><span>Our web wallet supports transparent addresses only, we recommend downloading SilentDragonLite at a minimum for shielded capability. </span></p>
+                            <a class="btn btn-hush" href="https://wallet.myhush.org/" target="_blank">Visit</a>
+                        </div>
+                    </div>
+	              </div>
                 <!-- Documentation -->
                 <div class="row element-item documentation about2">
                     <div class="col-sm-4">
@@ -451,21 +483,21 @@
             </div>
         </div>
     </section>
-    <!-- HushList Section -->
-    <section class="hushlist-section" id="hushlist-section">
+    <!-- HushChat Section -->
+    <section class="hushchat-section" id="hushchat-section">
         <div class="container">
             <div class="row">
                 <div class="col-sm-6 col-lg-push-1">
                     <div class="item">
-                        <div class="title"><h3 class="hl1alang">HushList</h3><div class="strongtext hl1blang">Private messenger for pseudonymous and anonymous communications</div></div>
-                        <p><strong class="hl2alang">Hushlist</strong><span class="hl2blang"> is a program which allows communicating via the cryptocurrency Hush. You can send messages to around 50 people simultaneously, allowing for encrypted mailing-list style messaging.</span></p>
+                        <div class="title"><h3 class="hl1alang">HushChat</h3><div class="strongtext hl1blang">Private messenger for pseudonymous and anonymous communications</div></div>
+                        <p><strong class="hl2alang">HushChat</strong><span class="hl2blang"> is a program which allows communicating via the cryptocurrency Hush. You can send messages to about 1000 people simultaneously, allowing for encrypted mailing-list style messaging.</span></p>
                         <p><span class="hl3lang">Using the zCash protocol, it allows transactions involving shielded addresses in addition to normal transparent Bitcoin addresses. This allows transactions without disclosing sender, receiver, message (or even that a message existed), or financial transaction amount.</span></p>
                         <a class="btn btn-hush hl4lang" href="https://github.com/leto/hushlist/blob/master/whitepaper/protocol.pdf" target="_blank">Whitepaper</a>
                     </div>
                 </div>
                 <div class="col-sm-6 col-lg-push-1">
                     <div class="item">
-                        <img class="img-responsive center-block" src="images/hushlist.png" alt="HushList">
+                        <img class="img-responsive center-block" src="images/hushlist.png" alt="HushChat">
 					</div>
                 </div>
             </div>
@@ -668,24 +700,24 @@
                         <div class="item">
                             <a href="https://github.com/MyHush/SilentDragonLite/releases" target="_blank">
                                 <!----<a style="pointer-events: none; cursor: default;" href="" target="_blank" -->
-                                <i class="fa fa-linux"></i>
-                                <h4 class="stoolst1lang">Linux Lite Wallet</h4>
+                                <i class="fa fa-link"></i>
+                                <h4>Lite Wallet</h4>
                             </a>
                         </div>
                     </div>
                     <div class="col-sm-3">
                         <div class="item">
                             <a href="https://github.com/MyHush/SilentDragon/releases" target="_blank">
-                                <i class="fa fa-windows"></i>
-                                <h4 class="stoolst2lang">Windows Wallet</h4>
+                                <i class="fa fa-link"></i>
+                                <h4>Full Node Wallet</h4>
                             </a>
                         </div>
                     </div>
-                    <div class="col-sm-3">
+			<div class="col-sm-3">
                         <div class="item">
-                            <a href="https://github.com/MyHush/SilentDragon/releases" target="_blank">
-                                <i class="fa fa-apple"></i>
-                                <h4 class="stoolst3lang">Mac OS Wallet</h4>
+                            <a href="https://github.com/MyHush/SilentDragonAndroid/releases" target="_blank">
+                                <i class="fa fa-link"></i>
+                                <h4>Android Pairing Wallet</h4>
                             </a>
                         </div>
                     </div>
@@ -693,7 +725,7 @@
                         <div class="item">
                             <a href="https://wallet.myhush.org" target="_blank">
                                 <i class="fa fa-link"></i>
-                                <h4 class="stoolst4lang">Web Wallet</h4>
+                                <h4>Web Wallet</h4>
                             </a>
                         </div>
                     </div>
@@ -805,13 +837,13 @@
                             <p><strong class="con2alang">Hush</strong><span class="con2blang"> is a community project. Everyone is welcomed with open arms!</span></p>
                         <div class="contact-text">
                             <ul>
-                                <li><a class="discord" href="//myhush.org/discord/index.html" target="_blank" data-toggle="tooltip" title="Discord"><img src="images/logo_discord.svg" alt="Discord" height="45px" width="45px"/></a></li>
-                                <li><a class="telegram" href="//t.me/Hush_Coin" target="_blank" data-toggle="tooltip" title="Telegram"><img src="images/logo_telegram.svg" alt="Telegram" height="45px" width="45px"/></a></li>
-                                <li><a class="twitter" href="//twitter.com/MyHushTeam" target="_blank" data-toggle="tooltip" title="Twitter"><img src="images/logo_twitter.svg" alt="Twitter" height="45px" width="45px"/></a></li>
+                                <li><a class="discord" href="//myhush.org/discord/index.html" target="_blank" data-toggle="tooltip" title="Discord"><img src="images/Discord_Grey.png" alt="Discord" height="45px" width="45px"/></a></li>
+                                <li><a class="telegram" href="//t.me/Hush_Coin" target="_blank" data-toggle="tooltip" title="Telegram"><img src="images/Telegram_grey.png" alt="Telegram" height="45px" width="45px"/></a></li>
+                                <li><a class="twitter" href="//twitter.com/MyHushTeam" target="_blank" data-toggle="tooltip" title="Twitter"><img src="images/Twitter_grey.png" alt="Twitter" height="45px" width="45px"/></a></li>
                                 <!--<li><a class="facebook" href="//fb.me/MyHushTeam" target="_blank" data-toggle="tooltip" title="Facebook"><i class="fa fa-facebook"></i></a></li>-->
-                                <li><a class="reddit" href="//reddit.com/r/Myhush" target="_blank" data-toggle="tooltip" title="Reddit"><img src="images/logo_reddit.svg" alt="Reddit" height="45px" width="45px"/></a></li>
-                                <li><a class="btc" href="//bitcointalk.org/index.php?topic=2008578.0" target="_blank" data-toggle="tooltip" title="Bitcointalk"><img src="images/logo_bitcointalk.svg" alt="Bitcointalk" height="45px" width="45px"/></a></li>
-                                <li><a class="github" href="//github.com/MyHush" target="_blank" data-toggle="tooltip" title="GitHub"><img src="images/logo_github.svg" alt="GitHub" height="45px" width="45px"/></a></li>
+                                <li><a class="reddit" href="//reddit.com/r/Myhush" target="_blank" data-toggle="tooltip" title="Reddit"><img src="images/reddit_grey.png" alt="Reddit" height="45px" width="45px"/></a></li>
+				<li><a class="btc" href="//bitcointalk.org/index.php?topic=2008578.0" target="_blank" data-toggle="tooltip" title="Bitcointalk"><img src="images/btc_grey.png" alt="Bitcointalk" height="45px" width="45px"/></a></li>
+                                <li><a class="youtube" href="//youtube.com/channel/UCn7ED82Rr1qls6kS8k9YgPg?view_as=subscriber" target="_blank" data-toggle="tooltip" title="YouTube"><img src="images/Youtube_grey.png" alt="GitHub" height="45px" width="45px"/></a></li>
                                 <!--<li><a class="newschannel" href="//t.me/MyHushNews" target="_blank" data-toggle="tooltip" title="News Channel"><i class="fa fa-bullhorn"></i></a></li>-->
                                 <!--<li><a class="forum" href="//forum.myhush.org" target="_blank" data-toggle="tooltip" title="Forum"><i class="fa fa-list"></i></a></li>-->
                                 <!--<li><a class="envelope" href="mailto:contact@myhush.org" target="_blank" data-toggle="tooltip" title="contact@myhush.org"><i class="fa fa-envelope-o"></i></a></li>-->

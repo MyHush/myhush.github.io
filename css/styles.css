@@ -219,7 +219,7 @@ html {
 #home-section {padding-top:0px}
 #about-section {padding-top:120px}
 #silentdragon-section {padding-top:120px}
-#hushlist-section {padding-top:120px}
+#hushchat-section {padding-top:120px}
 #atomicdex-section {padding-top:120px}
 #agama-section {padding-top:120px}
 #news-section {padding-top:120px}
@@ -1270,54 +1270,54 @@ li {
 }
 
 /******************************************************************************
-	HushList
+	HushChat
 *******************************************************************************/
 
 
-.hushlist-section{
+.hushchat-section{
 	padding: 70px 0;
 	text-align: center;
 }
 
-.hushlist-section .title h3 {
+.hushchat-section .title h3 {
 	font-size: 22px;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #2d2d2d;
 }
 
-.hushlist-section p {
+.hushchat-section p {
 	font-size: 16px;
 	margin: 25px 0 0;
 	color: #2d2d2d;
     text-align: center;
 }
 
-.hushlist-section .centered p {
+.hushchat-section .centered p {
 	font-size: 16px;
 	margin: 25px 0 0;
 	color: #2d2d2d;
   text-align: center;
 }
 
-.hushlist-section a {
+.hushchat-section a {
 	font-weight: bold;
 	color: #fff;
     margin-bottom: 20px;
 }
 
-.hushlist-section .btn {
+.hushchat-section .btn {
 	font-size: 16px;
 	margin-top: 25px;
 	text-transform: uppercase;
 }
 
-.hushlist-section i {
+.hushchat-section i {
 	font-size: 36px;
 	margin-bottom: 25px;
 	color: #2d2d2d;
 }
-.hushlist-section .title .strongtext {
+.hushchat-section .title .strongtext {
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;

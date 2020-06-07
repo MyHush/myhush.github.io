@@ -9,7 +9,7 @@
 	<translation id="poolslang">Pools</translation>
 	<translation id="doclang">Dokumentation</translation>
 	<translation id="hushnglang">HushNG</translation>
-	<translation id="hushlistlang">HushList</translation>
+	<translation id="hushchatlang">HushChat</translation>
 	<translation id="barterlang">AtomicDEX</translation>
 	<translation id="teamlang">Team</translation>
 	<translation id="toolslang">Tools</translation>
@@ -32,7 +32,7 @@
 	<translation id="f3lang">Private Nachrichten</translation>
 	<translation id="f4alang">Hush Messenger</translation>
 	<translation id="f4blang"> und </translation>
-	<translation id="f4clang">HushList</translation>
+	<translation id="f4clang">HushChat</translation>
 	<translation id="f4dlang"> bieten state-of-the-art private Kommunikationsmöglichkeiten, durch zkSNARKS Technologie.</translation>
 	<translation id="f5lang">Sicherheit</translation>
 	<translation id="f6alang">Mit </translation>
@@ -60,6 +60,7 @@
 	<translation id="sas1rlang">Equihash</translation>
 	<translation id="sas2llang">Block Zeit</translation>
 	<translation id="sas2rlang">2.5 Minuten</translation>
+	<translation id="sas2mlang">(75 Sekunden ab November 2020 - Block 340k)</translation>
 	<translation id="sas3llang">Block Belohnung</translation>
 	<translation id="sas3rlang">12.5 Hush (11.25 Miner)</translation>
 	<translation id="sas4llang">Anpassung der Difficulty</translation>
@@ -93,8 +94,8 @@
 	<translation id="doc2alang">Hush</translation>
 	<translation id="doc2blang"> der meist erwähnten Coins auf die man ein Auge haben sollte.</translation>
 	<translation id="doc3lang">PDF</translation>
-	<translation id="doc4lang">HushList Whitepaper</translation>
-	<translation id="doc5alang">HushList</translation>
+	<translation id="doc4lang">HushChat Whitepaper</translation>
+	<translation id="doc5alang">HushChat</translation>
 	<translation id="doc5blang"> die neue Mailing-Plattform.</translation>
 	<translation id="doc6lang">PDF</translation>
 	<translation id="doc7lang">HushNG Whitepaper</translation>
@@ -118,10 +119,10 @@
 	<translation id="sd5elang"> ermöglicht schnelles Messaging, schnelle Transaktionen und eine schnelle Ausgabe für private oder öffentliche Adressen auf allen Plattformen.</translation>
 	<translation id="sd6lang">In Entwicklung.</translation>
 	<translation id="sd7lang">Herunterladen</translation>	
-	<translation id="hl1alang">HushList</translation>
+	<translation id="hl1alang">HushChat</translation>
 	<translation id="hl1blang">Privater Messenger für pseudonyme und anonyme Kommunikation</translation>
-	<translation id="hl2alang">Hushlist</translation>
-	<translation id="hl2blang"> ist ein Programm, das die Kommunikation über die Kryptowährung Hush ermöglicht. Sie können Nachrichten gleichzeitig an etwa 50 Personen senden, dies ermöglicht verschlüsseltes Mailing-List Messaging.</translation>
+	<translation id="hl2alang">HushChat</translation>
+	<translation id="hl2blang"> ist ein Programm, das die Kommunikation über die Kryptowährung Hush ermöglicht. Sie können Nachrichten gleichzeitig an etwa 1000 Personen senden, dies ermöglicht verschlüsseltes Mailing-List Messaging.</translation>
 	<translation id="hl3lang">Das zCash-Protokoll ermöglicht es Transaktionen mit geschützten Adressen zusätzlich zu normalen transparenten Bitcoin-Adressen zu senden. Dies ermöglicht Transaktionen ohne Offenlegung vom Absender, Empfänger, der Nachricht (sollte eine Nachricht existieren) oder des Betrages.</translation>
 	<translation id="hl4lang">Whitepaper</translation>	
 	<translation id="bar1lang">Ein neues Sicherheitsniveau &amp; Dezentralisierung</translation>
