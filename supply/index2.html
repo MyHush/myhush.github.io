@@ -343,8 +343,8 @@ $('.button-group').each( function( i, buttonGroup ) {
             })
             .done(function( json ) {
                 log(json);
-                var mcap = parseFloat(json.hush.btc_market_cap).toPrecision(4) + " BTC " +
-                           parseFloat(json.hush.usd_market_cap).toPrecision(6) + " USD"
+                var mcap = parseFloat(json.hush.btc_market_cap).toPrecision(4) + " BTC ," +
+                           parseFloat(json.hush.usd_market_cap).toPrecision(8) + " USD"
                 log("mcap=" + mcap);
                 $('#marketcap').html( mcap );
                 //json.usd
