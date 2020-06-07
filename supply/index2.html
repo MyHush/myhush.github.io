@@ -307,6 +307,8 @@ $('.button-group').each( function( i, buttonGroup ) {
             console && console.log(s);
         }
 
+        var zfunds = 0;
+
         $( document ).ready(function() {
             log("doc ready");
             $.ajax({
@@ -316,6 +318,7 @@ $('.button-group').each( function( i, buttonGroup ) {
             })
             .done(function( json ) {
                 log(json);
+                zfunds = json.zfunds;
                 $('#zfunds').html( json.zfunds + " HUSH" );
                 $('#height').html( json.height );
                 var zfundspercent = 0;
@@ -350,7 +353,6 @@ $('.button-group').each( function( i, buttonGroup ) {
                 $('#marketcap').html( mcap );
                 var usdprice = json.hush.usd;
                 var btcprice = json.hush.btc;
-                var zfunds   = parseFloat($("#zfunds")); // lol
                 var zmcap    = parseFloat(btcprice * zfunds).toPrecision(5) + " BTC, " + parseFloat(usdprice * zfunds).toPrecision(8) + " USD";
                 $("#zmarketcap").html( zmcap );
                 log("zmcap=" + zmcap);
