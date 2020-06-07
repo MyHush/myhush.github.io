@@ -345,6 +345,7 @@ $('.button-group').each( function( i, buttonGroup ) {
                 log(json);
                 var mcap = parseFloat(json.hush.btc_market_cap).toPrecision(4) + " BTC " +
                            parseFloat(json.hush.usd_market_cap).toPrecision(6) + " USD"
+                log("mcap=" + mcap);
                 $('#marketcap').html( mcap );
                 //json.usd
             })
