@@ -344,8 +344,8 @@ $('.button-group').each( function( i, buttonGroup ) {
             })
             .done(function( json ) {
                 log(json);
-                $('#marketcap_btc').html( parseFloat(json.hush.btc_market_cap).toPrecision(2) + " BTC"  );
-                $('#marketcap_usd').html( parseFloat(json.hush.usd_market_cap).toPrecision(2) + " USD" );
+                $('#marketcap_btc').html( parseFloat(json.hush.btc_market_cap).toPrecision(4) + " BTC"  );
+                $('#marketcap_usd').html( parseFloat(json.hush.usd_market_cap).toPrecision(6) + " USD" );
                 //json.usd
             })
             .fail(function( xhr, status, errorThrown ) {
