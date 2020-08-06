@@ -5,4 +5,4 @@
    	<meta property="og:url" content="https://myhush.org/roadmap">
     <meta name="twitter:card" content="summary_large_image">
 </head>
-<img src="Roadmap_2020.05.03.png">
+<img src="Roadmap_2020.08.06.png">
