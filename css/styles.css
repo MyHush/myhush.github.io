@@ -1130,12 +1130,16 @@ padding-top:100px;
 	.navbar-default .navbar-nav > li > a:hover {
 		color: #fff
 	}
-	.navbar-default .navbar-nav > .active > a,
-	.navbar-default .navbar-nav > .active > a:focus,
-	.navbar-default .navbar-nav > .active > a:hover {
-		color: #fff;
-        outline: none !important;
-	}
+
+	@media screen and (min-width: 768px) and (max-width: 1366px) {
+		.navbar-default .navbar-nav > .active > a,
+		.navbar-default .navbar-nav > .active > a:focus,
+		.navbar-default .navbar-nav > .active > a:hover {
+			color: #fff;
+			outline: none !important;
+		}
+	  }
+
 	.navbar-default .navbar-nav > .active > a:before {
 		width: 0;
 		height: 0
