@@ -378,14 +378,14 @@ html {
 	Home Section
 *******************************************************************************/
 .home-section {
+	min-height: 100vh;
 	text-align: center;
 	color: #fff;
 	background-image: url("../images/black_diamonds.png");
 	background-repeat: no-repeat;
 	background-position: center top;
 	background-size: cover;
-	padding-top: 10em;
-	padding-bottom: calc(10rem - 4.5rem);
+	padding-top: 4em;
 }
 .home-section .display-table {
 	display: table;
