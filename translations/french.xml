@@ -151,14 +151,16 @@
 	<translation id="team5clang">Support</translation>
 	<translation id="team8alang">Fondateur de la plateforme Komodo, conseiller</translation>
 	<translation id="team8blang">jl777</translation>
-	<translation id="team8clang">Fondateur de la plateforme Komodo, conseiller</translation>
+	<translation id="team8clang">Fondateur de la plateforme KMD, conseiller</translation>
 	<translation id="team11lang">Berg est un jeune professionnel dont l'expertise se situe dans la planification et l'analyse financière, ainsi que dans le leadership organisationnel. Il travaille actuellement en tant qu'analyste financier pour une des dix plus grandes entreprises privées de Forbes, et possède et exploite une société d'investissement et de gestion immobilière. Au cours de ses années d’entrepreneuriat, il a beaucoup appris sur la pénétration du marché, les stratégies de marketing et la gestion des relations d’affaires, qu’il espère développer grâce à son rôle au sein de l’équipe.</translation>
 	<translation id="team12alang">Berg</translation>
 	<translation id="team12blang">Community Manager</translation>
 	<translation id="team17lang">FireMartZ possède une solide expérience en gestion d'entreprise et plus de 15 ans d'expérience dans l'ingénierie et le développement de logiciels scientifiques dans des domaines tels que la réalité augmentée, la réalité virtuelle, le rendu interactif et le traitement d'images. Il aime résoudre les problèmes techniques afin de livrer en temps opportun des produits de haute qualité résolvant de vrais problèmes et répondant aux attentes des utilisateurs. Il a décidé de rejoindre Hush car il pense que la sécurité et la vie privée devraient être la priorité absolue dans le monde décentralisé que nous construisons aujourd'hui.</translation>
 	<translation id="team17alang">FireMartZ</translation>
 	<translation id="team17blang">Core Developer</translation>
-	<translation id="team18blang">Core Developer</translation>
+	<translation id="team18lang">Jahway603 believes in privacy and in the re-decentralization of the internet. Hush and HushChat will be a part of this future.</translation>
+	<translation id="team18alang">jahway603</translation>
+	<translation id="team18blang">Support</translation>
 	<translation id="stoolst0lang">Outils et ressources</translation>
 	<translation id="stoolst1lang">Wallet Lite Linux</translation>
 	<translation id="stoolst2lang">Wallet Windows</translation>
@@ -181,7 +183,6 @@
 	<translation id="con1lang">Rejoignez-nous!</translation>	
 	<translation id="con2alang">Hush</translation>
 	<translation id="con2blang"> est un projet communautaire. Tout le monde est accueilli à bras ouverts!</translation>
-
 	<translation id="sap1lang">Mise à jour de Hush vers Sapling</translation>
 	<translation id="sap2lang">En réponse au bug de l’inflation de Zcash Sprout (</translation>
 	<translation id="sap3lang">), Hush va être mis à jour vers </translation>
@@ -192,7 +193,6 @@
 	<translation id="sap8lang">Les fonds de la chaîne actuelle de Hush seront instantanément enregistrés lors du bloc n°500 000 et transférés vers notre nouvelle chaîne activée par Sapling, basée sur </translation>
 	<translation id="sap9lang">. Les fonds protégés laissés dans le pool Sprout après le bloc 500 000 SERONT VERROUILLÉS sur l'ancienne chaîne. Nous devons gérer la sécurité de l’approvisionnement en pièces de monnaie avec les fonds de chaque détenteur. Au moment de la rédaction de ce message le mardi 12 février à 21:17:39 PST 2019, 1,2% de l’offre HUSH actuelle (71318.74047807 HUSH) est stockée dans des adresses Sprout.</translation>
 	<translation id="sap10lang">MISE À JOUR : Le samedi 2 mars à 07:35:53 PST 2019, 1,18% de l'offre HUSH actuelle est stockée dans des adresses Sprout.</translation>
-
 	<translation id="newslang">Informations</translation>
 	<translation id="news1lang">26/07/2019 : Article sur Hush écrit par @gigamesh:</translation>
 	<translation id="news2lang">Lire maintenant</translation>
