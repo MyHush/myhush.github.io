@@ -139,6 +139,7 @@
 	<translation id="bar4flang">, amely támogatja a HUSH-t és sok más valutát is. Lehetővé teszi, hogy átváltsd az egyik kriptovalutát a másikra ugyanúgy mintha papírpénzt váltanál egy reptéren. Ezt az Atomic Swap technológia segítségével éri el ami lehetővé teszi hogy a vevők és eladók peer to peer (P2P) módon hajtsanak végre cserét, szemben a hagyományos központi váltóhelyen keresztüli cserével. Leegyszerűsítve úgy működik mint egy feltételekhez között kötelezvény.</translation>
 	<translation id="bar5lang">Letöltés</translation>	
 	<translation id="team1lang">Csapatunk</translation>
+	<translation id="team1blang">Tanácsadók</translation>
 	<translation id="team2lang">Duke már több tucat nyílt forráskódú projektben vett részt és több mint 20 éve a Free+Open Source közösség tagja. Találkozhatsz a nevével a Firefox névjegyében ahol a Javascript engine memória fogyasztását optimalizálta, valamint a Tomato Genome "Nature" kiadványában ahol a BioPerlnél végzett munkáját dícsérték. Az OpenTreeOfLife backend tervezésében is segédkezett, amely segítségével a tudósok a világ minden tájáról tanulmányozhatják az összes élőlényt ingyen és könnyen hozzáférhető módon. Duke olyan kódokat ír amelyek jobbá teszik a világot és növeli az átlagember szabadságát.</translation>
 	<translation id="team3alang">Duke Leto</translation>
 	<translation id="team3blang">Core Fejlesztő &amp; kód tisztogató</translation>
