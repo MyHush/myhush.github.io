@@ -377,6 +377,8 @@ html {
 /******************************************************************************
 	Home Section
 *******************************************************************************/
+
+
 .home-section {
 	min-height: 100vh;
 	text-align: center;
@@ -386,6 +388,9 @@ html {
 	background-position: center top;
 	background-size: cover;
 	padding-top: 4em;
+
+
+
 }
 .home-section .display-table {
 	display: table;
@@ -400,9 +405,38 @@ html {
 .home-section h2 {
 	font-size: 36px;
 }
+
+
 .home-section h3 {
 	font-size: 24px;
 }
+
+.logo-redim {
+	content:url("../images/hush-icon-white.svg");
+	max-width: 16%;
+}
+
+@media screen and (max-width: 768px) {
+
+	.home-section h2 {
+		padding-top: 60px;
+		font-size: 28px;
+	}
+
+	.home-section h3 {
+		font-size: 18px;
+	}
+
+	.home-section img {
+		width: 20%;
+		}
+
+	.logo-redim {
+		content:url("../images/hush-icon-white.svg");
+		max-width: 20%;
+	}
+}
+
 .home-section h4 {
 	font-size: 20px;
 	font-weight: 700;
@@ -416,6 +450,8 @@ html {
 	font-size: 16px;
 	text-transform: uppercase;
 }
+
+
 
 /******************************************************************************
 	About Section
