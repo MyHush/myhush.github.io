@@ -219,6 +219,8 @@ html {
 #home-section {padding-top:0px}
 #about-section {padding-top:120px}
 #silentdragon-section {padding-top:120px}
+#silentdragonlight-section {padding-top:120px}
+#silentdragonandroid-section {padding-top:120px}
 #hushchat-section {padding-top:120px}
 #atomicdex-section {padding-top:120px}
 #agama-section {padding-top:120px}
@@ -301,7 +303,7 @@ html {
 .navbar ul li a {
 	position: relative;
 	text-decoration: none;
-	text-transform: uppercase;
+	/*text-transform: uppercase;*/
 }
 .navbar ul li a:before {
 	position: absolute;
@@ -494,41 +496,41 @@ html {
 }
 
 /******************************************************************************
-	HushNG / AtomicDEX Section
+	silentdragon / silentdragonandroid Section
 *******************************************************************************/
 .silentdragon-section,
-.atomicdex-section {
+.silentdragonandroid-section {
 	padding: 70px 0;
 	text-align: center;
 }
 .silentdragon-section .title h3,
-.atomicdex-section .title h3 {
+.silentdragonandroid-section .title h3 {
 	font-size: 22px;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #fff;
 }
 .silentdragon-section p,
-.atomicdex-section p {
+.silentdragonandroid-section p {
 	font-size: 16px;
 	margin: 25px 0 0;
 	color: #fff;
     text-align: center;
 }
 .silentdragon-section .centered p,
-.atomicdex-section .centered p {
+.silentdragonandroid-section .centered p {
 	font-size: 16px;
 	margin: 25px 0 0;
 	color: #fff;
     text-align: center;
 }
 .silentdragon-section a,
-.atomicdex-section a {
+.silentdragonandroid-section a {
 	font-weight: bold;
 	color: #fff;
 }
 .silentdragon-section .btn,
-.atomicdex-section .btn {
+.silentdragonandroid-section .btn {
 	color: white;
 	font-size: 16px;
 	margin-top: 25px;
@@ -536,13 +538,13 @@ html {
 }
 
 .silentdragon-section i,
-.atomicdex-section i {
+.silentdragonandroid-section i {
 	font-size: 36px;
 	margin-bottom: 25px;
 	color: #fff;
 }
 .silentdragon-section .title .strongtext,
-.atomicdex-section .title .strongtext {
+.silentdragonandroid-section .title .strongtext {
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1310,54 +1312,61 @@ li {
 }
 
 /******************************************************************************
-	HushChat
+	HushChat / silentdragonlight
 *******************************************************************************/
 
-
-.hushchat-section{
+.hushchat-section,
+.silentdragonlight-section {
 	padding: 70px 0;
 	text-align: center;
 }
 
-.hushchat-section .title h3 {
+.hushchat-section .title h3,
+.silentdragonlight-section .title h3 {
 	font-size: 22px;
 	font-weight: 700;
 	text-transform: uppercase;
 	color: #2d2d2d;
 }
 
-.hushchat-section p {
+.hushchat-section p,
+.silentdragonlight-section p {
 	font-size: 16px;
 	margin: 25px 0 0;
 	color: #2d2d2d;
     text-align: center;
 }
 
-.hushchat-section .centered p {
+.hushchat-section .centered p,
+.silentdragonlight-section .centered p {
 	font-size: 16px;
 	margin: 25px 0 0;
 	color: #2d2d2d;
   text-align: center;
 }
 
-.hushchat-section a {
+.hushchat-section a,
+.silentdragonlight-section a {
 	font-weight: bold;
 	color: #fff;
     margin-bottom: 20px;
 }
 
-.hushchat-section .btn {
+.hushchat-section .btn,
+.silentdragonlight-section .btn {
 	font-size: 16px;
 	margin-top: 25px;
 	text-transform: uppercase;
 }
 
-.hushchat-section i {
+.hushchat-section i,
+.silentdragonlight-section i {
 	font-size: 36px;
 	margin-bottom: 25px;
 	color: #2d2d2d;
 }
-.hushchat-section .title .strongtext {
+.hushchat-section .title .strongtext,
+.silentdragonlight-section .title .strongtext {
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
@@ -1369,11 +1378,10 @@ li {
 *******************************************************************************/
 
 
-
 .list-group {
     min-width: 200px;
 }
 
-.atomicdex-section img {
+.silentdragonlight-section img {
 margin-bottom: 20px;
 }
