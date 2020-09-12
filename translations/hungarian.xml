@@ -8,9 +8,7 @@
 	<translation id="exchangeslang">Váltó helyek</translation>
 	<translation id="poolslang">Poolok</translation>
 	<translation id="doclang">Dokumentáció</translation>
-	<translation id="hushnglang">HushNG</translation>
 	<translation id="hushchatlang">HushChat</translation>
-	<translation id="barterlang">AtomicDEX</translation>
 	<translation id="teamlang">Csapat</translation>
 	<translation id="toolslang">Eszközök</translation>
 	<translation id="contactlang">Kapcsolat</translation>
@@ -125,19 +123,7 @@
 	<translation id="hl2blang"> egy program ami lehetővé teszi a kommunikációt a Hush kriptovalután keresztül. Akár 1000 embernek is küldhetsz üzeneteket egyszerre, lehetővé téve a titkosított levlista szerű üzenetküldést.</translation>
 	<translation id="hl3lang">A zCash protokoll használatával lehetőség nyílik a védett (shileded) címek használatára a hagyományos transzparens Bitcoin címek mellett. Ez lehetővé teszi a tranzakciókat úgy hogy a küldő a fogadó az üzenet és az összeg titkos maradjon.</translation>
 	<translation id="hl4lang">Fehér könyv</translation>	
-	<translation id="bar1lang">A biztonság új szintje és Decentralizálás</translation>
-	<translation id="bar2alang">Hush</translation>
-	<translation id="bar2blang"> egy nyílt forráskódú projekt, annak minden előnyével, és kizárólag a közösség érdekeit és tevékenységét figyelembe véve. Egyike az első érméknek amiket kereskedésre használnak </translation>
-	<translation id="bar2clang"> AtomicDex</translation>
-	<translation id="bar2dlang"> és teljes támogatással a decentralizált váltóhelyek felé.</translation>
-	<translation id="bar3lang">AtomicDEX</translation>
-	<translation id="bar4alang">AtomicDEX</translation>
-	<translation id="bar4blang"> a pénztárcák fejlődése és egy decentralizált cryptocurrency csere</translation>
-	<translation id="bar4clang"></translation>
-	<translation id="bar4dlang"> a </translation>
-	<translation id="bar4elang">Komodo fejlesztése</translation>
-	<translation id="bar4flang">, amely támogatja a HUSH-t és sok más valutát is. Lehetővé teszi, hogy átváltsd az egyik kriptovalutát a másikra ugyanúgy mintha papírpénzt váltanál egy reptéren. Ezt az Atomic Swap technológia segítségével éri el ami lehetővé teszi hogy a vevők és eladók peer to peer (P2P) módon hajtsanak végre cserét, szemben a hagyományos központi váltóhelyen keresztüli cserével. Leegyszerűsítve úgy működik mint egy feltételekhez között kötelezvény.</translation>
-	<translation id="bar5lang">Letöltés</translation>	
+	
 	<translation id="team1lang">Csapatunk</translation>
 	<translation id="team1blang">Tanácsadók</translation>
 	<translation id="team2lang">Duke már több tucat nyílt forráskódú projektben vett részt és több mint 20 éve a Free+Open Source közösség tagja. Találkozhatsz a nevével a Firefox névjegyében ahol a Javascript engine memória fogyasztását optimalizálta, valamint a Tomato Genome "Nature" kiadványában ahol a BioPerlnél végzett munkáját dícsérték. Az OpenTreeOfLife backend tervezésében is segédkezett, amely segítségével a tudósok a világ minden tájáról tanulmányozhatják az összes élőlényt ingyen és könnyen hozzáférhető módon. Duke olyan kódokat ír amelyek jobbá teszik a világot és növeli az átlagember szabadságát.</translation>
@@ -196,14 +182,4 @@
 	<translation id="sap10lang">UPDATE: március 02-től 07:35:53 PST 2019, a jelenlegi HUSH-ellátás 1,18% -a Sprout címekben található.</translation>
 
 	<translation id="newslang">Hírek</translation>
-	<translation id="news1lang">2019. július 26 .: A Hush-ból írt cikk: @gigamesh:</translation>
-	<translation id="news2lang">Olvasd Most</translation>
-	<translation id="news3lang">2019. július 31 .: A $ HUSH SilentDragon GUI pénztárca következő kiadása számos fejlesztést tartalmaz:</translation>
-	<translation id="news4lang">Olvasd Most</translation>
-	<translation id="news5alang">2019. szeptember 17 .: Az AtomicDEX hivatalosan integrálta a HUSH-ot:</translation>
-	<translation id="news5blang">Olvasd Most</translation>
-	<translation id="news6alang">2020. január 7.: Jelölje meg a naptárát, az összes teljes csomópont kötelező frissítését a 3.3.0-ra, "Sneaky Sasquatch" -re kell másolni, a 166 250 blokk előtt, körülbelül január 29-én, 13:00 UTC-nél, vagy nem lesz a megfelelő hálózaton!</translation>
-	<translation id="news6blang">Olvasd Most</translation>
-	<translation id="news7alang">2020. január 09 .: A HUSH már szerepel a CITEX tőzsdén! BTC és USDT párosítások, árnyékolt "z" címek támogatottak.</translation>
-	<translation id="news7blang">Itt</translation>
 </translations>
