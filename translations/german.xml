@@ -8,9 +8,7 @@
 	<translation id="exchangeslang">Exchanges</translation>
 	<translation id="poolslang">Pools</translation>
 	<translation id="doclang">Dokumentation</translation>
-	<translation id="hushnglang">HushNG</translation>
 	<translation id="hushchatlang">HushChat</translation>
-	<translation id="barterlang">AtomicDEX</translation>
 	<translation id="teamlang">Team</translation>
 	<translation id="toolslang">Tools</translation>
 	<translation id="contactlang">Kontakt</translation>
@@ -125,19 +123,7 @@
 	<translation id="hl2blang"> ist ein Programm, das die Kommunikation über die Kryptowährung Hush ermöglicht. Sie können Nachrichten gleichzeitig an etwa 1000 Personen senden, dies ermöglicht verschlüsseltes Mailing-List Messaging.</translation>
 	<translation id="hl3lang">Das zCash-Protokoll ermöglicht es Transaktionen mit geschützten Adressen zusätzlich zu normalen transparenten Bitcoin-Adressen zu senden. Dies ermöglicht Transaktionen ohne Offenlegung vom Absender, Empfänger, der Nachricht (sollte eine Nachricht existieren) oder des Betrages.</translation>
 	<translation id="hl4lang">Whitepaper</translation>	
-	<translation id="bar1lang">Ein neues Sicherheitsniveau &amp; Dezentralisierung</translation>
-	<translation id="bar2alang">Hush</translation>
-	<translation id="bar2blang"> ist ein Open-Source-Projekt zu seiner Stärke und ist nur durch die Interessen und Aktivitäten der Gemeinschaft/Community motiviert. Es ist eine der ersten Währungen, mit welchen gehandelt wurde </translation>
-	<translation id="bar2clang"> AtomicDex</translation>
-	<translation id="bar2dlang"> gehandelt wurde und unterstützt stark den dezentralen Austausch.</translation>
-	<translation id="bar3lang">AtomicDEX</translation>
-	<translation id="bar4alang">AtomicDEX</translation>
-	<translation id="bar4blang"> ist die Entwicklung von Geldbörsen und eines dezentralen Kryptowährungsaustauschs</translation>
-	<translation id="bar4clang"></translation>
-	<translation id="bar4dlang"> entwickelt von </translation>
-	<translation id="bar4elang">Komodo</translation>
-	<translation id="bar4flang">, die HUSH und viele andere Währungen unterstützt. Es erlaubt Ihnen, eine Kryptowährung gegen eine andere auszutauschen, so wie Sie Papiergeld in einer Wechselstube in einem Flughafen tauschen würden. Dies geschieht mit einer Technologie namens Atomic Swaps. Atomic Swaps ermöglicht Käufern und Verkäufern den Austausch von Peer zu Peer (P2P) statt über einen zentralen Austausch. Im einfachsten Sinne handelt es sich um eine Art Treuhandkonto.</translation>
-	<translation id="bar5lang">Herunterladen</translation>	
+
 	<translation id="team1lang">Hauptentwickler</translation>
 	<translation id="team1blang">Berater</translation>
 	<translation id="team2lang">Duke hat sich an Dutzenden von gratis &amp; Open-Source-Projekten beteiligt und ist seit mehr als 20 Jahren in der Free + Open Source-Community involviert. Sie werden seinen Namen in Firefox bei den about: Credits sehen, die Er unterstützte ihre Javascript-Engine zu optimieren um weniger Speicher zu verbrauchen, sowie die "Nature" -Veröffentlichung für das Tomaten-Genom als Teil seiner Arbeit mit BioPerl. Er half auch, das Backend von OpenTreeOfLife zu entwerfen, wo Wissenschaftler auf der ganzen Welt studieren können, wie alle Lebewesen auf eine offene und zugängliche Weise verbunden sind. Duke schreibt Code, der die Welt verbessert und die Freiheit für durchschnittliche Leute optimiert.</translation>
@@ -196,14 +182,4 @@
 	<translation id="sap10lang">UPDATE: Ab Sat Mar 02 07:35:53 PST 2019, 1,18% des aktuellen Hush-Angebots ist in Sprout-Adressen.</translation>
 
 	<translation id="newslang">Nachrichten</translation>
-	<translation id="news1lang">26. Juli 2019: Artikel über Hush von @gigamesh:</translation>
-	<translation id="news2lang">Lies jetzt</translation>
-	<translation id="news3lang">31. Juli 2019: Die nächste Version von $ HUSH SilentDragon GUI Wallet wird viele Entwicklungen enthalten:</translation>
-	<translation id="news4lang">Lies jetzt</translation>
-	<translation id="news5alang">17. September 2019: AtomicDEX hat HUSH offiziell integriert:</translation>
-	<translation id="news5blang">Lies jetzt</translation>
-	<translation id="news6alang">07. Januar 2020: Markieren Sie Ihren Kalender, alle vollständigen Knoten müssen vor Block 166.250 am 29. Januar um 13:00 UTC auf 3.3.0 aktualisiert werden, was als "Sneaky Sasquatch" bezeichnet wird, oder sie befinden sich nicht im richtigen Netzwerk!</translation>
-	<translation id="news6blang">Lies jetzt</translation>
-	<translation id="news7alang">09. Januar 2020: HUSH ist jetzt an der CITEX Exchange gelistet! BTC- und USDT-Pairings, geschirmte 'z'-Adressen werden unterstützt.</translation>
-	<translation id="news7blang">Hier</translation>
 </translations>

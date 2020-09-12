@@ -8,9 +8,7 @@
 	<translation id="exchangeslang">Směnárny</translation>
 	<translation id="poolslang">Těžba</translation>
 	<translation id="doclang">Dokumenty</translation>
-	<translation id="hushnglang">HushNG</translation>
 	<translation id="hushchatlang">HushChat</translation>
-	<translation id="barterlang">AtomicDEX</translation>
 	<translation id="teamlang">Tým</translation>
 	<translation id="toolslang">Nástroje</translation>
 	<translation id="contactlang">Kontakt</translation>
@@ -126,19 +124,7 @@
 	<translation id="hl2blang"> je program umožňující komunikaci skrze kryptoměnu Hush. Můžete zasílat zprávy přibližně 1000 osobám zároveň - pomocí šifrovaného seznamu zpráv.</translation>
 	<translation id="hl3lang">Používání protokolu Zcash umožňuje používání skrytých adres ve spojení s  běžnými transparentními Bitcoin adresami. Díky tomu nedochází ke zveřejnění odesílatele, příjemce, zprávy (ani její existenci) nebo objemu finanční transakce.</translation>
 	<translation id="hl4lang">Whitepaper</translation>	
-	<translation id="bar1lang">Nová úroveň zabezpečení &amp; Decentralizace</translation>
-	<translation id="bar2alang">Hush</translation>
-	<translation id="bar2blang"> je open source projekt, který je motivován výhradně zájmy a aktivitami celé komunity. Jedná se o jednu z prvních kryptoměn obchodovatelnou na  </translation>
-	<translation id="bar2clang"> AtomicDex</translation>
-	<translation id="bar2dlang"> a podporující především decentralizované burzy a směnárny.</translation>
-	<translation id="bar3lang">AtomicDEX</translation>
-	<translation id="bar4alang">AtomicDEX</translation>
-	<translation id="bar4blang"> je vývoj peněženek a decentralizovaná výměna kryptoměn</translation>
-	<translation id="bar4clang"></translation>
-	<translation id="bar4dlang"> vytvořená vývojáři </translation>
-	<translation id="bar4elang">Komodo</translation>
-	<translation id="bar4flang">, jež podporuje HUSH a mnoho dalších měn. Umožňuje směnu kryptoměn podobně jako např. směnárny fiat měn na letišti. Činí tak prostřednictvím technologie zvané Atomic Swaps, která umožňuje kupujícím a prodávajícím přímou směnu peer to peer (P2P) na rozdíl od centralizovaných burz. V podstatě tak funguje jako jistý druh escrow (ochrany).</translation>
-	<translation id="bar5lang">Stažení</translation>	
+	
 	<translation id="team1lang">HUSH tým</translation>
 	<translation id="team1blang">Poradci</translation>
 	<translation id="team2lang">Duke se během své více jak 20 leté kariéry podílel na mnoha bezplatných a open source projektech a podílí se i na komunitě Free + Open Source. S jeho jménem se můžete například setkat v prohlížeči Firefox v sekci "Naši přispěvatelé" za pomoc s úpravou Javascriptu pro optimalizaci využití paměti nebo v publikaci týkající se rajčatového genomu během jeho spolupráce s BioPerl. Také pomáhal s návrhem OpenTreeOfLife. Duke píše kód, kterým zdokonaluje svět a zvyšuje míru svobody pro běžné lidi.</translation>
@@ -197,14 +183,4 @@
 	<translation id="sap10lang">UPDATE: Od So Mar 02 07:35:53 PST 2019, 1,18% současné dodávky HUSH je v adresách Sprout.</translation>
 
 	<translation id="newslang">Zprávy</translation>
-	<translation id="news1lang">26. července 2019: Článek o Hush napsal @gigamesh:</translation>
-	<translation id="news2lang">Přečtěte si nyní</translation>
-	<translation id="news3lang">31. července 2019: Další vydání peněženky GUI SilentDragon $ HUSH bude obsahovat mnoho vývojů:</translation>
-	<translation id="news4lang">Přečtěte si nyní</translation>
-	<translation id="news5alang">17. září 2019: AtomicDEX oficiálně integroval HUSH:</translation>
-	<translation id="news5blang">Přečtěte si nyní</translation>
-	<translation id="news6alang">7. ledna 2020: Označte svůj kalendář, všechny úplné uzly se musí povinně aktualizovat na 3.3.0 dabovaný „Sneaky Sasquatch“ před blokem 166 250 přibližně na 29. ledna ve 13:00 UTC, nebo nebudou ve správné síti!</translation>
-	<translation id="news6blang">Přečtěte si nyní</translation>
-	<translation id="news7alang">9. ledna 2020: HUSH je nyní uvedena na burze CITEX! Podporovány BTC a USDT párování, chráněné adresy „z“.</translation>
-	<translation id="news7blang">Tady</translation>
 </translations>
