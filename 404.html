@@ -6,140 +6,97 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="refresh" content="5; URL=https://myhush.org/">
-
-	<!-- Favicons -->
-	<link rel="shortcut icon" href="favicon.ico">
-
-	<!-- Styles -->
-	<link rel="stylesheet" href="css/bootstrap.min.css">
-
     <style>
-	/*******************************************************
-		Import Basic Files
-	********************************************************/
+	
 	@import url("//fonts.googleapis.com/css?family=Poppins:400,700|Roboto:400,700&subset=cyrillic,cyrillic-ext,devanagari,greek,greek-ext,latin-ext,vietnamese");
+	
+      body {
+        width: 100%;
+        margin: 0 auto;
+        background-color: black;
+      }
 
-	h0 {
+      section {
+        padding: 20px;
+      }
+
+      img {
+        display: block;
+        margin: 0 auto;
+        max-width: 100%;
+		padding-top: 1em;
+      }
+	  
+	h1 {
+		font-family: 'Poppins', sans-serif;
 		color: #FFFFFF;
 		font-size: 4em;
 		font-weight: 400;
-	}
-
-	/*******************************************************
-		Typography
-	********************************************************/
-	h1,
-	h2,
-	h3,
-	h4,
-	h5 {
-		font-family: 'Poppins', sans-serif;
 		margin: 0;
 		line-height: 1.5;
 	}
-
-	/*******************************************************
-		Home Section
-	********************************************************/
-	.home-section {
+	
+	h2 {
+		font-family: 'Poppins', sans-serif;
+		color: #FFFFFF;
+		font-size: 2em;
+		font-weight: 200;
+		margin: 0;
+		line-height: 1.5;
+	}
+	
+	h3 {
+		font-family: 'Poppins', sans-serif;
+		color: #FFFFFF;
+		font-size: 1sem;
+		font-weight: 100;
+		margin: 0;
+		line-height: 1.5;
+	}
+	
+	.bground {
 		min-height: 100vh;
 		text-align: center;
-		color: #fff;
-		background-image: url("../images/black_diamonds.png");
+		background-image: url("images/black_diamonds.png");
 		background-repeat: no-repeat;
 		background-position: center top;
 		background-size: cover;
 		padding-top: 0em;
 	}
-	.home-section .display-table {
-		display: table;
-		width: 100%;
-		height: 100vh;
-		min-height: 100vh;
+	
+	a {
+		font-family: 'Poppins', sans-serif;
+		color: #FFFFFF;
+		font-size: 1em;
+		font-weight: 100;
+		margin: 0;
+		line-height: 1.5;
 	}
-	.home-section .display-table-cell {
-		display: table-cell;
-		vertical-align: middle;
-	}
-	.home-section h2 {
-		font-size: 36px;
-	}
-	.home-section h3 {
-		font-size: 24px;
-	}
-	.home-section h4 {
-		font-size: 20px;
-		font-weight: 700;
-	}
-	.home-section img {
-		width: 300px;
-		margin: 50px auto;
-	}
-	.home-section .btn {
-		font-size: 16px;
-		text-transform: uppercase;
-	}
-	/*******************************************************
-		Hush Buttons
-	*******************************************************/
-	.btn {
-		padding: 10px 17px;
-		-webkit-transition: all .5s ease-in-out;
-		-moz-transition: all .5s ease-in-out;
-			-o-transition: all .5s ease-in-out;
-				transition: all .5s ease-in-out;
-		border-radius: 25px;
-	}
-	.btn-hush {
-		color: #fff;
-		border: 2px solid #2d2d2d;
-		background-color: #2d2d2d;
-	}
-	.btn-hush:hover {
-		color: #2d2d2d;
-		background-color: transparent;
-	}
-	.btn-hush-out {
-		color: #fff;
-		border: 2px solid #fff;
-		background-color: transparent;
-	}
-	.btn-hush-out:hover {
-		color: #2d2d2d;
-		background-color: #fff;
-	}
-	.is-checked {
-		color: #2d2d2d;
-		background-color: #fff;
-	}
-	button {
-		margin: 0px 5px 0px 5px;
-	}
-	button:focus {
-		outline: none !important;
-	}
-    </style>
-</head>
-<body>
-	<section class="home-section" id="home-section">
-		<div class="display-table">
-			<div class="display-table-cell">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<h0>404</h0>
-							<h2 class="404pagelang">Page not found</h2>
-							<h4 class="404page2lang">Sorry, but the page you were trying to view does not exist.</h4>
-							<!-- <img class="img-responsive center-block" src="images/logo.png" alt="Logo"> -->
-							<br>
-							<br>
-							<br>
-                            <a class="btn btn-hush-out 404page3lang" href="https://myhush.org">Return to home</a>
-						</div>
-					</div>
+	
+	</style>
+	</head>
+	<body>
+		<main>
+			<section class="bground">
+				<div id="404-image"></div>
+
+				<div style="text-align: center">
+					<h1>404</h1>
+					<h2>Page not found</h2>
+					<h3>Sorry, but the page you were trying to view does not exist.</h3>
+					<br>
+					<br>
+					<br>
+					<a href="https://myhush.org">Return to home</a>
 				</div>
-			</div>
-		</div>
-	</section>
-</body>
+			</section>
+		</main>
+	</body>
+  
+	<script src="//code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+	<script>window.jQuery || document.write('<script src="js/jquery-3.2.1.min.js"><\/script>')</script>
+<script>
+    var images = ['404-1.png', '404-2.png', '404-3.png', '404-4.png', '404-5.png'];
+    $('<img src="images/404/' + images[Math.floor(Math.random() * images.length)] + '">').appendTo('#404-image');
+</script>
 </html>
