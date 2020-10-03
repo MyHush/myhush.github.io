@@ -412,7 +412,7 @@ html {
 }
 
 .logo-redim {
-	content:url("../images/hush-icon-white.svg");
+	content:url("../images/hush-icon-white.png");
 	max-width: 16%;
 }
 
@@ -432,7 +432,7 @@ html {
 		}
 
 	.logo-redim {
-		content:url("../images/hush-icon-white.svg");
+		content:url("../images/hush-icon-white.png");
 		max-width: 20%;
 	}
 }
