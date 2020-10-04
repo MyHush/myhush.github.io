@@ -406,13 +406,11 @@ html {
 	font-size: 36px;
 }
 
-
 .home-section h3 {
 	font-size: 24px;
 }
 
 .logo-redim {
-	content:url("../images/hush-icon-white.png");
 	max-width: 16%;
 }
 
@@ -429,12 +427,13 @@ html {
 
 	.home-section img {
 		width: 20%;
-		}
+	}
 
-	.logo-redim {
-		content:url("../images/hush-icon-white.png");
+	.logo-redim{
 		max-width: 20%;
 	}
+
+
 }
 
 .home-section h4 {
