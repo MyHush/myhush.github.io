@@ -1,3 +1,3 @@
 # Hush Developer Portal
 
-This repo powers myhush.org, the Hush Developer Portal, using Github Pages.
+Website : https://www.hush.is
